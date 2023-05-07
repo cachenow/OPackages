@@ -45,10 +45,10 @@ jobs:
         git clone https://github.com/jerrykuku/luci-theme-argon -b 18.06 ./jerrykuku/luci-theme-argon-18.06
         git clone https://github.com/jerrykuku/luci-app-argon-config ./jerrykuku/luci-app-argon-config
         find ./jerrykuku -path '*/.*' -delete
-        rm -rf ./kiddin9-packages/autocore
 
         git clone https://github.com/kiddin9/openwrt-packages ./kiddin9-packages
         find ./kiddin9-packages -path '*/.*' -delete
+        rm -rf ./kiddin9-packages/autocore
 
     - name: Apply
       run: |
