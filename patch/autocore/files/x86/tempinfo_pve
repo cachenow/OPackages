@@ -1,0 +1,9 @@
+#!/bin/sh
+# opkg update #更新列表
+# opkg install openssh-client openssh-keygen #安装openssh客户端
+# echo -e "\n" | ssh-keygen -t rsa # 生成密钥文件（空密码）
+# ssh root@10.10.10.10 -p 22 "tee -a ~/.ssh/id_rsa.pub" < ~/.ssh/id_rsa.pub # 传送公钥到 PVE
+# ssh root@10.10.10.10 -p 22 "cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys" # 写入公钥到 PVE
+# ssh -i /root/.ssh/id_rsa root@10.10.10.10 -p 22 sensors # 使用私钥连接 PVE 测试温度命令
+
+ssh -i ~/.ssh/id_rsa root@10.10.10.10 -p 22 sensors 2>/dev/null|grep Core|sed -nr 's#^.*:.*\+(.*)°C .*#\1#gp'|sort -nr|head -n1
