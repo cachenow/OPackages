@@ -1,0 +1,62 @@
+name: Update
+
+on: 
+  repository_dispatch:
+  workflow_dispatch:
+
+# 定时触发编译
+  schedule:
+    - cron: 0 4,8,12,16,20 * * *
+
+jobs:
+  Update:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Clone Repository
+      uses: actions/checkout@v3
+
+    - name: Set git
+      run : |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        sudo timedatectl set-timezone "Asia/Shanghai"
+
+    - name: Delete workflow runs
+      uses: GitRML/delete-workflow-runs@main
+      continue-on-error: true
+      with:
+        retain_days: 1
+        keep_minimum_runs: 0  
+        
+    - name: Update
+      run: |
+        rm -rf ./theme-18.06/luci-theme-edge
+        rm -rf ./theme-18.06/luci-theme-infinityfreedom
+        rm -rf ./theme-18.06/luci-theme-neobird
+        rm -rf ./jerrykuku
+        rm -rf ./kiddin9-packages
+        
+        svn export https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom ./theme-18.06/luci-theme-infinityfreedom
+        git clone https://github.com/kiddin9/luci-theme-edge -b 18.06 ./theme-18.06/luci-theme-edge 
+        git clone https://github.com/xiangfeidexiaohuo/luci-theme-neobird ./theme-18.06/luci-theme-neobird
+        find ./theme-18.06 -path '*/.*' -delete
+        
+        git clone https://github.com/jerrykuku/luci-theme-argon ./jerrykuku/luci-theme-argon
+        git clone https://github.com/jerrykuku/luci-theme-argon -b 18.06 ./jerrykuku/luci-theme-argon-18.06
+        git clone https://github.com/jerrykuku/luci-app-argon-config ./jerrykuku/luci-app-argon-config
+        find ./jerrykuku -path '*/.*' -delete
+
+        git clone https://github.com/kiddin9/openwrt-packages ./kiddin9-packages
+        find ./kiddin9-packages -path '*/.*' -delete
+
+    - name: Apply
+      run: |
+        if [ -n "$(git status -s)" ]; then
+          git add .
+          git commit --message "源码有更新，同步时间为 $(date +%Y-%m-%d" "%H:%M:%S)"
+          git push --force
+        else
+          last_commit_date="$(git log -1 --format='%cd' --date=format:'%Y-%m-%d %H:%M:%S')"
+          git commit --allow-empty --message "源码无更新，上次更新时间为 ${last_commit_date}"
+          git push --force
+        fi
