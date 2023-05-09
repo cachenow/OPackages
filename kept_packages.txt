@@ -78,7 +78,6 @@ luci-app-mwan3
 luci-app-mwan3helper
 luci-app-mwol
 luci-app-n2n
-luci-app-naiveproxy
 luci-app-nat6-helper
 luci-app-netspeedtest
 luci-app-nfs
@@ -143,7 +142,6 @@ mmdvm-luci
 mwan3
 mwol
 n2n
-naiveproxy
 nxdn-clients
 opkg
 p25-clients

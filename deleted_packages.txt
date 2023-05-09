@@ -148,6 +148,7 @@ luci-app-mosdns
 luci-app-msd_lite
 luci-app-music-remote-center
 luci-app-mymind
+luci-app-naiveproxy
 luci-app-nastools
 luci-app-natter
 luci-app-navidrome
@@ -255,6 +256,7 @@ mrtg
 msd_lite
 msmtp
 my-default-settings
+naiveproxy
 natter
 netatalk
 netdata
