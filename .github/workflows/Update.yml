@@ -53,7 +53,7 @@ jobs:
         rm -rf ./kiddin9-packages/autocore
         
         wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
-        ./delete.sh
+        chmod +x ./delete.sh && ./delete.sh
     
     - name: Apply
       run: |
