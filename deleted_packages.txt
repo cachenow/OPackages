@@ -96,6 +96,7 @@ luci-app-chinesesubfinder
 luci-app-clash
 luci-app-cloudreve
 luci-app-codeserver
+luci-app-control-timewol
 luci-app-cpufreq
 luci-app-ddnsto
 luci-app-design-config
@@ -187,6 +188,7 @@ luci-app-qbittorrent-simple
 luci-app-quickstart
 luci-app-rtbwmon
 luci-app-rtorrent
+luci-app-samba4
 luci-app-scutclient
 luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
@@ -207,6 +209,7 @@ luci-app-sysuh3c
 luci-app-tasks
 luci-app-tencentcloud-cos
 luci-app-tencentddns
+luci-app-timewol
 luci-app-transmission
 luci-app-trojan-server
 luci-app-ttnode

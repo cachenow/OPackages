@@ -42,7 +42,6 @@ luci-app-chinadns-ng
 luci-app-cifs-mount
 luci-app-cloudflarespeedtest
 luci-app-control-speedlimit
-luci-app-control-timewol
 luci-app-control-webrestriction
 luci-app-control-weburl
 luci-app-cpulimit
@@ -96,7 +95,6 @@ luci-app-pptpd
 luci-app-ramfree
 luci-app-rclone
 luci-app-rp-pppoe-server
-luci-app-samba4
 luci-app-serverchan
 luci-app-shortcutmenu
 luci-app-shutdown
@@ -111,7 +109,6 @@ luci-app-systools
 luci-app-tcpdump
 luci-app-telegrambot
 luci-app-timecontrol
-luci-app-timewol
 luci-app-turboacc
 luci-app-unblockmusic
 luci-app-unbound
