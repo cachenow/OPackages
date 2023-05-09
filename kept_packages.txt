@@ -156,6 +156,7 @@ switch-lan-play
 taskd
 telegrambot
 unishare
+upx
 vlmcsd
 vsftpd-alt
 watchcat

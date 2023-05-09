@@ -335,7 +335,6 @@ trojan-plus
 ttymux
 ucl
 udp2raw
-upx
 upx-static
 uugamebooster
 uwsgi
