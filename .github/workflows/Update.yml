@@ -53,21 +53,16 @@ jobs:
         
         wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
 
-    - name: Compare Config and Repo
+    - name: Delete unused packages
       run: |
-        # 替换为你的 OpenWrt 配置文件路径
-        config_file=./.config
-
-        # 替换为你的软件仓库在本地的路径
-        repo_path=./kiddin9-packages
-
-        # 遍历 OpenWrt 配置文件，查找标注为 =y 的配置项
-        y_configs=$(grep "=y" $config_file | cut -d "=" -f 1)
-
-        # 遍历软件仓库，删除与 OpenWrt 配置文件中未标注为 =y 的配置项相关的文件
-        for y_config in $y_configs
-        do
-          find $repo_path -type d -name "$y_config" -exec rm -r {} +
+        CONFIG_FILE="./.config"
+        REPO_DIR="./kiddin9-packages"
+        PACKAGES=$(grep -Po 'CONFIG_[A-Za-z0-9_]+=y' "$CONFIG_FILE" | sed 's/CONFIG_//;s/=y//')
+        for PACKAGE_NAME in $(find "$REPO_DIR" -type d -name "$PACKAGE_NAME" -printf "%P\n"); do
+          if ! echo "$PACKAGES" | grep -qw "$PACKAGE_NAME"; then
+            echo "Removing $PACKAGE_NAME"
+            rm -rf "$REPO_DIR/$PACKAGE_NAME"
+          fi
         done
     
     - name: Apply
