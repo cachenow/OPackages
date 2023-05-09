@@ -35,6 +35,7 @@ jobs:
         rm -rf ./theme-18.06/luci-theme-neobird
         rm -rf ./jerrykuku
         rm -rf ./kiddin9-packages
+        rm -rf ./.config
         
         svn export https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom ./theme-18.06/luci-theme-infinityfreedom
         git clone https://github.com/kiddin9/luci-theme-edge -b 18.06 ./theme-18.06/luci-theme-edge 
@@ -49,7 +50,26 @@ jobs:
         git clone https://github.com/kiddin9/openwrt-packages ./kiddin9-packages
         find ./kiddin9-packages -path '*/.*' -delete
         rm -rf ./kiddin9-packages/autocore
+        
+        wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
 
+    - name: Compare Config and Repo
+      run: |
+        # 替换为你的 OpenWrt 配置文件路径
+        config_file=./.config
+
+        # 替换为你的软件仓库在本地的路径
+        repo_path=./kiddin9-packages
+
+        # 遍历 OpenWrt 配置文件，查找标注为 =y 的配置项
+        y_configs=$(grep "=y" $config_file | cut -d "=" -f 1)
+
+        # 遍历软件仓库，删除与 OpenWrt 配置文件中未标注为 =y 的配置项相关的文件
+        for y_config in $y_configs
+        do
+          find $repo_path -type d -name "$y_config" -exec rm -r {} +
+        done
+    
     - name: Apply
       run: |
         if [ -n "$(git status -s)" ]; then
