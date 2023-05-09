@@ -59,11 +59,11 @@ jobs:
       run: |
         if [ -n "$(git status --untracked-files=all -s)" ]; then
           git add .
-          git commit --message "🔥🔥最后同步时间为 $(date +%Y-%m-%d" "%H:%M:%S)"
+          git commit --message "🔥最后同步时间为 $(date +%Y-%m-%d" "%H:%M:%S)"
           git push --force
         else
           last_commit_date="$(git log -1 --format='%cd' --date=format:'%Y-%m-%d %H:%M:%S')"
-          git commit --allow-empty --message "🔥最后同步时间为 ${last_commit_date}"
+          git commit --allow-empty --message "❄️最后同步时间为 ${last_commit_date}"
           git push --force
         fi
 
