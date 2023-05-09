@@ -57,7 +57,7 @@ jobs:
     
     - name: Apply
       run: |
-        if [ -n "$(git status -s)" ]; then
+        if [ -n "$(git status --untracked-files=all -s)" ]; then
           git add .
           git commit --message "源码有更新，同步时间为 $(date +%Y-%m-%d" "%H:%M:%S)"
           git push --force
@@ -66,3 +66,4 @@ jobs:
           git commit --allow-empty --message "源码无更新，上次同步时间为 ${last_commit_date}"
           git push --force
         fi
+
