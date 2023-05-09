@@ -36,6 +36,7 @@ jobs:
         rm -rf ./jerrykuku
         rm -rf ./kiddin9-packages
         rm -rf ./.config
+        rm -rf ./*.txt
         
         svn export https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom ./theme-18.06/luci-theme-infinityfreedom
         git clone https://github.com/kiddin9/luci-theme-edge -b 18.06 ./theme-18.06/luci-theme-edge 
@@ -52,18 +53,7 @@ jobs:
         rm -rf ./kiddin9-packages/autocore
         
         wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
-
-    - name: Delete unused packages
-      run: |
-        CONFIG_FILE="./.config"
-        REPO_DIR="./kiddin9-packages"
-        PACKAGES=$(grep -Po 'CONFIG_[A-Za-z0-9_]+=y' "$CONFIG_FILE" | sed 's/CONFIG_//;s/=y//')
-        for PACKAGE_NAME in $(find "$REPO_DIR" -type d -name "$PACKAGE_NAME" -printf "%P\n"); do
-          if ! echo "$PACKAGES" | grep -qw "$PACKAGE_NAME"; then
-            echo "Removing $PACKAGE_NAME"
-            rm -rf "$REPO_DIR/$PACKAGE_NAME"
-          fi
-        done
+        ./delete.sh
     
     - name: Apply
       run: |
