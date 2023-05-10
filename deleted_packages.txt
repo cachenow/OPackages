@@ -37,6 +37,7 @@ cups-bjnp
 cxxopts
 dae
 ddnsto
+dns2socks
 dns2tcp
 dnsmasq
 dsmboot
@@ -57,7 +58,6 @@ go-nats
 go-rice
 go-wol
 gotop
-gowebdav
 haproxy
 homeredirect
 hysteria
@@ -105,7 +105,6 @@ luci-app-bypass
 luci-app-cd8021x
 luci-app-cellled
 luci-app-chinesesubfinder
-luci-app-cifs-mount
 luci-app-clash
 luci-app-cloudflarespeedtest
 luci-app-cloudreve
@@ -122,7 +121,6 @@ luci-app-ddnsto
 luci-app-design-config
 luci-app-dnscrypt-proxy2
 luci-app-dnsfilter
-luci-app-dnsforwarder
 luci-app-dnsmasq-ipset
 luci-app-docker
 luci-app-dockerman
@@ -156,7 +154,6 @@ luci-app-homeredirect
 luci-app-iperf
 luci-app-iperf3-server
 luci-app-ipsec-server
-luci-app-ipsec-vpnd
 luci-app-ipsec-vpnserver-manyusers
 luci-app-iptvhelper
 luci-app-irqbalance
@@ -186,7 +183,6 @@ luci-app-modeminfo
 luci-app-mosdns
 luci-app-msd_lite
 luci-app-music-remote-center
-luci-app-mwan3helper
 luci-app-mwol
 luci-app-mymind
 luci-app-naiveproxy
@@ -194,10 +190,8 @@ luci-app-nastools
 luci-app-nat6-helper
 luci-app-natter
 luci-app-navidrome
-luci-app-netdata
 luci-app-nextcloud
 luci-app-nezha
-luci-app-nfs
 luci-app-nginx-manager
 luci-app-nginx-pingos
 luci-app-ngrokc
@@ -237,10 +231,9 @@ luci-app-qbittorrent
 luci-app-qbittorrent-simple
 luci-app-quickstart
 luci-app-ramfree
-luci-app-rclone
+luci-app-rp-pppoe-server
 luci-app-rtbwmon
 luci-app-rtorrent
-luci-app-samba4
 luci-app-scutclient
 luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
@@ -274,10 +267,8 @@ luci-app-ubuntu
 luci-app-udp2raw
 luci-app-unblockmusic
 luci-app-unblockneteasemusic
-luci-app-unbound
 luci-app-unifi
 luci-app-unishare
-luci-app-usb-printer
 luci-app-usb3disable
 luci-app-uugamebooster
 luci-app-v2ray-server
@@ -285,9 +276,7 @@ luci-app-v2raya
 luci-app-vaultwarden
 luci-app-verysync
 luci-app-vssr
-luci-app-watchcat
 luci-app-webd
-luci-app-webdav
 luci-app-webrestriction
 luci-app-weburl
 luci-app-wifidog
@@ -330,7 +319,6 @@ my-default-settings
 naiveproxy
 natter
 netatalk
-netdata
 netmaker
 nftables
 nginx
@@ -419,7 +407,6 @@ v2ray-geodata
 v2ray-plugin
 v2raya
 verysync
-watchcat
 webd
 webdav2
 wireless-regdb
