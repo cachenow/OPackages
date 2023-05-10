@@ -255,6 +255,7 @@ luci-app-supervisord
 luci-app-switch-lan-play
 luci-app-syncthing
 luci-app-synology
+luci-app-systools
 luci-app-sysuh3c
 luci-app-tasks
 luci-app-tencentcloud-cos
@@ -376,6 +377,7 @@ simpleproxy
 sing-box
 smartdns
 speedtest-web
+speedtestcli
 speedtestpp
 srelay
 ssocks

@@ -55,7 +55,6 @@ luci-app-sms-tool
 luci-app-socat
 luci-app-store
 luci-app-syncdial
-luci-app-systools
 luci-app-tcpdump
 luci-app-telegrambot
 luci-app-timecontrol
@@ -90,7 +89,6 @@ pdnsd-alt
 ppp
 shellsync
 sms-tool
-speedtestcli
 taskd
 telegrambot
 upx
