@@ -36,10 +36,12 @@ cups
 cups-bjnp
 cxxopts
 dae
+dapnet-gateway
 ddnsto
 dns2socks
 dns2tcp
 dnsmasq
+dockerd
 dsmboot
 ethstatus
 ffmpeg-remux
@@ -63,6 +65,7 @@ homeredirect
 hysteria
 ipt2socks
 iptvhelper
+ircddb-gateway
 joker
 jpcre2
 k3-brcmfmac4366c-firmware
@@ -71,7 +74,9 @@ keepalived
 libcron
 libcryptopp
 libdouble-conversion
+libmmdvm
 libtorrent-rasterbar
+libwxwidgets
 linkease
 lua-maxminddb
 lua-neturl
@@ -309,6 +314,8 @@ minieap-openwrt
 miniupnpd-iptables
 mmdvm
 mmdvm-cal
+mmdvm-host
+mmdvm-luci
 modemband
 modeminfo
 mosdns
@@ -328,6 +335,7 @@ njitclient
 nload
 nps
 ntfs3-mount
+nxdn-clients
 oaf
 ookla-speedtest
 open-app-filter
@@ -337,6 +345,7 @@ openwrt-cloudflared
 openwrt-dogcom
 openwrt-nezha
 oscam
+p25-clients
 pcat-manager
 pgyvpn
 phtunnel
@@ -420,3 +429,4 @@ xray-plugin
 xunyou
 ykdl
 you-get
+ysf-clients
