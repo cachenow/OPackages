@@ -27,7 +27,6 @@ baidupcs-web
 bitsrunlogin-go
 brook
 btop
-cdnspeedtest
 cellled
 chinadns-ng
 cloudreve
@@ -93,6 +92,7 @@ luci-app-aliyundrive-fuse
 luci-app-aliyundrive-webdav
 luci-app-amlogic
 luci-app-amule
+luci-app-ap-modem
 luci-app-apinger
 luci-app-aria2
 luci-app-atinout
@@ -111,7 +111,6 @@ luci-app-cd8021x
 luci-app-cellled
 luci-app-chinesesubfinder
 luci-app-clash
-luci-app-cloudflarespeedtest
 luci-app-cloudreve
 luci-app-codeserver
 luci-app-control-speedlimit
@@ -141,6 +140,7 @@ luci-app-eqos
 luci-app-excalidraw
 luci-app-fileassistant
 luci-app-filebrowser
+luci-app-frps
 luci-app-fullconenat
 luci-app-go-aliyundrive-webdav
 luci-app-gobinetmodem
@@ -195,6 +195,7 @@ luci-app-nastools
 luci-app-nat6-helper
 luci-app-natter
 luci-app-navidrome
+luci-app-netspeedtest
 luci-app-nextcloud
 luci-app-nezha
 luci-app-nginx-manager
@@ -251,13 +252,11 @@ luci-app-softethervpn
 luci-app-softethervpn5
 luci-app-spdmodem
 luci-app-speederv2
-luci-app-speedtest-web
 luci-app-squid
 luci-app-ssr-libev-server
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
-luci-app-store
 luci-app-supervisord
 luci-app-switch-lan-play
 luci-app-syncthing
