@@ -7,7 +7,6 @@ ddns-scripts
 ddnsgo
 dnsforwarder
 dnsproxy
-dockerd
 firewall
 gost
 gowebdav
@@ -28,7 +27,6 @@ luci-app-ddns
 luci-app-ddns-go
 luci-app-diskman
 luci-app-dnsforwarder
-luci-app-docker
 luci-app-filetransfer
 luci-app-firewall
 luci-app-frpc
@@ -49,7 +47,6 @@ luci-app-samba4
 luci-app-serverchan
 luci-app-sms-tool
 luci-app-socat
-luci-app-store
 luci-app-syncdial
 luci-app-tcpdump
 luci-app-telegrambot

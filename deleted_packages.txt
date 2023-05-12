@@ -41,6 +41,7 @@ ddnsto
 dns2socks
 dns2tcp
 dnsmasq
+dockerd
 dsmboot
 ethstatus
 ffmpeg-remux
@@ -126,6 +127,7 @@ luci-app-design-config
 luci-app-dnscrypt-proxy2
 luci-app-dnsfilter
 luci-app-dnsmasq-ipset
+luci-app-docker
 luci-app-dockerman
 luci-app-dogcom
 luci-app-drawio
@@ -255,6 +257,7 @@ luci-app-ssr-libev-server
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
+luci-app-store
 luci-app-supervisord
 luci-app-switch-lan-play
 luci-app-syncthing
