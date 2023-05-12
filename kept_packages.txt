@@ -41,7 +41,6 @@ luci-app-netspeedtest
 luci-app-nfs
 luci-app-openclash
 luci-app-openvpn-server
-luci-app-opkg
 luci-app-pppoe-relay
 luci-app-rclone
 luci-app-samba4
@@ -65,7 +64,6 @@ luci-app-wan-mac
 luci-app-watchcat
 luci-app-webadmin
 luci-app-webdav
-luci-app-xlnetacc
 luci-app-zerotier
 luci-base
 luci-lib-fs

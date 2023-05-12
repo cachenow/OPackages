@@ -211,6 +211,7 @@ luci-app-olsr-viz
 luci-app-omcproxy
 luci-app-onliner
 luci-app-openwisp
+luci-app-opkg
 luci-app-oscam
 luci-app-owntone
 luci-app-packet-capture
@@ -292,6 +293,7 @@ luci-app-wrtbwmon
 luci-app-wxedge
 luci-app-xfrpc
 luci-app-xinetd
+luci-app-xlnetacc
 luci-app-xteve
 luci-app-xunlei
 luci-app-xunyou
