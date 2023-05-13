@@ -78,6 +78,7 @@ pdnsd-alt
 ppp
 shellsync
 sms-tool
+speedtest-web
 taskd
 telegrambot
 upx

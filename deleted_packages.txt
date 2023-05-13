@@ -387,7 +387,6 @@ simple-torrent
 simpleproxy
 sing-box
 smartdns
-speedtest-web
 speedtestcli
 speedtestpp
 srelay
