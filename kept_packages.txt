@@ -4,7 +4,6 @@ base-files
 cdnspeedtest
 coremark
 curl
-ddns-scripts
 ddnsgo
 dnsforwarder
 dnsproxy
@@ -24,7 +23,6 @@ luci-app-autotimeset
 luci-app-chinadns-ng
 luci-app-cifs-mount
 luci-app-cloudflarespeedtest
-luci-app-ddns
 luci-app-ddns-go
 luci-app-diskman
 luci-app-dnsforwarder

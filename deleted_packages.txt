@@ -36,6 +36,7 @@ cups-bjnp
 cxxopts
 dae
 dapnet-gateway
+ddns-scripts
 ddnsto
 dns2socks
 dns2tcp
@@ -121,6 +122,7 @@ luci-app-cpufreq
 luci-app-cpulimit
 luci-app-cupsd
 luci-app-dawn
+luci-app-ddns
 luci-app-ddnsto
 luci-app-design-config
 luci-app-dnscrypt-proxy2
