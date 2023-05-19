@@ -19,7 +19,7 @@ commented_packages=$(grep -E "^# CONFIG_PACKAGE_.+is not set$" "$config_file" | 
 enabled_packages=$(grep -E "^CONFIG_PACKAGE_.+=y$" "$config_file" | cut -d"=" -f1 | sed 's/^CONFIG_PACKAGE_//')
 
 # 将两个列表合并，并去重
-packages_to_keep=$(echo "$commented_packages"$'\n'"$enabled_packages" | sort | uniq)
+packages_to_keep=$(echo "$commented_packages"$'\n'"$enabled_packages" | sort | uniq | grep -E "^[^#].*=y$" | cut -d"=" -f1)
 
 # 遍历合并后的列表，对于每个软件包，如果它被标注为 `=y`，则保留它的源码；否则，删除它的源码
 for dir in $(ls "$package_dir"); do
