@@ -52,8 +52,8 @@ jobs:
         find ./kiddin9-packages -path '*/.*' -delete
         rm -rf ./kiddin9-packages/autocore
         
-        #wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
-        #chmod +x ./delete.sh && ./delete.sh
+        wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
+        chmod +x ./delete.sh && ./delete.sh
     
     - name: Apply
       run: |
