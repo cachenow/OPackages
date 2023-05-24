@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2023-04-01 09:21+0000\n"
-"Last-Translator: Eric <hamburger2048@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2023-05-12 16:28+0000\n"
+"Last-Translator: mewsf <w1sh2f3@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsfirewall/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:48
 msgid ""
@@ -339,9 +339,8 @@ msgid ""
 "Enable network address and port translation IPv4 (NAT4 or NAPT4) for "
 "outbound traffic on this zone. This is typically enabled on the <em>wan</em> "
 "zone."
-msgstr ""
-"为此区域的出站流量开启网络地址和端口转换 IPv4 （NAT4 或 NAPT4）。 <em>wan</"
-"em>区域通常开启此功能。"
+msgstr "为此区域的出站流量开启网络地址和端口转换 IPv4 （NAT4 或 NAPT4）。 "
+"<em>wan</em>区域通常开启此功能。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:237
 msgid ""
@@ -351,7 +350,7 @@ msgstr "为此区域出站流量开启网络地址和端口转换 IPv6 （NAT6 �
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:204
 msgid "Enabled"
-msgstr "已开启"
+msgstr "启用"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:198
 msgid "Enables packet and byte count tracking for the set."
@@ -409,7 +408,7 @@ msgstr "防火墙 - 自定义规则"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:20
 msgid "Firewall - IP sets"
-msgstr "防火墙 - IP 集"
+msgstr "防火墙 - IP 集合"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:172
 msgid "Firewall - NAT Rules"
@@ -533,7 +532,7 @@ msgstr "IP (范围)"
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:32
 #: applications/luci-app-firewall/root/usr/share/luci/menu.d/luci-app-firewall.json:53
 msgid "IP Sets"
-msgstr "IP 集"
+msgstr "IP 集合"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:145
 msgid "IPs/Networks"
@@ -744,7 +743,7 @@ msgstr "匹配特定的防火墙标记或防火墙标记范围。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:328
 msgid "Matches forwarded traffic using the specified outbound network device."
-msgstr "使用指定的出站网络设备匹配转发的流量。"
+msgstr "匹配使用指定的出站网络设备转发的流量。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
 msgid "Matches traffic carrying the specified DSCP marking."
@@ -842,9 +841,9 @@ msgid ""
 "optional.<br />*Note: datatype <code>set</code> is unsupported in fw4."
 msgstr ""
 "要进行匹配的数据包字段。<br />语法：<em>direction_datatype</em>。如："
-"<code>src_port, dest_net</code>。<br />方向：<code>src, dst</code>。数据类"
-"型：<code>ip, port, mac, net, set</code>。<br />方向前缀可选。<br />*注意："
-"datatype<code>set</code>在 fw4 中不受支持。"
+"<code>src_port, dest_net</code>。<br />方向：<code>src, "
+"dst</code>。数据类型：<code>ip, port, mac, net, set</code>。<br "
+"/>方向前缀可选。<br />*注意：datatype<code>set</code>在 fw4 中不受支持。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:340
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:467
@@ -1169,8 +1168,7 @@ msgstr "无法保存内容：%s"
 msgid ""
 "Unit: seconds. Default <code>0</code> means the entry is added permanently "
 "to the set.<br />Max: 2147483 seconds."
-msgstr ""
-"单位：秒。默认值<code>0</code>表示该条目被永久添加到该集合。<br />最大值："
+msgstr "单位：秒。默认值<code>0</code>表示该条目被永久添加到该集合。<br />最大值："
 "2147483 秒。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:331
@@ -1379,8 +1377,8 @@ msgid ""
 "large address lists without the need to create one rule per item to match. "
 "Port ranges in ipsets are unsupported by firewall4.<br />"
 msgstr ""
-"firewall4 支持参考并创建 IP 集，这样就无需为每个条目创建一条规则进行匹配，达"
-"到简化大型地址列表匹配的目的。firewall 4 不支持 ip 集中的端口范围。<br />"
+"firewall4 支持引用和创建 IP 集合，这样就无需为每个条目创建一条规则进行匹配，"
+"达到简化大型地址列表匹配的目的。firewall4 不支持 ip 集合中的 端口范围。<br />"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:152
 msgid "fromport-toport"
@@ -1505,3 +1503,45 @@ msgstr "最多 65536 个条目。"
 #: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
 msgid "valid firewall mark"
 msgstr "有效的防火墙标记"
+
+#~ msgid ""
+#~ "Enable network address and port translation (NAT or NAPT) for outbound "
+#~ "traffic on this zone. This is typically enabled on the <em>wan</em> zone."
+#~ msgstr ""
+#~ "为此区域上的出站流量开启网络地址和端口翻译（NAT 或 NAPT）。该选项在"
+#~ "<em>wan</em>区域上通常处于开启状态。"
+
+#~ msgid ""
+#~ "Forwarded IPv4%{proto?, protocol %{proto#%{next?, }<var>%{item.name}</"
+#~ "var>}}%{mark?, mark <var%{mark.inv? data-tooltip=\"Match fwmarks except "
+#~ "%{mark.num}%{mark.mask? with mask %{mark.mask}}.\":%{mark.mask? data-"
+#~ "tooltip=\"Mask fwmark value with %{mark.mask} before compare.\"}}>%{mark."
+#~ "val}</var>}"
+#~ msgstr ""
+#~ "转发的 IPv4%{proto?, 协议 %{proto#%{next?, }<var>%{item.name}</"
+#~ "var>}}%{mark?, 标记 <var%{mark.inv? data-tooltip=\"匹配除 %{mark."
+#~ "num}%{mark.mask? 带有掩码 %{mark.mask}} 以外的 fwmarks。\":%{mark.mask? "
+#~ "data-tooltip=\"在比较前使用 %{mark.mask} 掩盖 fwmark 值。\"}}>%{mark.val}"
+#~ "</var>}"
+
+#~ msgid ""
+#~ "Incoming IPv4%{proto?, protocol %{proto#%{next?, }%{item.types?<var "
+#~ "class=\"cbi-tooltip-container\">%{item.name}<span class=\"cbi-"
+#~ "tooltip\">ICMP with types %{item.types#%{next?, }<var>%{item}</var>}</"
+#~ "span></var>:<var>%{item.name}</var>}}}%{mark?, mark <var%{mark.inv? data-"
+#~ "tooltip=\"Match fwmarks except %{mark.num}%{mark.mask? with mask %{mark."
+#~ "mask}}.\":%{mark.mask? data-tooltip=\"Mask fwmark value with %{mark.mask} "
+#~ "before compare.\"}}>%{mark.val}</var>}%{helper?, helper %{helper.inv?<var "
+#~ "data-tooltip=\"Match any helper except &quot;%{helper.name}&quot;"
+#~ "\">%{helper.val}</var>:<var data-tooltip=\"%{helper.name}\">%{helper.val}"
+#~ "</var>}}"
+#~ msgstr ""
+#~ "入站 IPv4%{proto?, 协议 %{proto#%{next?, }%{item.types?<var class=\"cbi-"
+#~ "tooltip-container\">%{item.name}<span class=\"cbi-tooltip\">具有类型 "
+#~ "%{item.types#%{next?, }<var>%{item}</var>} 的 ICMP</span></var>:"
+#~ "<var>%{item.name}</var>}}}%{mark?, 标记 <var%{mark.inv? data-tooltip=\"匹"
+#~ "配除 %{mark.num}%{mark.mask? 带有掩码 %{mark.mask}} 的 fwmarks。\":%{mark."
+#~ "mask? data-tooltip=\"在比较前使用 %{mark.mask} 掩盖 fwmark 值。\"}}"
+#~ ">%{mark.val}</var>}%{helper?, 助手 %{helper.inv?<var data-tooltip=\"匹配"
+#~ "除 &quot;%{helper.name}&quot; 以外的任意助手。\">%{helper.val}</var>:<var "
+#~ "data-tooltip=\"%{helper.name}\">%{helper.val}</var>}}"

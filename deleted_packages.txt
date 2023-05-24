@@ -140,6 +140,7 @@ luci-app-emby
 luci-app-eoip
 luci-app-eqos
 luci-app-excalidraw
+luci-app-fan
 luci-app-fileassistant
 luci-app-filebrowser
 luci-app-frps
