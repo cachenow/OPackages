@@ -61,6 +61,7 @@ luci-app-wan-mac
 luci-app-watchcat
 luci-app-webadmin
 luci-app-webdav
+luci-app-wireguard
 luci-app-zerotier
 luci-base
 luci-lib-fs
