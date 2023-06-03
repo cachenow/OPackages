@@ -181,6 +181,7 @@ luci-app-lorawan-basicstation
 luci-app-ltqtapi
 luci-app-lucky
 luci-app-lxc
+luci-app-macvlan
 luci-app-mail
 luci-app-memos
 luci-app-mentohust
@@ -302,6 +303,7 @@ luci-app-xlnetacc
 luci-app-xteve
 luci-app-xunlei
 luci-app-xunyou
+luci-app-xwan
 luci-lib-mac-vendor
 luci-mod-network
 luci-mod-status
