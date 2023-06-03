@@ -292,6 +292,7 @@ luci-app-vssr
 luci-app-webd
 luci-app-webrestriction
 luci-app-weburl
+luci-app-wechatpush
 luci-app-wifidog
 luci-app-wizard
 luci-app-wolplus
