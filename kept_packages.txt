@@ -41,7 +41,6 @@ luci-app-openvpn-server
 luci-app-pppoe-relay
 luci-app-rclone
 luci-app-samba4
-luci-app-serverchan
 luci-app-sms-tool
 luci-app-socat
 luci-app-speedtest-web

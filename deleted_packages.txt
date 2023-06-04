@@ -107,6 +107,7 @@ luci-app-bandwidthd
 luci-app-beardropper
 luci-app-bitsrunlogin-go
 luci-app-bridge
+luci-app-broadbandacc
 luci-app-brook-server
 luci-app-bypass
 luci-app-cd8021x
