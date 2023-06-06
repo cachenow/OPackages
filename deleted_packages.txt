@@ -310,6 +310,7 @@ luci-lib-mac-vendor
 luci-mod-network
 luci-mod-status
 luci-mod-system
+luci-proto-mbim
 luci-proto-minieap
 luci-proto-xmm
 luci-theme-alpha
