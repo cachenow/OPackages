@@ -352,7 +352,6 @@ nxdn-clients
 oaf
 ookla-speedtest
 open-app-filter
-openvpn
 openvpn-dns-hotplug
 openwrt-cloudflared
 openwrt-dogcom
