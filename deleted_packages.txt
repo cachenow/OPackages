@@ -106,6 +106,7 @@ luci-app-baidupcs-web
 luci-app-bandwidthd
 luci-app-beardropper
 luci-app-bitsrunlogin-go
+luci-app-bmtedge
 luci-app-bridge
 luci-app-broadbandacc
 luci-app-bypass
