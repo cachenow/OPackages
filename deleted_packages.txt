@@ -340,7 +340,6 @@ natter
 netatalk
 netmaker
 nftables
-nginx
 ngrokc
 njitclient
 nload
