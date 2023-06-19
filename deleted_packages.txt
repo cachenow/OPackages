@@ -64,6 +64,7 @@ haproxy
 hl-atcmd
 homeredirect
 hysteria
+imei_generator
 ipt2socks
 iptvhelper
 ircddb-gateway
