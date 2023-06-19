@@ -391,7 +391,6 @@ shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
 simple-obfs
-simple-torrent
 simpleproxy
 sing-box
 smartdns
