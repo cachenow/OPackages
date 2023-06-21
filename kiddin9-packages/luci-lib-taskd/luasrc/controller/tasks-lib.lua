@@ -3,6 +3,7 @@ module("luci.controller.tasks-lib", package.seeall)
 
 
 function index()
+  entry({"admin", "system", "tasks"}, cbi("tasks"))
   entry({"admin", "system", "tasks", "status"}, call("tasks_status")).dependent=false
   entry({"admin", "system", "tasks", "log"}, call("tasks_log")).dependent=false
   entry({"admin", "system", "tasks", "stop"}, post("tasks_stop")).dependent=false
