@@ -4,7 +4,6 @@ base-files
 cdnspeedtest
 coremark
 curl
-ddnsgo
 dnsforwarder
 dnsproxy
 firewall
