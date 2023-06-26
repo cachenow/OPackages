@@ -364,6 +364,7 @@ pikpak-webdav
 pingcontrol
 polarssl
 ps3netsrv
+qBittorrent
 qBittorrent-Enhanced-Edition
 qBittorrent-static
 qt6base
