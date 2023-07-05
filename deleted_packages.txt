@@ -36,7 +36,6 @@ cups-bjnp
 cxxopts
 dae
 dapnet-gateway
-ddns-go
 ddns-scripts
 ddnsto
 dns2socks
