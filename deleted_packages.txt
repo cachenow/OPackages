@@ -218,6 +218,7 @@ luci-app-olsr-services
 luci-app-olsr-viz
 luci-app-omcproxy
 luci-app-onliner
+luci-app-openvpn-client
 luci-app-openwisp
 luci-app-opkg
 luci-app-oscam
