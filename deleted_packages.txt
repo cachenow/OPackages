@@ -416,6 +416,7 @@ trojan
 trojan-go
 trojan-plus
 ttymux
+tuic-client
 ucl
 udp2raw
 unishare
