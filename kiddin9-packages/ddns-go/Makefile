@@ -7,9 +7,9 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=ddnsgo
+PKG_NAME:=ddns-go
 PKG_VERSION:=5.3.7
-PKG_RELEASE:=5
+PKG_RELEASE:=7
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
@@ -36,25 +36,25 @@ define Package/ddns-go
   SECTION:=net
   CATEGORY:=Network
   SUBMENU:=Web Servers/Proxies
-  DEPENDS:=$(GO_ARCH_DEPENDS) +ca-bundle 
+  DEPENDS:=$(GO_ARCH_DEPENDS) +ca-bundle
   URL:=https://github.com/jeessy2/ddns-go
   USERID:=ddns-go:ddns-go
 endef
 
-define Package/$(PKG_NAME)/description
+define Package/ddns-go/description
   ddns-go is a automatically obtain your public IPv4 or IPv6 address and resolve it to the corresponding domain name service,
   support Alidns Dnspod Cloudflare Hicloud Callback Baiducloud porkbun GoDaddy Google Domains.
 endef
 
 
-define Package/$(PKG_NAME)/install
+define Package/ddns-go/install
 	$(call GoPackage/Package/Install/Bin,$(1))
 
 	$(INSTALL_DIR) $(1)/etc/init.d
-	$(INSTALL_BIN) $(CURDIR)/file/ddns-go.init $(1)/etc/init.d/ddns-go
+	$(INSTALL_BIN) ./file/ddnsgo.init $(1)/etc/init.d/ddnsgo
 
 	$(INSTALL_DIR) $(1)/etc/uci-defaults
-	$(INSTALL_BIN) $(CURDIR)/file/luci-ddns-go.uci-default $(1)/etc/uci-defaults/luci-ddns-go
+	$(INSTALL_BIN) ./file/luci-ddns-go.uci-default $(1)/etc/uci-defaults/luci-ddns-go
 endef
 
 $(eval $(call GoBinPackage,ddns-go))
