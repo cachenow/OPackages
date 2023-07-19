@@ -225,6 +225,7 @@ luci-app-oscam
 luci-app-owntone
 luci-app-packet-capture
 luci-app-pagekitec
+luci-app-parentcontrol
 luci-app-partexp
 luci-app-passwall
 luci-app-passwall2
