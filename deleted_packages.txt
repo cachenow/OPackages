@@ -124,6 +124,7 @@ luci-app-control-weburl
 luci-app-cpufreq
 luci-app-cpulimit
 luci-app-cupsd
+luci-app-daed
 luci-app-dawn
 luci-app-ddns
 luci-app-ddnsto
