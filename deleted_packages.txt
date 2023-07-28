@@ -412,8 +412,6 @@ tcpping
 toml11
 totd
 transfer
-transmission
-transmission-web-control
 trojan
 trojan-go
 trojan-plus
