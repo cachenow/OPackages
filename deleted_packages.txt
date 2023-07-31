@@ -141,7 +141,6 @@ luci-app-e2guardian
 luci-app-easymesh
 luci-app-easyupdate
 luci-app-emby
-luci-app-eoip
 luci-app-eqos
 luci-app-excalidraw
 luci-app-fan
@@ -302,7 +301,6 @@ luci-app-wolplus
 luci-app-wrtbwmon
 luci-app-wxedge
 luci-app-xfrpc
-luci-app-xinetd
 luci-app-xlnetacc
 luci-app-xteve
 luci-app-xunlei
