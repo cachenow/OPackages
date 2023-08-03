@@ -35,6 +35,7 @@ cups
 cups-bjnp
 cxxopts
 dae
+daed
 dapnet-gateway
 ddns-scripts
 ddnsto
