@@ -436,6 +436,7 @@ wxbase
 xmm-modem
 xray-core
 xray-plugin
+xtables-wgobfs
 xunyou
 ykdl
 you-get
