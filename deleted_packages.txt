@@ -280,6 +280,7 @@ luci-app-tencentddns
 luci-app-timewol
 luci-app-transmission
 luci-app-ttnode
+luci-app-ua2f
 luci-app-ubuntu
 luci-app-udp2raw
 luci-app-unblockmusic
