@@ -118,7 +118,6 @@ luci-app-chinesesubfinder
 luci-app-clash
 luci-app-cloudreve
 luci-app-codeserver
-luci-app-control-speedlimit
 luci-app-control-timewol
 luci-app-control-webrestriction
 luci-app-control-weburl
