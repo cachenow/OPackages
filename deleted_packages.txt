@@ -398,6 +398,7 @@ simple-obfs
 simpleproxy
 sing-box
 smartdns
+softethervpn5
 speedtestcli
 speedtestpp
 srelay
