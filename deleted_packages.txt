@@ -25,7 +25,6 @@ autoshare-samba
 autoupdate
 baidupcs-web
 bitsrunlogin-go
-brook
 btop
 cellled
 chinadns-ng
@@ -396,13 +395,11 @@ shadowsocksr-libev
 shortcut-fe
 simple-obfs
 simpleproxy
-sing-box
 smartdns
 softethervpn5
 speedtestcli
 speedtestpp
 srelay
-ssocks
 sub-web
 subconverter
 switch-lan-play
@@ -414,8 +411,6 @@ toml11
 totd
 transfer
 trojan
-trojan-go
-trojan-plus
 ttymux
 tuic-client
 ucl
