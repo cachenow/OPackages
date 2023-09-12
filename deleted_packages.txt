@@ -36,6 +36,7 @@ cxxopts
 dae
 daed
 dapnet-gateway
+dcc2-wiwiz
 ddns-scripts
 ddnsto
 dns2socks
@@ -43,6 +44,7 @@ dns2tcp
 dnsmasq
 dockerd
 dsmboot
+eqos-master-wiwiz
 ethstatus
 ffmpeg-remux
 fibocom-dial
@@ -140,7 +142,6 @@ luci-app-e2guardian
 luci-app-easymesh
 luci-app-easyupdate
 luci-app-emby
-luci-app-eqos
 luci-app-excalidraw
 luci-app-fan
 luci-app-fileassistant
@@ -427,6 +428,7 @@ v2raya
 verysync
 webd
 webdav2
+wifidog-wiwiz
 wireless-regdb
 wrtbwmon
 wxbase
