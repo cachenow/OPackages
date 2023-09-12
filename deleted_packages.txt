@@ -396,6 +396,7 @@ shadowsocksr-libev
 shortcut-fe
 simple-obfs
 simpleproxy
+sing-box
 smartdns
 softethervpn5
 speedtestcli
