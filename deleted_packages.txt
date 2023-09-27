@@ -25,6 +25,7 @@ autoshare-samba
 autoupdate
 baidupcs-web
 bitsrunlogin-go
+brook
 btop
 cellled
 chinadns-ng
@@ -106,7 +107,6 @@ luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autoupdate
 luci-app-baidupcs-web
-luci-app-bandwidthd
 luci-app-beardropper
 luci-app-bitsrunlogin-go
 luci-app-bmtedge
@@ -404,6 +404,7 @@ softethervpn5
 speedtestcli
 speedtestpp
 srelay
+ssocks
 sub-web
 subconverter
 switch-lan-play
@@ -415,6 +416,8 @@ toml11
 totd
 transfer
 trojan
+trojan-go
+trojan-plus
 ttymux
 tuic-client
 ucl
