@@ -163,6 +163,7 @@ luci-app-homebox
 luci-app-homebridge
 luci-app-homeproxy
 luci-app-homeredirect
+luci-app-internet-detector
 luci-app-iperf
 luci-app-iperf3-server
 luci-app-ipsec-server
