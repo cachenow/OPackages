@@ -4,7 +4,6 @@ LICENSE
 LingTiGameAcc
 MentoHUST-OpenWrt-ipk
 README.md
-UA2F
 UnblockNeteaseMusic
 UnblockNeteaseMusic-Go
 accel-ppp
@@ -421,6 +420,7 @@ trojan-go
 trojan-plus
 ttymux
 tuic-client
+ua2f
 ucl
 udp2raw
 unishare
