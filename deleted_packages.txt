@@ -280,6 +280,7 @@ luci-app-tencentcloud-cos
 luci-app-tencentddns
 luci-app-timewol
 luci-app-transmission
+luci-app-ttl
 luci-app-ttnode
 luci-app-ua2f
 luci-app-ubuntu
