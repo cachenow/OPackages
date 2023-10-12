@@ -394,6 +394,7 @@ rtl8189es
 rtl8821cu
 rtl88x2bu
 scutclient
+shadow-tls
 shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
