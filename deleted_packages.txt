@@ -139,7 +139,6 @@ luci-app-control-webrestriction
 luci-app-control-weburl
 luci-app-cpufreq
 luci-app-cpulimit
-luci-app-cshark
 luci-app-cupsd
 luci-app-daed
 luci-app-dawn
@@ -234,7 +233,6 @@ luci-app-nginx-manager
 luci-app-nginx-pingos
 luci-app-ngrokc
 luci-app-njitclient
-luci-app-noddos
 luci-app-npc
 luci-app-nps
 luci-app-oaf
