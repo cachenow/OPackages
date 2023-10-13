@@ -4,6 +4,7 @@ LICENSE
 LingTiGameAcc
 MentoHUST-OpenWrt-ipk
 README.md
+ShadowVPN
 UnblockNeteaseMusic
 UnblockNeteaseMusic-Go
 accel-ppp
@@ -41,6 +42,7 @@ dapnet-gateway
 dcc2-wiwiz
 ddns-scripts
 ddnsto
+dns-forwarder
 dns2socks
 dns2tcp
 dnsforwarder
@@ -73,6 +75,7 @@ homebox
 homeredirect
 hysteria
 imei_generator
+ipset-lists
 ipt2socks
 iptvhelper
 ircddb-gateway
@@ -356,7 +359,9 @@ luci-proto-mbim
 luci-proto-minieap
 luci-proto-xmm
 luci-theme-alpha
+luci-theme-argon
 luci-theme-design
+luci-theme-edge
 luci-theme-lightblue
 luci-theme-teleofis
 lucky
@@ -383,6 +388,7 @@ naiveproxy
 natter
 netatalk
 netmaker
+nexttrace
 nftables
 ngrokc
 njitclient
@@ -399,6 +405,7 @@ openwrt-dogcom
 openwrt-nezha
 oscam
 p25-clients
+pcap-dnsproxy
 pcat-manager
 pgyvpn
 phtunnel
@@ -430,6 +437,7 @@ rrm-nr-distributor
 rtl8189es
 rtl8821cu
 rtl88x2bu
+rustdesk-server
 scutclient
 shadow-tls
 shadowsocks-rust
@@ -441,6 +449,7 @@ sing-box
 smartdns
 sms-tool
 softethervpn5
+speedtest-go
 speedtest-web
 speedtestcli
 speedtestpp
@@ -454,6 +463,8 @@ tailscale
 taskd
 tcping
 tcpping
+tinyfecvpn
+tinyportmapper
 toml11
 totd
 transfer
@@ -462,6 +473,7 @@ trojan-go
 trojan-plus
 ttymux
 tuic-client
+tuic-server
 ua2f
 ucl
 udp2raw

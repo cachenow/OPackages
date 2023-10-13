@@ -30,8 +30,6 @@ luci-app-xlnetacc
 luci-app-zerotier
 luci-base
 luci-lib-fs
-luci-theme-argon
-luci-theme-edge
 netdata
 opkg
 pdnsd-alt
