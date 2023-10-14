@@ -37,6 +37,7 @@ jobs:
         rm -rf ./kiddin9-packages
         rm -rf ./.config
         rm -rf ./*.txt
+        rm -rf ./tools
         
         svn export https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom ./theme-18.06/luci-theme-infinityfreedom
         git clone https://github.com/kiddin9/luci-theme-edge -b 18.06 ./theme-18.06/luci-theme-edge 
