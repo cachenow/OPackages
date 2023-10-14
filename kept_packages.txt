@@ -16,6 +16,7 @@ luci-app-filetransfer
 luci-app-firewall
 luci-app-ipsec-vpnd
 luci-app-netdata
+luci-app-openclash
 luci-app-openvpn-server
 luci-app-samba4
 luci-app-socat
