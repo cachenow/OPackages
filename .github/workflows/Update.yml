@@ -51,6 +51,9 @@ jobs:
         git clone https://github.com/kiddin9/openwrt-packages ./kiddin9-packages
         find ./kiddin9-packages -path '*/.*' -delete
         rm -rf ./kiddin9-packages/autocore
+        rm -rf ./kiddin9-packages/luci-app-openclash
+
+        svn export https://github.com/vernesong/OpenClash/trunk/dev/luci-app-openclash ./tools/luci-app-openclash
         
         wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
         chmod +x ./delete.sh && ./delete.sh
