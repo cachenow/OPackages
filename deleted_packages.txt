@@ -31,6 +31,7 @@ btop
 cdnspeedtest
 cellled
 chinadns-ng
+cloudflared
 cloudreve
 cpulimit
 cups
@@ -398,7 +399,6 @@ oaf
 ookla-speedtest
 open-app-filter
 openvpn-dns-hotplug
-openwrt-cloudflared
 openwrt-dogcom
 openwrt-nezha
 oscam
