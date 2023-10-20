@@ -221,7 +221,6 @@ luci-app-mwan3helper
 luci-app-mwol
 luci-app-mymind
 luci-app-n2n
-luci-app-naiveproxy
 luci-app-nastools
 luci-app-nat6-helper
 luci-app-natter
