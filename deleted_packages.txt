@@ -383,6 +383,7 @@ mwol
 my-default-settings
 n2n
 naiveproxy
+nanohatoled
 natter
 netatalk
 netmaker
