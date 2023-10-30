@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ddns-go
 PKG_VERSION:=5.6.4
-PKG_RELEASE:=23
+PKG_RELEASE:=24
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
@@ -23,6 +23,7 @@ PKG_MAINTAINER:=herboy2008 <herboy2008@gmail.com>
 
 PKG_BUILD_DEPENDS:=golang/host
 PKG_BUILD_PARALLEL:=1
+PKG_USE_MIPS16:=0
 PKG_BUILD_FLAGS:=no-mips16
 
 GO_PKG:=github.com/jeessy2/ddns-go/v5
