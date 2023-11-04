@@ -13,7 +13,6 @@ adguardhome
 airconnect
 alac
 alist
-aliyundrive-fuse
 aliyundrive-webdav
 amule
 antileech
@@ -327,7 +326,6 @@ luci-app-v2ray-server
 luci-app-v2raya
 luci-app-vaultwarden
 luci-app-verysync
-luci-app-vssr
 luci-app-wan-mac
 luci-app-watchcat
 luci-app-webadmin
