@@ -29,6 +29,7 @@ brook
 btop
 cdnspeedtest
 cellled
+cgroupfs-mount
 chinadns-ng
 cloudflared
 cloudreve
@@ -306,6 +307,7 @@ luci-app-tencentcloud-cos
 luci-app-tencentddns
 luci-app-timecontrol
 luci-app-timewol
+luci-app-torbp
 luci-app-transmission
 luci-app-ttl
 luci-app-ttnode
