@@ -212,6 +212,7 @@ luci-app-minieap
 luci-app-mmconfig
 luci-app-modemband
 luci-app-modeminfo
+luci-app-mosdns
 luci-app-msd_lite
 luci-app-multiaccountdial
 luci-app-music-remote-center
@@ -373,6 +374,7 @@ mmdvm-host
 mmdvm-luci
 modemband
 modeminfo
+mosdns
 mrtg
 msd_lite
 msmtp
