@@ -15,6 +15,7 @@ luci-app-diskman
 luci-app-filetransfer
 luci-app-firewall
 luci-app-ipsec-vpnd
+luci-app-mosdns
 luci-app-netdata
 luci-app-openclash
 luci-app-openvpn-server
@@ -30,6 +31,7 @@ luci-app-xlnetacc
 luci-app-zerotier
 luci-base
 luci-lib-fs
+mosdns
 netdata
 opkg
 pdnsd-alt
