@@ -334,6 +334,7 @@ luci-app-webd
 luci-app-webdav
 luci-app-webrestriction
 luci-app-weburl
+luci-app-webvirtcloud
 luci-app-wechatpush
 luci-app-wifidog
 luci-app-wizard
@@ -484,6 +485,7 @@ v2ray-geodata
 v2ray-plugin
 v2raya
 verysync
+vmease
 watchcat
 webd
 webdav2
