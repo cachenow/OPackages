@@ -483,6 +483,7 @@ v2dat
 v2ray-core
 v2ray-geodata
 v2ray-plugin
+v2raya
 verysync
 vmease
 watchcat
