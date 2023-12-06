@@ -140,6 +140,7 @@ luci-app-control-webrestriction
 luci-app-control-weburl
 luci-app-cpufreq
 luci-app-cpulimit
+luci-app-crowdsec-firewall-bouncer
 luci-app-cupsd
 luci-app-daed
 luci-app-dawn
@@ -288,6 +289,7 @@ luci-app-spdmodem
 luci-app-speederv2
 luci-app-speedtest-web
 luci-app-squid
+luci-app-sshtunnel
 luci-app-ssr-libev-server
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
@@ -306,6 +308,7 @@ luci-app-tencentcloud-cos
 luci-app-tencentddns
 luci-app-timecontrol
 luci-app-timewol
+luci-app-tor
 luci-app-torbp
 luci-app-transmission
 luci-app-ttl
@@ -322,6 +325,7 @@ luci-app-unishare
 luci-app-usb-printer
 luci-app-usb3disable
 luci-app-usbmodem
+luci-app-usteer
 luci-app-uugamebooster
 luci-app-v2ray-server
 luci-app-v2raya
@@ -346,6 +350,7 @@ luci-app-xteve
 luci-app-xunlei
 luci-app-xunyou
 luci-app-xwan
+luci-app-yggdrasil
 luci-lib-iform
 luci-lib-mac-vendor
 luci-lib-taskd
