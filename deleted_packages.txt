@@ -224,6 +224,7 @@ luci-app-n2n
 luci-app-nastools
 luci-app-nat6-helper
 luci-app-natter
+luci-app-natter2
 luci-app-navidrome
 luci-app-netspeedtest
 luci-app-nextcloud
@@ -388,6 +389,7 @@ n2n
 naiveproxy
 nanohatoled
 natter
+natter2
 netatalk
 netmaker
 nexttrace
