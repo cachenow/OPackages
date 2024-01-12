@@ -56,8 +56,9 @@ jobs:
         wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
         chmod +x ./delete.sh && ./delete.sh
 
-        rm -rf ./tools
+        rm -rf ./tools/.*
         rm -rf ./OpenClash
+        mkdir -p ./tools/luci-app-openclash
 
     - name: Download and extract specific directory
       run: |
