@@ -31,7 +31,7 @@ jobs:
     - name: Update
       run: |
         rm -rf ./theme-18.06/luci-theme-edge
-        rm -rf ./theme-18.06/luci-theme-infinityfreedom
+        #rm -rf ./theme-18.06/luci-theme-infinityfreedom
         #rm -rf ./theme-18.06/luci-theme-neobird
         rm -rf ./jerrykuku
         rm -rf ./kiddin9-packages
@@ -39,7 +39,7 @@ jobs:
         rm -rf ./*.txt
         rm -rf ./tools
         
-        svn export https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom ./theme-18.06/luci-theme-infinityfreedom
+        #svn export https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom ./theme-18.06/luci-theme-infinityfreedom
         git clone https://github.com/kiddin9/luci-theme-edge -b 18.06 ./theme-18.06/luci-theme-edge 
         #git clone https://github.com/xiangfeidexiaohuo/luci-theme-neobird ./theme-18.06/luci-theme-neobird
         find ./theme-18.06 -path '*/.*' -delete
