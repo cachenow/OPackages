@@ -56,19 +56,17 @@ jobs:
         wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
         chmod +x ./delete.sh && ./delete.sh
 
-        rm -rf ./kiddin9-packages/luci-app-openclash
+        rm -rf ./tools/luci-app-openclash
 
     - name: Clone specific directory
       run: |
-        git init tmp-repo
-        cd tmp-repo
+        mkdir -p ./tools/luci-app-openclash
+        git init ./tools/luci-app-openclash
+        cd ./tools/luci-app-openclash
         git remote add origin https://github.com/vernesong/OpenClash.git
         git config core.sparseCheckout true
         echo "luci-app-openclash/*" > .git/info/sparse-checkout
         git pull --depth=1 origin dev
-        mv luci-app-openclash ../tools/
-        cd ..
-        rm -rf tmp-repo
     
     - name: Apply
       run: |
