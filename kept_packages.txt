@@ -26,7 +26,6 @@ luci-app-turboacc
 luci-app-upnp
 luci-app-vlmcsd
 luci-app-vsftpd
-luci-app-wireguard
 luci-app-xlnetacc
 luci-app-zerotier
 luci-base

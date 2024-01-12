@@ -183,12 +183,10 @@ luci-app-homebridge
 luci-app-homeproxy
 luci-app-homeredirect
 luci-app-internet-detector
-luci-app-iperf
 luci-app-iperf3-server
 luci-app-ipsec-server
 luci-app-ipsec-vpnserver-manyusers
 luci-app-iptvhelper
-luci-app-irqbalance
 luci-app-istorex
 luci-app-jackett
 luci-app-jellyfin
@@ -308,12 +306,12 @@ luci-app-tencentcloud-cos
 luci-app-tencentddns
 luci-app-timecontrol
 luci-app-timewol
+luci-app-tinyfilemanager
 luci-app-tor
 luci-app-torbp
 luci-app-transmission
 luci-app-ttl
 luci-app-ttnode
-luci-app-ua2f
 luci-app-ubuntu
 luci-app-udp2raw
 luci-app-udpxy

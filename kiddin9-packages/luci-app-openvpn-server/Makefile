@@ -5,15 +5,12 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=LuCI support for OpenVPN Server
-LUCI_DEPENDS:=+openvpn-openssl +openvpn-easy-rsa
-LUCI_PKGARCH:=all
 PKG_NAME:=luci-app-openvpn-server
+
+LUCI_TITLE:=LuCI support for OpenVPN Server
+LUCI_DEPENDS:=+openvpn-openssl +openvpn-easy-rsa +kmod-tun
+LUCI_PKGARCH:=all
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
-
-
-
-
