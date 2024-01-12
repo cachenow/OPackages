@@ -56,14 +56,15 @@ jobs:
         wget https://github.com/cachenow/BuildAuto/raw/main/.config -O ./.config
         chmod +x ./delete.sh && ./delete.sh
 
-        rm -rf ./tools/luci-app-openclash
+        rm -rf ./tools
+        rm -rf ./OpenClash
 
-    - name: Clone specific directory from dev branch
+    - name: Download and extract specific directory
       run: |
-        git clone --depth 1 --filter=blob:none --sparse --branch dev https://github.com/vernesong/OpenClash.git
-        cd OpenClash
-        git sparse-checkout set luci-app-openclash
-        mv luci-app-openclash ../tools/
+        curl -L https://github.com/vernesong/OpenClash/archive/refs/heads/dev.zip -o OpenClash-dev.zip
+        unzip OpenClash-dev.zip
+        mv OpenClash-dev/luci-app-openclash ./tools/
+        rm -rf OpenClash-dev OpenClash-dev.zip
     
     - name: Apply
       run: |
