@@ -58,15 +58,12 @@ jobs:
 
         rm -rf ./tools/luci-app-openclash
 
-    - name: Clone specific directory
+    - name: Clone specific directory from dev branch
       run: |
-        mkdir -p ./tools/luci-app-openclash
-        git init ./tools/luci-app-openclash
-        cd ./tools/luci-app-openclash
-        git remote add origin https://github.com/vernesong/OpenClash.git
-        git config core.sparseCheckout true
-        echo "luci-app-openclash/*" > .git/info/sparse-checkout
-        git pull --depth=1 origin dev
+        git clone --depth 1 --filter=blob:none --sparse --branch dev https://github.com/vernesong/OpenClash.git
+        cd OpenClash
+        git sparse-checkout set luci-app-openclash
+        mv luci-app-openclash ../tools/
     
     - name: Apply
       run: |
