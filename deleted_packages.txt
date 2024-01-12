@@ -130,6 +130,7 @@ luci-app-cd8021x
 luci-app-cellled
 luci-app-chinadns-ng
 luci-app-chinesesubfinder
+luci-app-cifs
 luci-app-cifs-mount
 luci-app-clash
 luci-app-cloudflarespeedtest
