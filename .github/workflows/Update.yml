@@ -64,7 +64,7 @@ jobs:
       run: |
         curl -L https://github.com/vernesong/OpenClash/archive/refs/heads/dev.zip -o OpenClash-dev.zip
         unzip OpenClash-dev.zip
-        mv OpenClash-dev/luci-app-openclash ./tools/luci-app-openclash
+        mv OpenClash-dev/luci-app-openclash/* ./tools/luci-app-openclash/
         rm -rf OpenClash-dev OpenClash-dev.zip
     
     - name: Apply
