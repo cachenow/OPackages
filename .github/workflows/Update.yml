@@ -57,7 +57,18 @@ jobs:
         chmod +x ./delete.sh && ./delete.sh
 
         rm -rf ./kiddin9-packages/luci-app-openclash
-        svn export https://github.com/vernesong/OpenClash/branches/dev/luci-app-openclash ./tools/luci-app-openclash
+
+    - name: Clone specific directory
+      run: |
+        git init tmp-repo
+        cd tmp-repo
+        git remote add origin https://github.com/vernesong/OpenClash.git
+        git config core.sparseCheckout true
+        echo "luci-app-openclash/*" > .git/info/sparse-checkout
+        git pull --depth=1 origin dev
+        mv luci-app-openclash ../tools/
+        cd ..
+        rm -rf tmp-repo
     
     - name: Apply
       run: |
