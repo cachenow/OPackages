@@ -82,7 +82,7 @@ iptvhelper
 ircddb-gateway
 joker
 jpcre2
-k3-brcmfmac4366c-firmware
+k3-firmware
 k3screenctrl
 keepalived
 libcron
