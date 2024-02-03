@@ -6,7 +6,6 @@ ddns-go
 dnsproxy
 firewall
 luci-app-accesscontrol
-luci-app-advanced
 luci-app-argon-config
 luci-app-arpbind
 luci-app-autoreboot
