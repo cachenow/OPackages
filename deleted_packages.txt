@@ -289,6 +289,7 @@ luci-app-softethervpn
 luci-app-spdmodem
 luci-app-speederv2
 luci-app-speedtest-web
+luci-app-spotifyd
 luci-app-squid
 luci-app-sshtunnel
 luci-app-ssr-libev-server
