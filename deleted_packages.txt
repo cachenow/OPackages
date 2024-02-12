@@ -39,6 +39,7 @@ cups-bjnp
 cxxopts
 dae
 daed
+daed-next
 dapnet-gateway
 dcc2-wiwiz
 ddns-scripts
@@ -146,6 +147,7 @@ luci-app-cpulimit
 luci-app-crowdsec-firewall-bouncer
 luci-app-cupsd
 luci-app-daed
+luci-app-daed-next
 luci-app-dawn
 luci-app-ddns
 luci-app-ddnsto
@@ -224,6 +226,7 @@ luci-app-mymind
 luci-app-n2n
 luci-app-nastools
 luci-app-nat6-helper
+luci-app-natmap
 luci-app-natter
 luci-app-natter2
 luci-app-navidrome
