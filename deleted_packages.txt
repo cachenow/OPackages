@@ -411,7 +411,7 @@ open-app-filter
 openvpn-dns-hotplug
 openwrt-dogcom
 openwrt-nezha
-oscam-openwrt
+oscam
 p25-clients
 pcap-dnsproxy
 pcat-manager
