@@ -26,7 +26,6 @@ autoupdate
 baidupcs-web
 bitsrunlogin-go
 brook
-btop
 cdnspeedtest
 cellled
 cgroupfs-mount
@@ -412,7 +411,7 @@ open-app-filter
 openvpn-dns-hotplug
 openwrt-dogcom
 openwrt-nezha
-oscam
+oscam-openwrt
 p25-clients
 pcap-dnsproxy
 pcat-manager
