@@ -313,7 +313,6 @@ luci-app-tencentddns
 luci-app-timecontrol
 luci-app-timewol
 luci-app-tinyfilemanager
-luci-app-tor
 luci-app-torbp
 luci-app-transmission
 luci-app-ttl
