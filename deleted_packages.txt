@@ -107,7 +107,6 @@ luci-app-airplay2
 luci-app-airwhu
 luci-app-aliddns
 luci-app-alist
-luci-app-aliyundrive-fuse
 luci-app-aliyundrive-webdav
 luci-app-amlogic
 luci-app-amule
@@ -160,7 +159,6 @@ luci-app-dockerman
 luci-app-dogcom
 luci-app-drawio
 luci-app-dump1090
-luci-app-e2guardian
 luci-app-easymesh
 luci-app-easyupdate
 luci-app-emby
