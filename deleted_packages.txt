@@ -465,9 +465,9 @@ srelay
 ssocks
 sub-web
 subconverter
+sunpanel
 switch-lan-play
 sysuh3c
-tailscale
 taskd
 tcping
 tcpping
