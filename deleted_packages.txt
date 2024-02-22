@@ -314,7 +314,6 @@ luci-app-tinyfilemanager
 luci-app-torbp
 luci-app-transmission
 luci-app-ttl
-luci-app-ttnode
 luci-app-ubuntu
 luci-app-udp2raw
 luci-app-udpxy
