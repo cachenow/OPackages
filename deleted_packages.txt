@@ -297,6 +297,7 @@ luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
 luci-app-store
+luci-app-sunpanel
 luci-app-supervisord
 luci-app-switch-lan-play
 luci-app-syncdial
