@@ -128,6 +128,7 @@ luci-app-broadbandacc
 luci-app-bypass
 luci-app-cd8021x
 luci-app-cellled
+luci-app-chatgpt-web
 luci-app-chinadns-ng
 luci-app-chinesesubfinder
 luci-app-cifs
@@ -162,6 +163,7 @@ luci-app-dump1090
 luci-app-easymesh
 luci-app-easyupdate
 luci-app-emby
+luci-app-eqosplus
 luci-app-excalidraw
 luci-app-fan
 luci-app-fileassistant
