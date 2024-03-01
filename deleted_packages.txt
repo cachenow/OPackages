@@ -18,7 +18,6 @@ amule
 antileech
 aria2
 ariang
-asterisk-chan-quectel
 atinout
 autoshare-ksmbd
 autoshare-samba
