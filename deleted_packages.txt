@@ -51,6 +51,7 @@ dockerd
 dsmboot
 eqos-master-wiwiz
 ethstatus
+fancontrol
 ffmpeg-remux
 fibocom-dial
 fibocom_QMI_WWAN
@@ -74,6 +75,7 @@ hl-atcmd
 homebox
 homeredirect
 hysteria
+images
 imei_generator
 ipset-lists
 ipt2socks
@@ -165,6 +167,7 @@ luci-app-emby
 luci-app-eqosplus
 luci-app-excalidraw
 luci-app-fan
+luci-app-fancontrol
 luci-app-fileassistant
 luci-app-filebrowser
 luci-app-frpc
