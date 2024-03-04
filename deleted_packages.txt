@@ -444,7 +444,6 @@ rkp-ipid
 rp-pppoe
 rrm-nr-distributor
 rtl8189es
-rtl88x2bu
 rustdesk-server
 scutclient
 shadow-tls
