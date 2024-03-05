@@ -288,6 +288,7 @@ luci-app-shortcutmenu
 luci-app-shutdown
 luci-app-smartdns
 luci-app-sms-tool
+luci-app-sms-tool-js
 luci-app-snmpd
 luci-app-softethervpn
 luci-app-spdmodem
