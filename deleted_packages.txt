@@ -57,6 +57,7 @@ fibocom-dial
 fibocom_QMI_WWAN
 filebrowser
 firewall4
+fm350-modem
 frp
 fullconenat
 fullconenat-nft
@@ -364,7 +365,7 @@ luci-lib-xterm
 luci-mod-network
 luci-mod-status
 luci-mod-system
-luci-proto-mbim
+luci-proto-fm350
 luci-proto-minieap
 luci-proto-xmm
 luci-theme-alpha
