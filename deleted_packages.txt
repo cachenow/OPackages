@@ -169,6 +169,7 @@ luci-app-eqosplus
 luci-app-excalidraw
 luci-app-fan
 luci-app-fancontrol
+luci-app-feishuvpn
 luci-app-fileassistant
 luci-app-filebrowser
 luci-app-frpc
@@ -189,12 +190,14 @@ luci-app-homebox
 luci-app-homebridge
 luci-app-homeproxy
 luci-app-homeredirect
+luci-app-htreader
 luci-app-internet-detector
 luci-app-iperf3-server
 luci-app-ipsec-server
 luci-app-ipsec-vpnserver-manyusers
 luci-app-iptvhelper
 luci-app-istorex
+luci-app-ittools
 luci-app-jackett
 luci-app-jellyfin
 luci-app-k3usb
@@ -321,6 +324,7 @@ luci-app-tinyfilemanager
 luci-app-torbp
 luci-app-transmission
 luci-app-ttl
+luci-app-typecho
 luci-app-ubuntu
 luci-app-udp2raw
 luci-app-udpxy
