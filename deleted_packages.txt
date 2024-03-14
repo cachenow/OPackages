@@ -222,6 +222,7 @@ luci-app-mmconfig
 luci-app-modemband
 luci-app-modeminfo
 luci-app-msd_lite
+luci-app-mtphotos
 luci-app-multiaccountdial
 luci-app-music-remote-center
 luci-app-mwan3
