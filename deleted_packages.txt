@@ -69,7 +69,6 @@ go-rice
 go-wol
 gost
 gotop
-gowebdav
 haproxy
 homebox
 homeredirect
