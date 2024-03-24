@@ -18,6 +18,7 @@ amule
 antileech
 aria2
 ariang
+atinout
 autoshare-ksmbd
 autoshare-samba
 autoupdate
@@ -48,6 +49,7 @@ dnsforwarder
 dnsmasq
 dockerd
 dsmboot
+dufs
 eqos-master-wiwiz
 ethstatus
 fancontrol
@@ -141,7 +143,6 @@ luci-app-control-webrestriction
 luci-app-control-weburl
 luci-app-cpufreq
 luci-app-cpulimit
-luci-app-crowdsec-firewall-bouncer
 luci-app-cupsd
 luci-app-daed
 luci-app-daed-next
@@ -157,6 +158,7 @@ luci-app-docker
 luci-app-dockerman
 luci-app-dogcom
 luci-app-drawio
+luci-app-dufs
 luci-app-dump1090
 luci-app-easymesh
 luci-app-easyupdate
@@ -175,7 +177,6 @@ luci-app-go-aliyundrive-webdav
 luci-app-gobinetmodem
 luci-app-gogs
 luci-app-gost
-luci-app-gowebdav
 luci-app-gpoint
 luci-app-gpsysupgrade
 luci-app-guest-wifi
@@ -188,6 +189,7 @@ luci-app-homeproxy
 luci-app-homeredirect
 luci-app-htreader
 luci-app-internet-detector
+luci-app-iperf
 luci-app-iperf3-server
 luci-app-ipsec-server
 luci-app-ipsec-vpnserver-manyusers
@@ -202,6 +204,7 @@ luci-app-keepalived
 luci-app-kodexplorer
 luci-app-ksmbd
 luci-app-lanraragi
+luci-app-libreswan
 luci-app-linkease
 luci-app-log
 luci-app-lorawan-basicstation
@@ -250,7 +253,6 @@ luci-app-olsr-viz
 luci-app-omcproxy
 luci-app-onliner
 luci-app-openvpn-client
-luci-app-openwisp
 luci-app-opkg
 luci-app-oscam
 luci-app-owntone
@@ -297,12 +299,12 @@ luci-app-speederv2
 luci-app-speedtest-web
 luci-app-spotifyd
 luci-app-squid
-luci-app-sshtunnel
 luci-app-ssr-libev-server
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
 luci-app-store
+luci-app-strongswan-swanctl
 luci-app-sunpanel
 luci-app-supervisord
 luci-app-switch-lan-play
@@ -333,7 +335,6 @@ luci-app-unishare
 luci-app-usb-printer
 luci-app-usb3disable
 luci-app-usbmodem
-luci-app-usteer
 luci-app-uugamebooster
 luci-app-v2ray-server
 luci-app-v2raya
@@ -343,7 +344,6 @@ luci-app-wan-mac
 luci-app-watchcat
 luci-app-webadmin
 luci-app-webd
-luci-app-webdav
 luci-app-webrestriction
 luci-app-weburl
 luci-app-webvirtcloud
@@ -353,12 +353,10 @@ luci-app-wizard
 luci-app-wolplus
 luci-app-wrtbwmon
 luci-app-wxedge
-luci-app-xfrpc
 luci-app-xteve
 luci-app-xunlei
 luci-app-xunyou
 luci-app-xwan
-luci-app-yggdrasil
 luci-lib-iform
 luci-lib-mac-vendor
 luci-lib-taskd
@@ -446,7 +444,10 @@ redsocks2
 rkp-ipid
 rp-pppoe
 rrm-nr-distributor
+rtl8188eu
 rtl8189es
+rtl8192eu
+rtl8812au-ac
 rustdesk-server
 scutclient
 shadow-tls
