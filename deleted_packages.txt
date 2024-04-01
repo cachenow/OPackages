@@ -145,6 +145,7 @@ luci-app-control-weburl
 luci-app-cpufreq
 luci-app-cpulimit
 luci-app-cupsd
+luci-app-dae
 luci-app-daed
 luci-app-daed-next
 luci-app-dawn
