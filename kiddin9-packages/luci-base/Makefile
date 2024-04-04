@@ -52,7 +52,7 @@ fi
 exit 0
 endef
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 define Host/Configure
 endef
