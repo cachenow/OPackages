@@ -22,7 +22,6 @@ atinout
 autoshare-ksmbd
 autoshare-samba
 autoupdate
-baidupcs-web
 bitsrunlogin-go
 brook
 cdnspeedtest
@@ -53,6 +52,7 @@ dsmboot
 dufs
 eqos-master-wiwiz
 ethstatus
+exfatprogs
 fancontrol
 ffmpeg-remux
 fibocom-dial
@@ -453,6 +453,7 @@ rtl8192eu
 rtl8812au-ac
 rustdesk-server
 scutclient
+sendat
 shadow-tls
 shadowsocks-rust
 shadowsocksr-libev
