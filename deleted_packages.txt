@@ -121,7 +121,6 @@ luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autotimeset
 luci-app-autoupdate
-luci-app-baidupcs-web
 luci-app-beardropper
 luci-app-bitsrunlogin-go
 luci-app-bmtedge
