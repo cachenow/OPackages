@@ -29,6 +29,7 @@ luci-app-xlnetacc
 luci-app-zerotier
 luci-base
 luci-lib-fs
+miniupnpd
 mosdns
 netdata
 opkg

@@ -377,7 +377,6 @@ lux
 mhz
 microsocks
 minieap-openwrt
-miniupnpd-iptables
 mmdvm
 mmdvm-cal
 mmdvm-host
