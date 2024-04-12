@@ -60,7 +60,6 @@ fibocom_QMI_WWAN
 filebrowser
 firewall4
 fm350-modem
-frp
 fullconenat
 fullconenat-nft
 gallery-dl
@@ -172,8 +171,6 @@ luci-app-fancontrol
 luci-app-feishuvpn
 luci-app-fileassistant
 luci-app-filebrowser
-luci-app-frpc
-luci-app-frps
 luci-app-fullconenat
 luci-app-go-aliyundrive-webdav
 luci-app-gobinetmodem
