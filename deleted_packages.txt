@@ -56,6 +56,7 @@ exfatprogs
 fancontrol
 ffmpeg-remux
 fibocom-dial
+fibocom_MHI
 fibocom_QMI_WWAN
 filebrowser
 firewall4
@@ -141,6 +142,7 @@ luci-app-codeserver
 luci-app-control-timewol
 luci-app-control-webrestriction
 luci-app-control-weburl
+luci-app-cpe
 luci-app-cpufreq
 luci-app-cpulimit
 luci-app-cupsd
@@ -187,6 +189,7 @@ luci-app-homebridge
 luci-app-homeproxy
 luci-app-homeredirect
 luci-app-htreader
+luci-app-hypermodem
 luci-app-internet-detector
 luci-app-iperf
 luci-app-iperf3-server
@@ -217,6 +220,7 @@ luci-app-mentohust
 luci-app-microsocks
 luci-app-minieap
 luci-app-mmconfig
+luci-app-modem
 luci-app-modemband
 luci-app-modeminfo
 luci-app-msd_lite
