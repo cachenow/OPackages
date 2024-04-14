@@ -464,7 +464,6 @@ simpleproxy
 sing-box
 smartdns
 sms-tool
-snort3
 softethervpn5
 speedtest-go
 speedtest-web
