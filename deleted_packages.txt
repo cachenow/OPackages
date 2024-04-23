@@ -370,6 +370,7 @@ luci-lib-xterm
 luci-mod-network
 luci-mod-status
 luci-mod-system
+luci-nginxer
 luci-proto-fm350
 luci-proto-minieap
 luci-proto-xmm
