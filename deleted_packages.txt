@@ -212,6 +212,7 @@ luci-app-ksmbd
 luci-app-lanraragi
 luci-app-libreswan
 luci-app-linkease
+luci-app-lldpd
 luci-app-log
 luci-app-lorawan-basicstation
 luci-app-ltqtapi
