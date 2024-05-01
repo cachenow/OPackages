@@ -450,10 +450,7 @@ redsocks2
 rkp-ipid
 rp-pppoe
 rrm-nr-distributor
-rtl8188eu
 rtl8189es
-rtl8192eu
-rtl8812au-ac
 rustdesk-server
 scutclient
 sendat
