@@ -5,7 +5,7 @@
  	}
  
 +	conf->force_depends = 1;
-+	conf->force-checksum = 1;
++	conf->force_checksum = 1;
 +	conf->force_overwrite = 1;
 +
  	if (!conf->conf_file && !conf->offline_root)
