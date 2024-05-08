@@ -305,7 +305,6 @@ luci-app-speederv2
 luci-app-speedtest-web
 luci-app-spotifyd
 luci-app-squid
-luci-app-ssr-libev-server
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
