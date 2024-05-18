@@ -291,6 +291,7 @@ luci-app-rclone
 luci-app-rp-pppoe-server
 luci-app-rtbwmon
 luci-app-rtorrent
+luci-app-runmynas
 luci-app-scutclient
 luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
