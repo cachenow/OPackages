@@ -382,6 +382,7 @@ luci-theme-design
 luci-theme-edge
 luci-theme-kucat
 luci-theme-lightblue
+luci-theme-routerich
 luci-theme-teleofis
 lucky
 lux
