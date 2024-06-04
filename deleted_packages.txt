@@ -475,6 +475,7 @@ wrtbwmon
 wxbase
 xmm-modem
 xray-core
+xray-core-min
 xray-plugin
 xtables-wgobfs
 xunyou
