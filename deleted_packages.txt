@@ -200,6 +200,7 @@ luci-app-iperf3-server
 luci-app-ipsec-server
 luci-app-ipsec-vpnserver-manyusers
 luci-app-iptvhelper
+luci-app-irqbalance
 luci-app-istorex
 luci-app-ittools
 luci-app-jackett
@@ -331,6 +332,7 @@ luci-app-torbp
 luci-app-transmission
 luci-app-ttl
 luci-app-typecho
+luci-app-ua2f
 luci-app-ubuntu
 luci-app-udp2raw
 luci-app-udpxy

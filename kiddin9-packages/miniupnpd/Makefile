@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=miniupnpd
 PKG_VERSION:=2.3.3
-PKG_RELEASE:=45
+PKG_RELEASE:=49
 
 PKG_SOURCE_URL:=https://miniupnp.tuxfamily.org/files
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
@@ -49,6 +49,8 @@ define Package/miniupnpd-iptables
 	+libnetfilter-conntrack
   TITLE+= (iptables)
   VARIANT:=iptables
+  DEFAULT_VARIANT:=1
+  CONFLICTS:=miniupnpd-nftables
 endef
 
 define Package/miniupnpd-nftables
@@ -57,8 +59,6 @@ define Package/miniupnpd-nftables
 	+libnftnl
   TITLE+= (nftables)
   VARIANT:=nftables
-  DEFAULT_VARIANT:=1
-  CONFLICTS:=miniupnpd-iptables
 endef
 
 define Package/miniupnpd/conffiles/Default
@@ -109,6 +109,10 @@ endef
 
 define Package/miniupnpd-nftables/install
 	$(call Package/miniupnpd/install/Default,$1)
+	$(INSTALL_DIR) $(1)/etc/uci-defaults
+	$(INSTALL_DIR) $(1)/usr/share/miniupnpd
+	$(INSTALL_BIN) ./files/miniupnpd.defaults.nftables $(1)/etc/uci-defaults/99-miniupnpd
+	$(INSTALL_DATA) ./files/firewall4.include $(1)/usr/share/miniupnpd/firewall.include
 	$(INSTALL_DIR) $(1)/usr/share/nftables.d
 	$(CP) ./files/nftables.d/* $(1)/usr/share/nftables.d/
 endef
