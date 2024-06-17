@@ -471,7 +471,6 @@ softethervpn5
 speedtest-go
 speedtest-web
 speedtestcli
-speedtestpp
 spotifyd
 srelay
 ssocks
