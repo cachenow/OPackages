@@ -19,6 +19,7 @@ antileech
 aria2
 ariang
 atinout
+autokick-wiwiz
 autoshare-ksmbd
 autoshare-samba
 autoupdate
