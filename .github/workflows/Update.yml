@@ -38,6 +38,7 @@ jobs:
         rm -rf ./.config
         rm -rf ./*.txt
         rm -rf ./tools
+        rm -rf ./tools/luci-app-tailscale
         
         #svn export https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom ./theme-18.06/luci-theme-infinityfreedom
         git clone https://github.com/kiddin9/luci-theme-edge -b 18.06 ./theme-18.06/luci-theme-edge 
@@ -48,6 +49,9 @@ jobs:
         git clone https://github.com/jerrykuku/luci-theme-argon -b 18.06 ./jerrykuku/luci-theme-argon-18.06
         git clone https://github.com/jerrykuku/luci-app-argon-config ./jerrykuku/luci-app-argon-config
         find ./jerrykuku -path '*/.*' -delete
+
+        git clone https://github.com/asvow/luci-app-tailscale ./tools/luci-app-tailscale
+        find ./kiddin9-packages -path '*/.*' -delete
 
         git clone https://github.com/kiddin9/openwrt-packages ./kiddin9-packages
         find ./kiddin9-packages -path '*/.*' -delete
