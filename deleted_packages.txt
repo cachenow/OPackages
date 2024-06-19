@@ -312,7 +312,6 @@ luci-app-squid
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
-luci-app-store
 luci-app-strongswan-swanctl
 luci-app-sunpanel
 luci-app-supervisord

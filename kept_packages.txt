@@ -21,6 +21,7 @@ luci-app-openclash
 luci-app-openvpn-server
 luci-app-samba4
 luci-app-socat
+luci-app-store
 luci-app-telegrambot
 luci-app-turboacc
 luci-app-upnp
