@@ -51,7 +51,7 @@ jobs:
         find ./jerrykuku -path '*/.*' -delete
 
         git clone https://github.com/asvow/luci-app-tailscale ./tools/luci-app-tailscale
-        find ./kiddin9-packages -path '*/.*' -delete
+        find ./tools/luci-app-tailscale -path '*/.*' -delete
 
         git clone https://github.com/kiddin9/openwrt-packages ./kiddin9-packages
         find ./kiddin9-packages -path '*/.*' -delete
