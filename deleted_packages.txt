@@ -76,6 +76,7 @@ golang
 gost
 gotop
 haproxy
+headscale
 homebox
 homeredirect
 hysteria
