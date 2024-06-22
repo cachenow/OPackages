@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 function rand_str() {
 	(base64 /dev/urandom | tr -dc 'A-Za-z' | head -c $1) 2>/dev/null
 }
@@ -19,31 +20,43 @@ function rand_easy_rsa_vars() {
 	local KEY_EMAIL="$(rand_str_lower 8)@$(rand_str_lower 4).$(rand_str_lower 3)"
 	local KEY_OU="$(rand_str 8)"
 	sed -i \
-		-e "s/^[[:space:]]*export[[:space:]][[:space:]]*KEY_PROVINCE=.*$/export KEY_PROVINCE=\"$KEY_PROVINCE\"/" \
-		-e "s/^[[:space:]]*export[[:space:]][[:space:]]*KEY_CITY=.*$/export KEY_CITY=\"$KEY_CITY\"/" \
-		-e "s/^[[:space:]]*export[[:space:]][[:space:]]*KEY_ORG=.*$/export KEY_ORG=\"$KEY_ORG\"/" \
-		-e "s/^[[:space:]]*export[[:space:]][[:space:]]*KEY_EMAIL=.*$/export KEY_EMAIL=\"$KEY_EMAIL\"/" \
-		-e "s/^[[:space:]]*export[[:space:]][[:space:]]*KEY_OU=.*$/export KEY_OU=\"$KEY_OU\"/" \
-		-e '/^[[:space:]]*$/d' \
+		-e "s/^[[:space:]]*set_var[[:space:]]\+EASYRSA_REQ_COUNTRY[[:space:]]\+\".*\"$/set_var EASYRSA_REQ_COUNTRY\t\"$KEY_PROVINCE\"/" \
+		-e "s/^[[:space:]]*set_var[[:space:]]\+EASYRSA_REQ_PROVINCE[[:space:]]\+\".*\"$/set_var EASYRSA_REQ_PROVINCE\t\"$KEY_CITY\"/" \
+		-e "s/^[[:space:]]*set_var[[:space:]]\+EASYRSA_REQ_CITY[[:space:]]\+\".*\"$/set_var EASYRSA_REQ_CITY\t\"$KEY_ORG\"/" \
+		-e "s/^[[:space:]]*set_var[[:space:]]\+EASYRSA_REQ_ORG[[:space:]]\+\".*\"$/set_var EASYRSA_REQ_ORG\t\"$KEY_ORG\"/" \
+		-e "s/^[[:space:]]*set_var[[:space:]]\+EASYRSA_REQ_EMAIL[[:space:]]\+\".*\"$/set_var EASYRSA_REQ_EMAIL\t\"$KEY_EMAIL\"/" \
+		-e "s/^[[:space:]]*set_var[[:space:]]\+EASYRSA_REQ_OU[[:space:]]\+\".*\"$/set_var EASYRSA_REQ_OU\t\"$KEY_OU\"/" \
 		/etc/easy-rsa/vars
 }
 
 rand_easy_rsa_vars
 
-. /etc/easy-rsa/vars
 
-clean-all
-pkitool --initca
-build-dh
-pkitool --server server
-pkitool client1
-openvpn --genkey --secret ta.key
-cp -f /etc/easy-rsa/keys/ca.crt /etc/openvpn/
-cp -f /etc/easy-rsa/keys/ca.key /etc/openvpn/
-cp -f /etc/easy-rsa/keys/server.crt /etc/openvpn/
-cp -f /etc/easy-rsa/keys/server.key /etc/openvpn/
-cp -f /etc/easy-rsa/keys/dh1024.pem /etc/openvpn/
-cp -f /etc/easy-rsa/keys/client1.crt /etc/openvpn/
-cp -f /etc/easy-rsa/keys/client1.key /etc/openvpn/
+rm -rf /root/pki
 
+export EASYRSA_PKI="/etc/easy-rsa/pki"
+export EASYRSA_VARS_FILE="/etc/easy-rsa/vars"
+export EASYRSA_CLI="easyrsa --batch"
+
+echo -en "yes\nyes\n" | $EASYRSA_CLI init-pki
+# Generate DH
+$EASYRSA_CLI gen-dh
+
+# Generate for the CA
+$EASYRSA_CLI build-ca nopass
+
+# Generate for the server
+$EASYRSA_CLI build-server-full server nopass
+
+# Generate for the client
+$EASYRSA_CLI build-client-full client1 nopass
+
+# Copy files
+mkdir -p /etc/openvpn/pki
+cp /etc/easy-rsa/pki/ca.crt /etc/openvpn/pki/
+cp /etc/easy-rsa/pki/dh.pem /etc/openvpn/pki/
+cp /etc/easy-rsa/pki/issued/server.crt /etc/openvpn/pki/
+cp /etc/easy-rsa/pki/private/server.key /etc/openvpn/pki/
+cp /etc/easy-rsa/pki/issued/client1.crt /etc/openvpn/pki/
+cp /etc/easy-rsa/pki/private/client1.key /etc/openvpn/pki/
 echo "OpenVPN Cert renew successfully"

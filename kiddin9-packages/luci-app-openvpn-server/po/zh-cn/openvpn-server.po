@@ -16,17 +16,20 @@ msgstr "端口"
 msgid "WAN DDNS or IP"
 msgstr "WAN口的 DDNS域名 或者 IP"
 
+
 msgid "Client Network"
 msgstr "客户端网段"
 
 msgid "VPN Client Network IP with subnet"
 msgstr "客户端分配的网段地址（默认为 10.8.0.0 255.255.255.0）"
 
+
 msgid "Client Settings"
 msgstr "客户端推送配置"
 
 msgid "OpenVPN Client config file"
 msgstr "OpenVPN 客户端配置文件"
+
 
 msgid "Download .ovpn file"
 msgstr "一键下载 .ovpn 文件"
@@ -40,11 +43,11 @@ msgstr "特殊代码"
 msgid "(!)Special Code you know that add in to client .ovpn file"
 msgstr "(!)特殊代码将自动合并到客户端的 .ovpn 配置文件中"
 
-msgid "Set route 192.168.1.0 255.255.255.0 and dhcp-option DNS 192.168.1.1 base on your router"
-msgstr "根据路由的实际LAN IP 修改 route 192.168.1.0 255.255.255.0 和 dhcp-option DNS 192.168.1.1 这两行"
+msgid "Set route 192.168.0.0 255.255.255.0 and dhcp-option DNS 192.168.0.1 base on your router"
+msgstr "根据路由的实际LAN IP 修改 route 192.168.0.0 255.255.255.0 和 dhcp-option DNS 192.168.0.1 这两行"
 
 msgid "OpenVPN status"
-msgstr "OpenVPN 服务器运行状态"
+msgstr "OpenVPN 运行状态"
 
 msgid "Running log"
 msgstr "运行日志"
@@ -52,7 +55,7 @@ msgstr "运行日志"
 msgid "Login log"
 msgstr "登陆日志"
 
-msgid "User password verify"
+msgid "user password verify"
 msgstr "帐号密码验证"
 
 msgid "Default: /etc/openvpn/server/checkpsw.sh via-env, leave it empty to disable"
@@ -88,33 +91,50 @@ msgstr "帐号密码"
 msgid "Each line contains a pair of user and password, separated by a space"
 msgstr "每行一组帐号密码,帐号密码中间空格隔开"
 
-msgid "Verification script"
-msgstr "认证脚本"
+msgid "compess use lzo"
+msgstr "使用lzo"
 
 msgid "Use the UserName provided by the client as the Common Name"
-msgstr "使用客户提供的UserName作为Common Name"
+msgstr "使用客户端提供的UserName作为Common Name"
 
-msgid "Generate OpenVPN Cert"
-msgstr "生成OpenVPN证书"
+msgid "Authentication script"
+msgstr "认证脚本"
 
-msgid "Click this button to regenerate the OpenVPN cert. Generating an OpenVPN cert can take a long time. Please be patient, the OpenVPN server will be restarted automatically after the cert is generated successfully, please do not click this button twice."
-msgstr "点击此按钮可重新生成OpenVPN证书。生成OpenVPN证书会占用很长时间。请耐心等待，证书生成成功后会自动重启OpenVPN服务器，请勿二次点击本按钮。"
+msgid "user pass code"
+msgstr "帐号密码"
 
+msgid "OpenVPN Client Config"
+msgstr "OpenVPN 客户端配置"
 
-msgid "Protocol"
-msgstr "协议"
+msgid "Delete config file"
+msgstr "删除配置文件"
 
-msgid "Compress data with lzo"
-msgstr "使用lzo压缩数据"
+msgid "Delete conf"
+msgstr "删除配置并停止服务"
 
-msgid "Multiple clients share certificates and keys"
-msgstr "多客户端共用证书和秘钥"
+msgid "Start Client Only Button"
+msgstr "仅启动客户端"
 
-msgid "Clients are mutually accessible"
-msgstr "客户端间互相可访问"
+msgid "each one code one line username first"
+msgstr "第一行写用户名，第二行写密码，仅仅在客户端代码里加入auth-user-pass pass.txt才有效"
 
-msgid "Client cert not required"
-msgstr "客户端无需证书"
+msgid "An easy config OpenVPN Client Web-UI"
+msgstr "简单的OpenVPN客户端WEB界面"
 
-msgid "Username as common name"
-msgstr "用户名作为通用名"
+msgid "Here is the code that you want to add to the .ovpn file. If you use user password verification, you need to add auth-user-pass pass.txt"
+msgstr "目前仅仅支持openvpn的.ovpn格式作为客户端，在windows用文本方式打开.ovpn文件，粘贴到上面空白处，如果需要帐号密码验证你需要加入 auth-user-pass pass.txt到.ovpn文件。"
+
+msgid "Clear the client configuration file, note: if you do not use the client mode, be sure to clear the configuration file! The start button in server mode will cause the server and client to start at the same time. If you only want to start the server, click this button."
+msgstr "清除客户端配置文件，注意：如果不使用客户端模式的话务必清除配置文件！服务端模式的启动按钮会导致同时启动服务端和客户端，如果只想启动服务端，点击此按钮。"
+
+msgid "Only start client mode. This button is different from the start button in server mode!"
+msgstr "仅仅启动客户端模式。此按钮与服务端模式的启动按钮不同！"
+
+msgid "Only stop client mode. This button is different from the stop button in server mode!"
+msgstr "仅仅停用客户端模式。此按钮与服务端模式的停用按钮不同！同时禁止openvpn服务，禁止自启动。"
+
+msgid "click save and apply below this page to write config to file"
+msgstr "点击页面下方的保存应用后会写入到配置文件里"
+
+msgid "Click Enable WAN port input data mode below, so that other machines can access this machine. You can also go to the firewall page to set it yourself."
+msgstr "点击下方的启用WAN口输入数据模式，让别的机器可以访问本机。你也可以去防火墙页面自行设置。(非必要设置，不要重复点击一个按钮）"

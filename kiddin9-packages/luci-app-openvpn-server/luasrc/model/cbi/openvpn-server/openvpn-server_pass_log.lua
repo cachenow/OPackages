@@ -1,5 +1,5 @@
 local fs = require "nixio.fs"
-local conffile = "/var/etc/openvpn/openvpn-password.log"
+local conffile = "/etc/openvpn/openvpn-password.log"
 
 f = SimpleForm("logview")
 

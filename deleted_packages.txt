@@ -24,6 +24,7 @@ autoshare-ksmbd
 autoshare-samba
 autoupdate
 bitsrunlogin-go
+brlaser
 brook
 cdnspeedtest
 cellled
@@ -125,6 +126,8 @@ luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autotimeset
 luci-app-autoupdate
+luci-app-banmac-ipt
+luci-app-banmac-nft
 luci-app-beardropper
 luci-app-bitsrunlogin-go
 luci-app-bmtedge
@@ -254,6 +257,7 @@ luci-app-ngrokc
 luci-app-njitclient
 luci-app-npc
 luci-app-nps
+luci-app-nvr
 luci-app-oaf
 luci-app-ocserv
 luci-app-oled
