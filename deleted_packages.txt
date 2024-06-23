@@ -228,6 +228,7 @@ luci-app-mail
 luci-app-memos
 luci-app-mentohust
 luci-app-microsocks
+luci-app-mihomo
 luci-app-minieap
 luci-app-mmconfig
 luci-app-modem
@@ -395,6 +396,7 @@ lucky
 lux
 mhz
 microsocks
+mihomo
 minieap-openwrt
 mmdvm
 mmdvm-cal
