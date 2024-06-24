@@ -86,6 +86,7 @@ ipset-lists
 ipt2socks
 iptvhelper
 ircddb-gateway
+istoreenhance
 joker
 jpcre2
 k3-firmware
