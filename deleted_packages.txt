@@ -208,6 +208,7 @@ luci-app-ipsec-vpnserver-manyusers
 luci-app-iptvhelper
 luci-app-irqbalance
 luci-app-istoreenhance
+luci-app-istorepanel
 luci-app-istorex
 luci-app-ittools
 luci-app-jackett
