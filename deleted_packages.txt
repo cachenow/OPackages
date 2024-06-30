@@ -521,6 +521,7 @@ vmease
 watchcat
 webd
 webdav2
+wifi-scripts
 wifidog-wiwiz
 wireless-regdb
 wrtbwmon
