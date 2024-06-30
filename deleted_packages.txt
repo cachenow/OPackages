@@ -116,6 +116,7 @@ luci-app-airwhu
 luci-app-aliddns
 luci-app-alist
 luci-app-aliyundrive-webdav
+luci-app-alwaysonline
 luci-app-amlogic
 luci-app-amule
 luci-app-ap-modem
@@ -137,6 +138,7 @@ luci-app-broadbandacc
 luci-app-bypass
 luci-app-cd8021x
 luci-app-cellled
+luci-app-change-mac
 luci-app-chatgpt-web
 luci-app-chinadns-ng
 luci-app-chinesesubfinder
@@ -165,6 +167,7 @@ luci-app-dnscrypt-proxy2
 luci-app-dnsfilter
 luci-app-dnsforwarder
 luci-app-dnsmasq-ipset
+luci-app-dnsproxy
 luci-app-docker
 luci-app-dockerman
 luci-app-dogcom
@@ -173,6 +176,7 @@ luci-app-dufs
 luci-app-dump1090
 luci-app-easymesh
 luci-app-easyupdate
+luci-app-einat
 luci-app-emby
 luci-app-eqosplus
 luci-app-excalidraw
@@ -248,6 +252,7 @@ luci-app-n2n
 luci-app-nastools
 luci-app-nat6-helper
 luci-app-natmap
+luci-app-natmapt
 luci-app-natter
 luci-app-natter2
 luci-app-navidrome
@@ -273,6 +278,7 @@ luci-app-openvpn-client
 luci-app-opkg
 luci-app-oscam
 luci-app-owntone
+luci-app-packagesync
 luci-app-packet-capture
 luci-app-pagekitec
 luci-app-parentcontrol
@@ -331,6 +337,7 @@ luci-app-syncthing
 luci-app-synology
 luci-app-systools
 luci-app-sysuh3c
+luci-app-tailscale
 luci-app-tasks
 luci-app-tcpdump
 luci-app-tencentcloud-cos
@@ -338,6 +345,7 @@ luci-app-tencentddns
 luci-app-timecontrol
 luci-app-timewol
 luci-app-tinyfilemanager
+luci-app-tn-netports
 luci-app-torbp
 luci-app-transmission
 luci-app-ttl
@@ -431,8 +439,14 @@ oaf
 ookla-speedtest
 open-app-filter
 openvpn-dns-hotplug
+openwrt-alwaysonline
 openwrt-dogcom
+openwrt-einat-ebpf
+openwrt-go-stun
+openwrt-natmapt
 openwrt-nezha
+openwrt-rgmac
+openwrt-stuntman
 oscam
 p25-clients
 pcap-dnsproxy
@@ -490,6 +504,7 @@ subconverter
 sunpanel
 switch-lan-play
 sysuh3c
+tailscale
 taskd
 tcping
 tcpping

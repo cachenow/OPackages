@@ -71,7 +71,10 @@ return view.extend({
 		}
 
 		if (L.hasSystemFeature('fullconenat')) {
-		o = s.option(form.Flag, 'fullcone', _('FullCone NAT'), _('Using FullCone NAT can improve gaming performance effectively'));
+		o = s.option(form.ListValue, 'fullcone', _('Enable FullCone NAT'), _('Using FullCone NAT can improve gaming performance effectively'));
+			o.value("0", _("Disable"))
+			o.value("1", _("Compatible Mode"))
+			o.value("2", _("High Performing Mode"))
 		if (fw4)
 			o = s.option(form.Flag, 'fullcone6', _('Enable FullCone NAT6'));
 		}
