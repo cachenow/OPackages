@@ -495,6 +495,7 @@ openvpn-dns-hotplug
 openwrt-alwaysonline
 openwrt-bcrypt-tool
 openwrt-caddy
+openwrt-dogcom
 openwrt-einat-ebpf
 openwrt-go-stun
 openwrt-natmapt
