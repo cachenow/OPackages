@@ -82,6 +82,7 @@ headscale
 homebox
 homeredirect
 hysteria
+ifmetric
 images
 ipset-lists
 ipt2socks
