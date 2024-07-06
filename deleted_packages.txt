@@ -444,7 +444,6 @@ luci-app-webvirtcloud
 luci-app-wechatpush
 luci-app-whispercpp
 luci-app-wifidog
-luci-app-wireguard-ui
 luci-app-wizard
 luci-app-wolplus
 luci-app-wrtbwmon
@@ -480,6 +479,7 @@ luci-theme-kucat
 luci-theme-lightblue
 luci-theme-routerich
 luci-theme-teleofis
+luci-themedog
 lucky
 lux
 mhz
@@ -619,11 +619,9 @@ vmease
 watchcat
 webd
 webdav2
-wg-quick
 whispercpp
 wifi-scripts
 wifidog-wiwiz
-wireguard-ui
 wireless-regdb
 wrtbwmon
 wxbase
