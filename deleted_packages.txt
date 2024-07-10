@@ -74,7 +74,6 @@ go-aliyundrive-webdav
 go-nats
 go-rice
 go-wol
-golang
 gost
 gotop
 haproxy
@@ -525,6 +524,7 @@ openwrt-dogcom
 openwrt-einat-ebpf
 openwrt-go-stun
 openwrt-mproxy
+openwrt-my-dnshelper
 openwrt-natmapt
 openwrt-nezha
 openwrt-rgmac
