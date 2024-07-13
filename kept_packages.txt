@@ -27,7 +27,6 @@ luci-app-upnp
 luci-app-vlmcsd
 luci-app-vsftpd
 luci-app-xlnetacc
-luci-app-zerotier
 luci-base
 luci-lib-fs
 miniupnpd
