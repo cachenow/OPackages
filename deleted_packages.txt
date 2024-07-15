@@ -450,6 +450,8 @@ luci-app-wxedge
 luci-app-xclient
 luci-app-xfrpc
 luci-app-xjay
+luci-app-xray
+luci-app-xray-status
 luci-app-xteve
 luci-app-xunlei
 luci-app-xunyou
@@ -630,6 +632,7 @@ xray-core
 xray-plugin
 xtables-wgobfs
 xunyou
+yichya
 ykdl
 you-get
 ysf-clients
