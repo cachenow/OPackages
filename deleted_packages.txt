@@ -403,6 +403,7 @@ luci-app-tcpdump
 luci-app-temp-status
 luci-app-tencentcloud-cos
 luci-app-tencentddns
+luci-app-thunder
 luci-app-timecontrol
 luci-app-timewol
 luci-app-tinyfecvpn
@@ -522,6 +523,7 @@ openvpn-dns-hotplug
 openwrt-alwaysonline
 openwrt-bcrypt-tool
 openwrt-caddy
+openwrt-dist-luci
 openwrt-dogcom
 openwrt-einat-ebpf
 openwrt-go-stun
@@ -593,6 +595,7 @@ tailscale
 taskd
 tcping
 tcpping
+thunder
 tinyfecvpn
 tinyportmapper
 toml11
