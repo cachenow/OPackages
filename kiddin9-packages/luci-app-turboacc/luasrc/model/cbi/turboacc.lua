@@ -52,7 +52,7 @@ if nixio.fs.access("/lib/modules/" .. kernel_version .. "/xt_FULLCONENAT.ko") or
 fullcone_nat = s:option(Flag, "fullcone_nat", translate("FullCone NAT"))
 fullcone_nat.default = 0
 fullcone_nat.description = translate("Using FullCone NAT can improve gaming performance effectively")
-if nixio.fs.access("/usr/sbin/nft")
+if nixio.fs.access("/usr/sbin/nft") then
 fullcone_nat6 = s:option(Flag, "fullcone_nat6", translate("FullCone NAT6"))
 fullcone_nat6.default = 0
 fullcone_nat6.description = translate("Using FullCone NAT6 can improve gaming performance effectively")
