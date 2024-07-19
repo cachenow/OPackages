@@ -381,7 +381,6 @@ luci-app-speedtest-web
 luci-app-spotifyd
 luci-app-squid
 luci-app-squid-adv
-luci-app-ss-redir
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
@@ -442,7 +441,6 @@ luci-app-weburl
 luci-app-webviewdev
 luci-app-webvirtcloud
 luci-app-wechatpush
-luci-app-whispercpp
 luci-app-wifidog
 luci-app-wizard
 luci-app-wolplus
@@ -624,7 +622,6 @@ vmease
 watchcat
 webd
 webdav2
-whispercpp
 wifi-scripts
 wifidog-wiwiz
 wireless-regdb
