@@ -517,6 +517,7 @@ nxdn-clients
 oaf
 ookla-speedtest
 open-app-filter
+openai
 openvpn-dns-hotplug
 openwrt-alwaysonline
 openwrt-bcrypt-tool
