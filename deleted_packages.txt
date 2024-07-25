@@ -78,6 +78,7 @@ gost
 gotop
 haproxy
 headscale
+hickory-dns
 homebox
 homeredirect
 hysteria
@@ -283,6 +284,7 @@ luci-app-modem
 luci-app-modemband
 luci-app-modeminfo
 luci-app-mproxy
+luci-app-msd
 luci-app-msd_lite
 luci-app-mtphotos
 luci-app-multiaccountdial
@@ -361,6 +363,7 @@ luci-app-rtbwmon
 luci-app-rtorrent
 luci-app-runmynas
 luci-app-sakurafrp
+luci-app-sblite
 luci-app-school
 luci-app-scutclient
 luci-app-shadowsocks-libev
@@ -493,6 +496,7 @@ mmdvm-luci
 modemband
 modeminfo
 mrtg
+msd
 msd_lite
 msmtp
 mwol
@@ -567,6 +571,7 @@ rp-pppoe
 rrm-nr-distributor
 rtl8189es
 rustdesk-server
+sblite
 scutclient
 sendat
 shadow-tls
