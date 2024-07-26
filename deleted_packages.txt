@@ -134,7 +134,6 @@ luci-app-attendedsysupgrade
 luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autoshell
-luci-app-autoshell_1.2.3-1_mipsel_24kc.ipk
 luci-app-autotimeset
 luci-app-autoupdate
 luci-app-banmac-ipt
@@ -291,6 +290,7 @@ luci-app-multiaccountdial
 luci-app-music-remote-center
 luci-app-mwan3helper
 luci-app-mwol
+luci-app-my-dnshelper
 luci-app-mymind
 luci-app-n2n
 luci-app-nastools
@@ -501,6 +501,7 @@ msd_lite
 msmtp
 mwol
 my-default-settings
+my-dnshelper
 n2n
 naiveproxy
 nanohatoled
@@ -531,7 +532,6 @@ openwrt-dogcom
 openwrt-einat-ebpf
 openwrt-go-stun
 openwrt-mproxy
-openwrt-my-dnshelper
 openwrt-natmapt
 openwrt-nezha
 openwrt-rgmac
