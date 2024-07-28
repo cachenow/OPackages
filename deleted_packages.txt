@@ -538,6 +538,7 @@ openwrt-rgmac
 openwrt-stuntman
 oscam
 p25-clients
+p910nd
 pcap-dnsproxy
 pcat-manager
 pgyvpn
