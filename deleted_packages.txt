@@ -363,7 +363,6 @@ luci-app-rtbwmon
 luci-app-rtorrent
 luci-app-runmynas
 luci-app-sakurafrp
-luci-app-sblite
 luci-app-school
 luci-app-scutclient
 luci-app-shadowsocks-libev
@@ -572,7 +571,6 @@ rp-pppoe
 rrm-nr-distributor
 rtl8189es
 rustdesk-server
-sblite
 scutclient
 sendat
 shadow-tls
