@@ -94,6 +94,7 @@ jpcre2
 k3-firmware
 k3screenctrl
 keepalived
+leigod-acc
 libcron
 libcryptopp
 libdouble-conversion
@@ -260,6 +261,7 @@ luci-app-keepalived
 luci-app-kodexplorer
 luci-app-ksmbd
 luci-app-lanraragi
+luci-app-leigod-acc
 luci-app-libreswan
 luci-app-linkease
 luci-app-lite-watchdog
