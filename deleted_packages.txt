@@ -93,6 +93,7 @@ joker
 jpcre2
 k3-firmware
 k3screenctrl
+k3screenctrl_build
 keepalived
 leigod-acc
 libcron
