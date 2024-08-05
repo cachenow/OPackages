@@ -93,7 +93,6 @@ joker
 jpcre2
 k3-firmware
 k3screenctrl
-k3screenctrl_build
 keepalived
 leigod-acc
 libcron
@@ -255,6 +254,7 @@ luci-app-ittools
 luci-app-jackett
 luci-app-jederproxy
 luci-app-jellyfin
+luci-app-k3screenctrl
 luci-app-k3usb
 luci-app-kcptun
 luci-app-keepalived
@@ -378,6 +378,7 @@ luci-app-smbuser
 luci-app-sms-tool
 luci-app-sms-tool-js
 luci-app-snmpd
+luci-app-softether
 luci-app-softethervpn
 luci-app-spdmodem
 luci-app-speederv2
