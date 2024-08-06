@@ -196,7 +196,6 @@ luci-app-domain-proxy
 luci-app-drawio
 luci-app-droidnet
 luci-app-dufs
-luci-app-dump1090
 luci-app-dynv6
 luci-app-easyconfig-transfer
 luci-app-easymesh
@@ -213,7 +212,6 @@ luci-app-fileassistant
 luci-app-filebrowser
 luci-app-filebrowser-go
 luci-app-forcedata
-luci-app-frps
 luci-app-fullconenat
 luci-app-gecoosac
 luci-app-go-aliyundrive-webdav
@@ -267,9 +265,7 @@ luci-app-linkease
 luci-app-lite-watchdog
 luci-app-log
 luci-app-lorawan-basicstation
-luci-app-ltqtapi
 luci-app-lucky
-luci-app-lxc
 luci-app-mac
 luci-app-macvlan
 luci-app-mail
@@ -318,11 +314,7 @@ luci-app-nps
 luci-app-nut
 luci-app-nvr
 luci-app-oaf
-luci-app-ocserv
 luci-app-oled
-luci-app-olsr-services
-luci-app-olsr-viz
-luci-app-omcproxy
 luci-app-onliner
 luci-app-openai
 luci-app-openvpn-client
@@ -331,7 +323,6 @@ luci-app-oscam
 luci-app-owntone
 luci-app-packagesync
 luci-app-packet-capture
-luci-app-pagekitec
 luci-app-parentcontrol
 luci-app-partexp
 luci-app-passwall
@@ -360,7 +351,6 @@ luci-app-ramfree
 luci-app-rclone
 luci-app-redsocks
 luci-app-routerdog
-luci-app-rp-pppoe-server
 luci-app-rtbwmon
 luci-app-rtorrent
 luci-app-runmynas
@@ -369,6 +359,7 @@ luci-app-school
 luci-app-scutclient
 luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
+luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
@@ -384,7 +375,6 @@ luci-app-spdmodem
 luci-app-speederv2
 luci-app-speedtest-web
 luci-app-spotifyd
-luci-app-squid
 luci-app-squid-adv
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
@@ -421,10 +411,8 @@ luci-app-typecho
 luci-app-ua2f
 luci-app-ubuntu
 luci-app-udp2raw
-luci-app-udpxy
 luci-app-unblockmusic
 luci-app-unblockneteasemusic
-luci-app-unbound
 luci-app-unifi
 luci-app-unishare
 luci-app-usb-printer

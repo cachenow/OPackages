@@ -13,7 +13,6 @@ luci-app-ddns-go
 luci-app-diskman
 luci-app-filetransfer
 luci-app-firewall
-luci-app-frpc
 luci-app-ipsec-vpnd
 luci-app-mosdns
 luci-app-netdata
