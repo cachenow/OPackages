@@ -1,8 +1,3 @@
-#!/bin/bash
-
-if [ ! -f /etc/firewall.exwan ]; then
-    touch /etc/firewall.exwan
-cat << 'EOF' > /etc/firewall.exwan
 #!/bin/sh
 
 # 获取 export 值
@@ -45,19 +40,3 @@ if [ -n "$existing_rules" ]; then
 fi
 
 uci commit firewall
-EOF
-
-chmod +x /etc/firewall.exwan
-fi
-
-uci -q get firewall.exwan || {
-uci batch <<EOF
-	set firewall.exwan=include
-	set firewall.exwan.type=script
-	set firewall.exwan.path=/etc/firewall.exwan
-	set firewall.exwan.reload=1
-	commit firewall
-EOF
-}
-
-exit 0
