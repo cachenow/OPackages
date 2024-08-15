@@ -599,6 +599,7 @@ trojan-go
 trojan-plus
 tuic-client
 tuic-server
+tvhelper
 ua2f
 ucl
 udp2raw
