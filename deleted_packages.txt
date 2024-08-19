@@ -599,6 +599,7 @@ trojan-go
 trojan-plus
 tuic-client
 tuic-server
+tun2socks
 tvhelper
 ua2f
 ucl
