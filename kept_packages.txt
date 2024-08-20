@@ -5,6 +5,7 @@ curl
 ddns-go
 dnsproxy
 firewall
+fstools
 luci-app-accesscontrol
 luci-app-argon-config
 luci-app-arpbind
