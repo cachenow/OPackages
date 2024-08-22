@@ -465,7 +465,6 @@ luci-proto-netkeeper
 luci-proto-xmm
 luci-theme-alpha
 luci-theme-argon
-luci-theme-design
 luci-theme-edge
 luci-theme-inas
 luci-theme-kucat
@@ -507,7 +506,6 @@ ngrokc
 njitclient
 nload
 nps
-ntfs3-mount
 nxdn-clients
 oaf
 ookla-speedtest
