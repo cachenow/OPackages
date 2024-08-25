@@ -1,5 +1,4 @@
 [ "$ACTION" = "add" ] && {
-LABEL="expanded"
 function NEWPART(){
 ROOT_DISK=$1
 partition_table=$(fdisk -l $ROOT_DISK | grep -i "Disklabel type:")
@@ -19,22 +18,42 @@ parted -s $ROOT_DISK mkpart primary ext4 ${LAST_PART_END}MB 100%
 
 ROOT_DISK_NAME="$(echo $ROOT_DISK | cut -d / -f 3)"
 LAST_PART_NAME="$(lsblk -o NAME | grep $ROOT_DISK_NAME | tail -n 1 | grep -o '[0-9a-zA-Z]*')"
-
     # 格式化新分区
-    mkfs.ext4 -F -L "$LABEL" /dev/${LAST_PART_NAME}
+[ "$(lsblk -o LABEL | grep 'docker' | awk -F: '{print $1}')" ] && mkfs.ext4 -F /dev/${LAST_PART_NAME} || mkfs.ext4 -F -L "docker" /dev/${LAST_PART_NAME}
 
 if [ "$(uci -q get wizard.default.mountdocker)" == "1" ]; then
-uci -q get fstab.docker || {
+cat /etc/mtab | grep -q "/opt/docker" || {
+uci -q get fstab.mountdocker || {
+mkdir -p /opt/docker
 eval $(block info /dev/${LAST_PART_NAME} | grep -o -e 'UUID="\S*"')
-uci -q delete fstab.docker
-uci set fstab.docker="mount"
-uci set fstab.docker.uuid="${UUID}"
-uci set fstab.docker.target="/opt/docker"
+[ ! -f /etc/config/fstab ] && ( block detect > /etc/config/fstab )
+uci set fstab.mountdocker="mount"
+uci set fstab.mountdocker.uuid="${UUID}"
+uci set fstab.mountdocker.target="/opt/docker"
 uci commit fstab
+}
 }
 fi
 }
 for disk in $(find /dev -type b \( -name 'sd[a-z]' -o -name 'mmcblk[0-9]' -o -name 'nvme[0-9]n[0-9]' -o -name 'vd[a-z]' -o -name 'sata[a-z]' \) 2>/dev/null | sort); do
 NEWPART $disk
 done
+}
+
+[ "$ACTION" = "mountdocker" ] && {
+cat /etc/mtab | grep -q "/opt/docker" || {
+uci -q get fstab.mountdocker || {
+mount_point="$(lsblk -o LABEL,MOUNTPOINT | grep 'docker' | awk '{print $2}')"
+[ -n "$mount_point" ] && umount $mount_point
+mkdir -p /opt/docker
+disk_name="$(lsblk -nlo NAME,LABEL | grep 'docker' | awk '{print $1}')"
+eval $(block info /dev/${disk_name} | grep -o -e 'UUID="\S*"')
+[ ! -f /etc/config/fstab ] && ( block detect > /etc/config/fstab )
+uci set fstab.mountdocker="mount"
+uci set fstab.mountdocker.uuid="${UUID}"
+uci set fstab.mountdocker.target="/opt/docker"
+uci commit fstab
+/sbin/block mount
+}
+}
 }
