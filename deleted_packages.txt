@@ -463,6 +463,8 @@ luci-nginxer
 luci-proto-fm350
 luci-proto-minieap
 luci-proto-netkeeper
+luci-proto-quectel
+luci-proto-wwan
 luci-proto-xmm
 luci-theme-alpha
 luci-theme-argon
@@ -520,6 +522,7 @@ openwrt-dist-luci
 openwrt-dogcom
 openwrt-einat-ebpf
 openwrt-go-stun
+openwrt-luci-proto-tinc
 openwrt-mproxy
 openwrt-natmapt
 openwrt-nezha
