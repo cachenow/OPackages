@@ -83,7 +83,9 @@ homebox
 homeredirect
 hysteria
 ifmetric
-images
+internet-detector
+internet-detector-mod-email
+internet-detector-mod-modem-restart
 ipset-lists
 ipt2socks
 iptvhelper
@@ -297,7 +299,6 @@ luci-app-natmapt
 luci-app-natter
 luci-app-natter2
 luci-app-navidrome
-luci-app-nekoclash
 luci-app-netkeeper-interception
 luci-app-netspeedtest
 luci-app-nettask
@@ -495,6 +496,7 @@ my-dnshelper
 n2n
 naiveproxy
 nanohatoled
+natmap
 natter
 natter2
 netatalk
@@ -625,7 +627,6 @@ xray-core
 xray-plugin
 xtables-wgobfs
 xunyou
-yichya
 ykdl
 you-get
 ysf-clients
