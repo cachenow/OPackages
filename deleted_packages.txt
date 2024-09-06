@@ -402,6 +402,7 @@ luci-app-tencentcloud-cos
 luci-app-tencentddns
 luci-app-thunder
 luci-app-timecontrol
+luci-app-timedreboot
 luci-app-timewol
 luci-app-tinyfecvpn
 luci-app-tinyfilemanager
