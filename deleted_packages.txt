@@ -15,7 +15,6 @@ alist
 aliyundrive-webdav
 amule
 antileech
-apfree-wifidog
 aria2
 ariang
 atinout
@@ -388,6 +387,7 @@ luci-app-sunpanel
 luci-app-supervisord
 luci-app-suselogin
 luci-app-switch-lan-play
+luci-app-switchtools
 luci-app-syncdial
 luci-app-syncthing
 luci-app-synology
@@ -558,7 +558,6 @@ rapidjson
 redsocks2
 rkp-ipid
 routergo
-rp-pppoe
 rrm-nr-distributor
 rtl8189es
 rustdesk-server
@@ -632,3 +631,4 @@ xunyou
 ykdl
 you-get
 ysf-clients
+yt-dlp
