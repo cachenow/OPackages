@@ -299,6 +299,7 @@ luci-app-natter
 luci-app-natter2
 luci-app-navidrome
 luci-app-neko
+luci-app-nekoclash
 luci-app-netkeeper-interception
 luci-app-netspeedtest
 luci-app-nettask
