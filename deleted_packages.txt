@@ -9,6 +9,7 @@ UnblockNeteaseMusic-Go
 accel-ppp
 adbyby
 adguardhome
+aic8800
 airconnect
 alac
 alist
