@@ -633,4 +633,3 @@ xunyou
 ykdl
 you-get
 ysf-clients
-yt-dlp
