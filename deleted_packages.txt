@@ -279,6 +279,7 @@ luci-app-mihomo
 luci-app-minieap
 luci-app-miniproxy
 luci-app-mmconfig
+luci-app-mnh
 luci-app-modem
 luci-app-modemband
 luci-app-modeminfo
@@ -471,6 +472,7 @@ luci-proto-wwan
 luci-proto-xmm
 luci-theme-alpha
 luci-theme-argon
+luci-theme-design
 luci-theme-edge
 luci-theme-inas
 luci-theme-kucat
@@ -488,6 +490,7 @@ mmdvm
 mmdvm-cal
 mmdvm-host
 mmdvm-luci
+mnh
 modemband
 modeminfo
 mrtg
