@@ -427,7 +427,6 @@ luci-app-usb3disable
 luci-app-usbmodem
 luci-app-uugamebooster
 luci-app-v2ray-server
-luci-app-v2raya
 luci-app-vaultwarden
 luci-app-verysync
 luci-app-virtualhere
