@@ -51,7 +51,6 @@ dns2tcp
 dnsforwarder
 dnsmasq
 dockerd
-dogcom
 dsmboot
 dufs
 eqos-master-wiwiz
@@ -485,7 +484,6 @@ lux
 mhz
 microsocks
 mihomo
-minieap-openwrt
 mmdvm
 mmdvm-cal
 mmdvm-host
