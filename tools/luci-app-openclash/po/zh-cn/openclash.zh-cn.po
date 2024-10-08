@@ -2871,23 +2871,11 @@ msgstr "（仅 TUN 内核）"
 msgid "(TUN&Meta Core)"
 msgstr "（TUN&Meta 内核）"
 
-msgid "Will Override Dns Queries If Domains in The List"
-msgstr "列表中的域名将会强制进行探测（嗅探）"
-
-msgid "Will Disable Sniffing If Domains(sni) in The List"
-msgstr "列表中的域名（sni）不会进行探测（嗅探）"
-
-msgid "Will Only Sniffing If Ports in The List"
-msgstr "仅探测（嗅探）列表中指定的协议端口"
-
 msgid "Custom Sniffer Settings"
 msgstr "自定义流量探测（嗅探）设置"
 
 msgid "Custom The Force and Skip Sniffing Doamin Lists"
-msgstr "自定义强制和忽略流量探测（嗅探）的域名列表"
-
-msgid "Warning: Only TUN Core Support Script Mode, Switch To The Rule Mode!"
-msgstr "警告：仅 TUN 内核支持 Script 模式，已切换为 Rule 模式！"
+msgstr "自定义强制和忽略流量探测（嗅探）的域名列表等"
 
 msgid "Enable Tcp Concurrent"
 msgstr "*启用 TCP 并发"
@@ -2915,6 +2903,12 @@ msgstr "指定策略组（支持正则匹配）"
 
 msgid "Group Use For Proxy The DNS"
 msgstr "用于代理此 DNS 的策略组"
+
+msgid "Direct Nameserver"
+msgstr "直连域名解析"
+
+msgid "Use For Domain Need Direct"
+msgstr "用于解析直连域名的 IP 地址"
 
 msgid "Node Domain Resolve"
 msgstr "节点域名解析"
@@ -3033,8 +3027,8 @@ msgstr "绕过指定区域 IPv6 黑名单"
 msgid "Domains or IPs in The List Will Not be Affected by The China IP Route Option, Depend on Dnsmasq"
 msgstr "列表中的域名或 IP 将不会受到绕过指定区域 IP 选项的影响，此功能依赖于 Dnsmasq"
 
-msgid "Warning: You May Need to Turn off The Rebinding Protection Option of Dnsmasq When Hosts Has Set a Reserved Address"
-msgstr "警告：Hosts 设置了保留地址时需要关闭 Dnsmasq 的重绑定保护选项才能生效"
+msgid "Warning: You May Need to Turn off The Rebinding Protection Option of Dnsmasq When Hosts Has Set a Reserved Address..."
+msgstr "警告：Hosts 设置了保留地址时需要关闭 Dnsmasq 的重绑定保护选项才能生效..."
 
 msgid "Auto Select Logic"
 msgstr "*自动选择逻辑"
@@ -3068,9 +3062,6 @@ msgstr "探测（嗅探）纯 IP 连接"
 
 msgid "Download Failed:"
 msgstr "下载失败："
-
-msgid "Tip: Waiting for TUN Interface Start..."
-msgstr "提示：正在等待 TUN 接口启动..."
 
 msgid "Warning: Dnsmasq not Support nftset, Use ipset..."
 msgstr "警告：Dnsmasq 不支持 nftset, 使用 ipset 代替..."
@@ -3408,11 +3399,17 @@ msgstr "订阅的 User-Agent 为"
 msgid "Warning: Option"
 msgstr "警告：选项"
 
+msgid "Tip: Option"
+msgstr "提示：选项"
+
 msgid "is Setted"
 msgstr "设置了"
 
 msgid "as DNS Server Which May Cause DNS Loop, Please Consider Removing It When DNS Works Abnormally..."
 msgstr "作为 DNS 服务器，这可能造成 DNS 回环错误，如发现 DNS 工作异常请考虑移除该设置..."
+
+msgid "as DNS Server Which May Cause DNS Loop, Already Remove It..."
+msgstr "作为 DNS 服务器，这可能造成 DNS 回环错误，已移除该设置..."
 
 msgid "Error: Set Custom DNS Failed,"
 msgstr "错误：设置自定义 DNS 错误，"
@@ -3420,5 +3417,17 @@ msgstr "错误：设置自定义 DNS 错误，"
 msgid "Error: Set proxy-server-nameserver Failed,"
 msgstr "错误：设置 proxy-server-nameserver 错误，"
 
+msgid "Error: Set direct-nameserver Failed,"
+msgstr "错误：设置 direct-nameserver 错误，"
+
 msgid "Error: Set fallback-filter Failed,"
 msgstr "错误：设置 fallback-filter 错误，"
+
+msgid "Rule"
+msgstr "规则"
+
+msgid "Global"
+msgstr "全局"
+
+msgid "Direct"
+msgstr "直连"

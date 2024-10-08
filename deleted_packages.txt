@@ -30,6 +30,7 @@ cdnspeedtest
 cellled
 cgroupfs-mount
 chinadns-ng
+clouddrive2
 cloudflared
 cloudreve
 cpufreq
@@ -427,9 +428,9 @@ luci-app-usb3disable
 luci-app-usbmodem
 luci-app-uugamebooster
 luci-app-v2ray-server
+luci-app-v2raya
 luci-app-vaultwarden
 luci-app-verysync
-luci-app-virtualhere
 luci-app-vnt
 luci-app-wan-mac
 luci-app-watchcat
