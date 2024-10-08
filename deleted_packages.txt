@@ -403,7 +403,6 @@ luci-app-tcpdump
 luci-app-temp-status
 luci-app-tencentcloud-cos
 luci-app-tencentddns
-luci-app-thunder
 luci-app-timecontrol
 luci-app-timedreboot
 luci-app-timewol
@@ -590,7 +589,6 @@ tailscale
 taskd
 tcping
 tcpping
-thunder
 tinyfecvpn
 tinyportmapper
 toml11
