@@ -53,7 +53,7 @@ jobs:
         git clone https://github.com/asvow/luci-app-tailscale ./app/luci-app-tailscale
         find ./app/luci-app-tailscale -path '*/.*' -delete
 
-        git clone https://github.com/kiddin9/openwrt-packages ./kiddin9-packages
+        git clone https://github.com/kiddin9/kwrt-packages ./kiddin9-packages
         find ./kiddin9-packages -path '*/.*' -delete
         rm -rf ./kiddin9-packages/autocore
         
