@@ -18,6 +18,7 @@ amule
 antileech
 aria2
 ariang
+assets
 atinout
 autokick-wiwiz
 autoshare-ksmbd
@@ -209,6 +210,7 @@ luci-app-eqosplus
 luci-app-excalidraw
 luci-app-fan
 luci-app-fancontrol
+luci-app-fchomo
 luci-app-feishuvpn
 luci-app-fileassistant
 luci-app-filebrowser
