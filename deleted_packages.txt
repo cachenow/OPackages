@@ -468,6 +468,7 @@ luci-proto-fm350
 luci-proto-minieap
 luci-proto-netkeeper
 luci-proto-quectel
+luci-proto-tun2socks
 luci-proto-wwan
 luci-proto-xmm
 luci-theme-alpha
