@@ -157,6 +157,7 @@ luci-app-chatgpt-web
 luci-app-chinadns-ng
 luci-app-chinesesubfinder
 luci-app-chongyoung
+luci-app-chongyoung2.0
 luci-app-cifs
 luci-app-cifs-mount
 luci-app-clash
