@@ -222,7 +222,6 @@ luci-app-forcedata
 luci-app-fullconenat
 luci-app-gecoosac
 luci-app-go-aliyundrive-webdav
-luci-app-gobinetmodem
 luci-app-gogs
 luci-app-gost
 luci-app-gpioled
@@ -380,7 +379,6 @@ luci-app-sms-tool-js
 luci-app-snmpd
 luci-app-softether
 luci-app-softethervpn
-luci-app-spdmodem
 luci-app-speederv2
 luci-app-speedtest-web
 luci-app-spotifyd
@@ -558,10 +556,8 @@ qBittorrent-Enhanced-Edition
 qBittorrent-static
 qt6base
 qt6tools
-quectel_Gobinet
 quectel_MHI
 quectel_QMI_WWAN
-quectel_SRPD_PCIE
 quectel_cm_5G
 quickjspp
 quickstart
