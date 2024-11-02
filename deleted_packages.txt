@@ -240,6 +240,7 @@ luci-app-htreader
 luci-app-hypercpe
 luci-app-hypermodem
 luci-app-ikoolproxy
+luci-app-insomclash
 luci-app-interfaces-statistics
 luci-app-internet-detector
 luci-app-iperf
@@ -304,6 +305,7 @@ luci-app-natmapt
 luci-app-natter
 luci-app-natter2
 luci-app-navidrome
+luci-app-nbtverify
 luci-app-neko
 luci-app-nekobox
 luci-app-netkeeper-interception
@@ -356,6 +358,7 @@ luci-app-ps3netsrv
 luci-app-pushbot
 luci-app-qbittorrent
 luci-app-qos-emong
+luci-app-qosmate
 luci-app-quickstart
 luci-app-ramfree
 luci-app-rclone
@@ -397,6 +400,7 @@ luci-app-switchtools
 luci-app-syncdial
 luci-app-syncthing
 luci-app-synology
+luci-app-syscontrol
 luci-app-systools
 luci-app-sysuh3c
 luci-app-tailscale
@@ -411,6 +415,7 @@ luci-app-timedreboot
 luci-app-timewol
 luci-app-tinyfecvpn
 luci-app-tinyfilemanager
+luci-app-tinyfm
 luci-app-tn-lldpd
 luci-app-tn-netports
 luci-app-torbp
@@ -554,6 +559,7 @@ ps3netsrv
 qBittorrent
 qBittorrent-Enhanced-Edition
 qBittorrent-static
+qosmate
 qt6base
 qt6tools
 quectel_MHI
