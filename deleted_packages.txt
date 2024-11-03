@@ -512,7 +512,6 @@ my-dnshelper
 n2n
 naiveproxy
 nanohatoled
-natmap
 natter
 natter2
 netatalk
@@ -540,6 +539,7 @@ openwrt-einat-ebpf
 openwrt-go-stun
 openwrt-luci-proto-tinc
 openwrt-mproxy
+openwrt-natmap
 openwrt-natmapt
 openwrt-nezha
 openwrt-rgmac
