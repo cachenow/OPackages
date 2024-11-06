@@ -177,7 +177,6 @@ luci-app-cpu-status-mini
 luci-app-cpufreq
 luci-app-cpulimit
 luci-app-cqustdotnet
-luci-app-crowdsec-firewall-bouncer
 luci-app-cupsd
 luci-app-dae
 luci-app-daed
@@ -208,7 +207,6 @@ luci-app-easytier
 luci-app-easyupdate
 luci-app-einat
 luci-app-emby
-luci-app-eoip
 luci-app-eqosplus
 luci-app-excalidraw
 luci-app-fan
@@ -267,9 +265,9 @@ luci-app-kodexplorer
 luci-app-ksmbd
 luci-app-lanraragi
 luci-app-leigod-acc
+luci-app-libreswan
 luci-app-linkease
 luci-app-lite-watchdog
-luci-app-lldpd
 luci-app-log
 luci-app-lorawan-basicstation
 luci-app-lucky
@@ -328,10 +326,9 @@ luci-app-oled
 luci-app-onliner
 luci-app-openai
 luci-app-openvpn-client
-luci-app-openwisp
-luci-app-opkg
 luci-app-oscam
 luci-app-owntone
+luci-app-package-manager
 luci-app-packagesync
 luci-app-packet-capture
 luci-app-parentcontrol
@@ -369,7 +366,9 @@ luci-app-runmynas
 luci-app-sakurafrp
 luci-app-school
 luci-app-scutclient
+luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
+luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
@@ -385,13 +384,12 @@ luci-app-speederv2
 luci-app-speedtest-web
 luci-app-spotifyd
 luci-app-squid-adv
-luci-app-sshtunnel
-luci-app-ssr-libev-server
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
 luci-app-ssrust
 luci-app-store
+luci-app-strongswan-swanctl
 luci-app-sunpanel
 luci-app-supervisord
 luci-app-suselogin
@@ -441,8 +439,6 @@ luci-app-wan-mac
 luci-app-watchcat
 luci-app-webadmin
 luci-app-webd
-luci-app-webrestriction
-luci-app-weburl
 luci-app-webviewdev
 luci-app-webvirtcloud
 luci-app-wechatpush
@@ -453,7 +449,6 @@ luci-app-wrtbwmon
 luci-app-wxedge
 luci-app-xclient
 luci-app-xfrpc
-luci-app-xinetd
 luci-app-xjay
 luci-app-xray
 luci-app-xray-status
@@ -462,7 +457,6 @@ luci-app-xunlei
 luci-app-xunyou
 luci-app-xupnpd
 luci-app-xwan
-luci-app-yggdrasil
 luci-app-yt-dlp
 luci-lib-iform
 luci-lib-mac-vendor
