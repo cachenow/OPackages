@@ -10,7 +10,6 @@ adbyby
 adguardhome
 airconnect
 alac
-alist
 aliyundrive-webdav
 amule
 antileech
@@ -118,7 +117,6 @@ luci-app-airconnect
 luci-app-airplay2
 luci-app-airwhu
 luci-app-aliddns
-luci-app-alist
 luci-app-aliyundrive-webdav
 luci-app-alpha-config
 luci-app-alwaysonline
