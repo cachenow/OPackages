@@ -569,6 +569,7 @@ rustdesk-server
 scutclient
 sendat
 shadow-tls
+shadowsocks-libev
 shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
