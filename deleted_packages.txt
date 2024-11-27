@@ -12,6 +12,7 @@ airconnect
 alac
 aliyundrive-webdav
 amule
+antiblock-openwrt-package
 antileech
 aria2
 ariang
@@ -122,6 +123,7 @@ luci-app-alpha-config
 luci-app-alwaysonline
 luci-app-amlogic
 luci-app-amule
+luci-app-antiblock-openwrt-package
 luci-app-ap-modem
 luci-app-apfree-wifidog
 luci-app-apinger
@@ -388,6 +390,7 @@ luci-app-ssrserver-python
 luci-app-ssrust
 luci-app-store
 luci-app-strongswan-swanctl
+luci-app-subconverter
 luci-app-sunpanel
 luci-app-supervisord
 luci-app-suselogin
