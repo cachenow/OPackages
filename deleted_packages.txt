@@ -619,6 +619,7 @@ uwsgi
 v2dat
 v2ray-core
 v2ray-geodata
+v2ray-geoview
 v2ray-plugin
 v2raya
 verysync
