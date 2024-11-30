@@ -15,6 +15,7 @@ luci-app-diskman
 luci-app-filetransfer
 luci-app-firewall
 luci-app-ipsec-vpnd
+luci-app-modem
 luci-app-mosdns
 luci-app-netdata
 luci-app-openclash
@@ -30,6 +31,7 @@ luci-app-xlnetacc
 luci-app-zerotier
 luci-base
 luci-lib-fs
+luci-theme-argon
 miniupnpd
 mosdns
 netdata
@@ -37,6 +39,7 @@ opkg
 pdnsd-alt
 ppp
 shellsync
+sms-tool
 telegrambot
 vlmcsd
 vsftpd-alt
