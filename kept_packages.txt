@@ -31,7 +31,6 @@ luci-app-xlnetacc
 luci-app-zerotier
 luci-base
 luci-lib-fs
-luci-theme-argon
 miniupnpd
 mosdns
 netdata

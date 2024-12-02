@@ -476,6 +476,7 @@ luci-proto-tun2socks
 luci-proto-wwan
 luci-proto-xmm
 luci-theme-alpha
+luci-theme-argon
 luci-theme-design
 luci-theme-edge
 luci-theme-inas
