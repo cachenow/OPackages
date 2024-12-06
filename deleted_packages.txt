@@ -62,6 +62,7 @@ fibocom-dial
 fibocom_QMI_WWAN
 filebrowser
 firewall4
+floatip
 fm350-modem
 frp
 fullconenat
@@ -635,6 +636,7 @@ wxbase
 xmm-modem
 xray-core
 xray-plugin
+xt-tls
 xtables-wgobfs
 xunyou
 ykdl
