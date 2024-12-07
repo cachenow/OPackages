@@ -379,7 +379,6 @@ luci-app-smartvpn
 luci-app-smbuser
 luci-app-sms-tool
 luci-app-sms-tool-js
-luci-app-snmpd
 luci-app-softether
 luci-app-softethervpn
 luci-app-speederv2
