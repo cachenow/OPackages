@@ -218,6 +218,7 @@ luci-app-fileassistant
 luci-app-filebrowser
 luci-app-filebrowser-go
 luci-app-filemanager
+luci-app-floatip
 luci-app-forcedata
 luci-app-fullconenat
 luci-app-gecoosac
