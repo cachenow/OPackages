@@ -389,6 +389,7 @@ luci-app-ssrserver-python
 luci-app-ssrust
 luci-app-store
 luci-app-strongswan-swanctl
+luci-app-subconverter
 luci-app-sunpanel
 luci-app-supervisord
 luci-app-suselogin
