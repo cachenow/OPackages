@@ -33,7 +33,6 @@ luci-base
 luci-lib-fs
 miniupnpd
 mosdns
-netdata
 opkg
 pdnsd-alt
 ppp
