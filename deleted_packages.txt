@@ -94,7 +94,6 @@ joker
 jpcre2
 k3-firmware
 k3screenctrl
-keepalived
 leigod-acc
 libcron
 libcryptopp
@@ -110,7 +109,6 @@ luci-app-3ginfo-lite
 luci-app-3proxy
 luci-app-LingTiGameAcc
 luci-app-accesscontrol-plus
-luci-app-acme
 luci-app-adbyby-plus
 luci-app-adguardhome
 luci-app-advancedplus
@@ -125,7 +123,6 @@ luci-app-amlogic
 luci-app-amule
 luci-app-ap-modem
 luci-app-apfree-wifidog
-luci-app-apinger
 luci-app-arcadia
 luci-app-aria2
 luci-app-at-socat
@@ -261,7 +258,6 @@ luci-app-jellyfin
 luci-app-k3screenctrl
 luci-app-k3usb
 luci-app-kcptun
-luci-app-keepalived
 luci-app-kodexplorer
 luci-app-ksmbd
 luci-app-lanraragi
@@ -274,7 +270,6 @@ luci-app-lorawan-basicstation
 luci-app-lucky
 luci-app-mac
 luci-app-macvlan
-luci-app-mail
 luci-app-memos
 luci-app-mentohust
 luci-app-mfun
@@ -298,7 +293,6 @@ luci-app-my-dnshelper
 luci-app-mymind
 luci-app-n2n
 luci-app-nastools
-luci-app-natmap
 luci-app-natmapt
 luci-app-natter
 luci-app-natter2
@@ -373,7 +367,6 @@ luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
-luci-app-smartdns
 luci-app-smartvpn
 luci-app-smbuser
 luci-app-sms-tool
@@ -432,7 +425,6 @@ luci-app-usb3disable
 luci-app-usbmodem
 luci-app-uugamebooster
 luci-app-v2ray-server
-luci-app-v2raya
 luci-app-vaultwarden
 luci-app-verysync
 luci-app-vnt
@@ -449,7 +441,6 @@ luci-app-wolplus
 luci-app-wrtbwmon
 luci-app-wxedge
 luci-app-xclient
-luci-app-xfrpc
 luci-app-xjay
 luci-app-xray
 luci-app-xray-status
@@ -501,7 +492,6 @@ modeminfo
 mrtg
 msd
 msd_lite
-msmtp
 mwol
 my-default-settings
 my-dnshelper
@@ -536,7 +526,6 @@ openwrt-einat-ebpf
 openwrt-go-stun
 openwrt-luci-proto-tinc
 openwrt-mproxy
-openwrt-natmap
 openwrt-natmapt
 openwrt-nezha
 openwrt-peanut
@@ -624,7 +613,6 @@ v2ray-core
 v2ray-geodata
 v2ray-geoview
 v2ray-plugin
-v2raya
 verysync
 vmease
 watchcat
