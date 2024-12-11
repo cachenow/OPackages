@@ -351,6 +351,7 @@ luci-app-pppwn
 luci-app-pptp-server
 luci-app-pptpd
 luci-app-ps3netsrv
+luci-app-public-ip-monitor
 luci-app-pushbot
 luci-app-qbittorrent
 luci-app-qos-emong
@@ -457,6 +458,7 @@ luci-app-xunlei
 luci-app-xunyou
 luci-app-xupnpd
 luci-app-xwan
+luci-app-ympd
 luci-app-yt-dlp
 luci-lib-iform
 luci-lib-mac-vendor
@@ -537,8 +539,10 @@ openwrt-mproxy
 openwrt-natmap
 openwrt-natmapt
 openwrt-nezha
+openwrt-peanut
 openwrt-rgmac
 openwrt-stuntman
+openwrt-ympd
 oscam
 p25-clients
 p910nd
@@ -632,7 +636,6 @@ wireless-regdb
 wrtbwmon
 wxbase
 xmm-modem
-xray-core
 xray-plugin
 xt-tls
 xtables-wgobfs
