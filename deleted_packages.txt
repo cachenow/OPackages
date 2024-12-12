@@ -571,6 +571,7 @@ shadowsocksr-libev
 shortcut-fe
 simple-obfs
 simpleproxy
+sing-box
 smartdns
 softethervpn5
 speedtest-go
@@ -624,6 +625,7 @@ wireless-regdb
 wrtbwmon
 wxbase
 xmm-modem
+xray-core
 xray-plugin
 xt-tls
 xtables-wgobfs
