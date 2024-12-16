@@ -47,7 +47,6 @@ dns-forwarder
 dns2socks
 dns2tcp
 dnsforwarder
-dnsmasq
 dockerd
 dsmboot
 dufs
@@ -58,10 +57,8 @@ fancontrol
 ffmpeg-remux
 ffmpeg-static
 fibocom-dial
-fibocom_MHI
 fibocom_QMI_WWAN
 filebrowser
-firewall4
 floatip
 fm350-modem
 frp
@@ -100,7 +97,6 @@ libcron
 libcryptopp
 libdouble-conversion
 libmmdvm
-libnftnl
 libtorrent-rasterbar
 libwxwidgets
 linkease
@@ -418,6 +414,7 @@ luci-app-ttl
 luci-app-typecho
 luci-app-ua2f
 luci-app-ubuntu
+luci-app-ubuntu2
 luci-app-udp2raw
 luci-app-unblockmusic
 luci-app-unblockneteasemusic
@@ -459,9 +456,6 @@ luci-lib-mac-vendor
 luci-lib-taskd
 luci-lib-xterm
 luci-mod-listening-ports
-luci-mod-network
-luci-mod-status
-luci-mod-system
 luci-nginxer
 luci-proto-fm350
 luci-proto-minieap
@@ -483,7 +477,6 @@ luci-themedog
 lucky
 lux
 meig-cm
-meig_QMI_WWAN
 mhz
 microsocks
 mihomo
@@ -510,7 +503,6 @@ netkeeper
 netkeeper-interception
 netmaker
 nexttrace
-nftables
 ngrokc
 njitclient
 nload
@@ -554,10 +546,8 @@ qBittorrent-static
 qosmate
 qt6base
 qt6tools
-quectel_Gobinet
 quectel_MHI
 quectel_QMI_WWAN
-quectel_SRPD_PCIE
 quectel_cm_5G
 quickjspp
 quickstart
@@ -626,9 +616,7 @@ vmease
 watchcat
 webd
 webdav2
-wifi-scripts
 wifidog-wiwiz
-wireless-regdb
 wrtbwmon
 wxbase
 xmm-modem

@@ -1,11 +1,7 @@
 automount
-base-files
 coremark
-curl
 ddns-go
 dnsproxy
-firewall
-fstools
 luci-app-accesscontrol
 luci-app-argon-config
 luci-app-arpbind
@@ -13,7 +9,6 @@ luci-app-autoreboot
 luci-app-ddns-go
 luci-app-diskman
 luci-app-filetransfer
-luci-app-firewall
 luci-app-ipsec-vpnd
 luci-app-modem
 luci-app-mosdns
@@ -29,13 +24,10 @@ luci-app-vlmcsd
 luci-app-vsftpd
 luci-app-xlnetacc
 luci-app-zerotier
-luci-base
 luci-lib-fs
 miniupnpd
 mosdns
-opkg
 pdnsd-alt
-ppp
 shellsync
 sms-tool
 telegrambot
