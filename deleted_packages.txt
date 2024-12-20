@@ -12,6 +12,7 @@ airconnect
 alac
 aliyundrive-webdav
 amule
+antiblock-openwrt-package
 antileech
 aria2
 ariang
@@ -57,6 +58,7 @@ fancontrol
 ffmpeg-remux
 ffmpeg-static
 fibocom-dial
+fibocom_MHI
 fibocom_QMI_WWAN
 filebrowser
 floatip
@@ -118,6 +120,7 @@ luci-app-alpha-config
 luci-app-alwaysonline
 luci-app-amlogic
 luci-app-amule
+luci-app-antiblock-openwrt-package
 luci-app-ap-modem
 luci-app-apfree-wifidog
 luci-app-arcadia
@@ -477,9 +480,11 @@ luci-themedog
 lucky
 lux
 meig-cm
+meig_QMI_WWAN
 mhz
 microsocks
 mihomo
+minieap-openwrt
 mmdvm
 mmdvm-cal
 mmdvm-host
@@ -499,6 +504,7 @@ nanohatoled
 natter
 natter2
 netatalk
+netbird
 netkeeper
 netkeeper-interception
 netmaker
@@ -546,8 +552,10 @@ qBittorrent-static
 qosmate
 qt6base
 qt6tools
+quectel_Gobinet
 quectel_MHI
 quectel_QMI_WWAN
+quectel_SRPD_PCIE
 quectel_cm_5G
 quickjspp
 quickstart
