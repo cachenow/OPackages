@@ -58,12 +58,10 @@ fancontrol
 ffmpeg-remux
 ffmpeg-static
 fibocom-dial
-fibocom_MHI
 fibocom_QMI_WWAN
 filebrowser
 floatip
 fm350-modem
-frp
 fullconenat
 fullconenat-nft
 gallery-dl
@@ -214,6 +212,7 @@ luci-app-filebrowser-go
 luci-app-filemanager
 luci-app-floatip
 luci-app-forcedata
+luci-app-frps
 luci-app-fullconenat
 luci-app-gecoosac
 luci-app-go-aliyundrive-webdav
@@ -480,7 +479,6 @@ luci-themedog
 lucky
 lux
 meig-cm
-meig_QMI_WWAN
 mhz
 microsocks
 mihomo
@@ -552,10 +550,8 @@ qBittorrent-static
 qosmate
 qt6base
 qt6tools
-quectel_Gobinet
 quectel_MHI
 quectel_QMI_WWAN
-quectel_SRPD_PCIE
 quectel_cm_5G
 quickjspp
 quickstart
