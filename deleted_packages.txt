@@ -127,7 +127,6 @@ luci-app-aria2
 luci-app-at-socat
 luci-app-atcommands
 luci-app-atinout
-luci-app-attendedsysupgrade
 luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autoshell
@@ -372,7 +371,6 @@ luci-app-smartvpn
 luci-app-smbuser
 luci-app-sms-tool
 luci-app-sms-tool-js
-luci-app-softether
 luci-app-softethervpn
 luci-app-spdmodem
 luci-app-speederv2
@@ -435,6 +433,7 @@ luci-app-wan-mac
 luci-app-watchcat
 luci-app-webadmin
 luci-app-webd
+luci-app-webdav
 luci-app-webviewdev
 luci-app-webvirtcloud
 luci-app-wechatpush
