@@ -62,6 +62,7 @@ fibocom_QMI_WWAN
 filebrowser
 floatip
 fm350-modem
+frp
 fullconenat
 fullconenat-nft
 gallery-dl
