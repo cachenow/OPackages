@@ -617,6 +617,7 @@ v2ray-geoview
 v2ray-plugin
 verysync
 vmease
+vsftpd
 watchcat
 webd
 webdav2
