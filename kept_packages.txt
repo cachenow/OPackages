@@ -32,5 +32,4 @@ shellsync
 sms-tool
 telegrambot
 vlmcsd
-vsftpd-alt
 wol
