@@ -459,6 +459,7 @@ luci-lib-mac-vendor
 luci-lib-taskd
 luci-lib-xterm
 luci-mod-listening-ports
+luci-mod-setup-wizard
 luci-nginxer
 luci-proto-fm350
 luci-proto-minieap
