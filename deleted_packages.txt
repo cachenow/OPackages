@@ -93,6 +93,7 @@ joker
 jpcre2
 k3-firmware
 k3screenctrl
+lcdsimple
 leigod-acc
 libcron
 libcryptopp
