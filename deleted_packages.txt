@@ -100,9 +100,11 @@ leigod-acc
 libcron
 libcryptopp
 libdouble-conversion
+libdvbcsa
 libmmdvm
 libtorrent-rasterbar
 libwxwidgets
+libx264
 linkease
 linkmount
 lua-neturl
@@ -349,6 +351,7 @@ luci-app-pptpd
 luci-app-ps3netsrv
 luci-app-public-ip-monitor
 luci-app-pushbot
+luci-app-pve
 luci-app-qbittorrent
 luci-app-qos-emong
 luci-app-qosmate
