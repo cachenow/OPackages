@@ -8,6 +8,7 @@ UnblockNeteaseMusic
 UnblockNeteaseMusic-Go
 adbyby
 adguardhome
+aic8800
 airconnect
 alac
 aliyundrive-webdav
@@ -24,7 +25,6 @@ autoshare-samba
 autoupdate
 bitsrunlogin-go
 brlaser
-brook
 cdnspeedtest
 cellled
 cgroupfs-mount
@@ -311,6 +311,7 @@ luci-app-nfs
 luci-app-nginx
 luci-app-nginx-manager
 luci-app-nginx-pingos
+luci-app-nginx-ui
 luci-app-ngrokc
 luci-app-njitclient
 luci-app-nodogsplash
@@ -512,7 +513,7 @@ netkeeper
 netkeeper-interception
 netmaker
 nexttrace
-nginx-ui-openwrt
+nginx-ui
 ngrokc
 njitclient
 nload
@@ -602,7 +603,6 @@ toml11
 totd
 transfer
 trojan
-trojan-go
 trojan-plus
 tuic-client
 tuic-server
