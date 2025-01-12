@@ -227,7 +227,6 @@ luci-app-gpioled
 luci-app-gpoint
 luci-app-gpsysupgrade
 luci-app-guest-wifi
-luci-app-gxu-webconnect
 luci-app-haproxy-tcp
 luci-app-heimdall
 luci-app-homeassistant
@@ -513,6 +512,7 @@ netkeeper
 netkeeper-interception
 netmaker
 nexttrace
+nginx-ui-openwrt
 ngrokc
 njitclient
 nload
