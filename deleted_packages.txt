@@ -462,6 +462,7 @@ luci-lib-iform
 luci-lib-mac-vendor
 luci-lib-taskd
 luci-lib-xterm
+luci-lighttpd
 luci-mod-listening-ports
 luci-mod-setup-wizard
 luci-nginxer
