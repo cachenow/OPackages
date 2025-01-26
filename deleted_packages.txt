@@ -363,6 +363,7 @@ luci-app-routerdog
 luci-app-rtbwmon
 luci-app-rtorrent
 luci-app-runmynas
+luci-app-rustdesk-server
 luci-app-sakurafrp
 luci-app-school
 luci-app-scutclient
