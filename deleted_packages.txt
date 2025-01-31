@@ -237,7 +237,6 @@ luci-app-htreader
 luci-app-hypercpe
 luci-app-hypermodem
 luci-app-ikoolproxy
-luci-app-insomclash
 luci-app-interfaces-statistics
 luci-app-internet-detector
 luci-app-iperf
