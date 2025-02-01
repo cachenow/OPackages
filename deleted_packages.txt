@@ -309,6 +309,7 @@ luci-app-nfs
 luci-app-nginx
 luci-app-nginx-manager
 luci-app-nginx-pingos
+luci-app-nginx-proxy
 luci-app-nginx-ui
 luci-app-ngrokc
 luci-app-njitclient
