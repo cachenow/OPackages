@@ -33,3 +33,4 @@ sms-tool
 telegrambot
 vlmcsd
 wol
+zerotier
