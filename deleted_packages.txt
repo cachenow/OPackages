@@ -29,7 +29,6 @@ cellled
 cgroupfs-mount
 chinadns-ng
 clouddrive2
-cloudflared
 cloudreve
 cpufreq
 cpulimit
@@ -52,7 +51,6 @@ dsmboot
 dufs
 eqos-master-wiwiz
 ethstatus
-exfatprogs
 fancontrol
 ffmpeg-remux
 ffmpeg-static
@@ -101,7 +99,6 @@ libcryptopp
 libdouble-conversion
 libdvbcsa
 libmmdvm
-libtorrent-rasterbar
 libwxwidgets
 libx264
 linkease
@@ -507,7 +504,6 @@ naiveproxy
 nanohatoled
 natter
 natter2
-netatalk
 netbird
 netkeeper
 netkeeper-interception
@@ -581,8 +577,6 @@ simple-obfs
 simpleproxy
 sing-box
 smartdns
-softethervpn5
-speedtest-go
 speedtest-web
 speedtestcli
 spotifyd
@@ -622,7 +616,6 @@ v2ray-geodata
 v2ray-plugin
 verysync
 vmease
-vsftpd
 watchcat
 webd
 webdav2

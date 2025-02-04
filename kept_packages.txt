@@ -1,7 +1,6 @@
 automount
 coremark
 ddns-go
-dnsproxy
 luci-app-accesscontrol
 luci-app-argon-config
 luci-app-arpbind
