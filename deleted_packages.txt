@@ -192,6 +192,7 @@ luci-app-dockerman
 luci-app-dogcom
 luci-app-domain-proxy
 luci-app-drawio
+luci-app-droidmodem
 luci-app-droidnet
 luci-app-dufs
 luci-app-dynv6
@@ -477,6 +478,7 @@ luci-theme-edge
 luci-theme-inas
 luci-theme-kucat
 luci-theme-lightblue
+luci-theme-material3
 luci-theme-routerich
 luci-theme-teleofis
 luci-themedog
