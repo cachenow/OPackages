@@ -236,6 +236,7 @@ luci-app-htreader
 luci-app-hypercpe
 luci-app-hypermodem
 luci-app-ikoolproxy
+luci-app-immich
 luci-app-interfaces-statistics
 luci-app-internet-detector
 luci-app-iperf
@@ -319,6 +320,7 @@ luci-app-nut
 luci-app-nvr
 luci-app-oaf
 luci-app-oled
+luci-app-oneapi
 luci-app-onliner
 luci-app-openai
 luci-app-openvpn-client
