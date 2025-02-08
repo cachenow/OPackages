@@ -324,6 +324,7 @@ luci-app-oneapi
 luci-app-onliner
 luci-app-openai
 luci-app-openvpn-client
+luci-app-openwebui
 luci-app-oscam
 luci-app-owntone
 luci-app-package-manager
