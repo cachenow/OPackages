@@ -1,7 +1,6 @@
 3proxy
 LICENSE
 LingTiGameAcc
-MentoHUST-OpenWrt-ipk
 README.md
 ShadowVPN
 UnblockNeteaseMusic
@@ -97,10 +96,8 @@ leigod-acc
 libcron
 libcryptopp
 libdouble-conversion
-libdvbcsa
 libmmdvm
 libwxwidgets
-libx264
 linkease
 linkmount
 lua-neturl
@@ -236,6 +233,7 @@ luci-app-hypercpe
 luci-app-hypermodem
 luci-app-ikoolproxy
 luci-app-immich
+luci-app-insomclash
 luci-app-interfaces-statistics
 luci-app-internet-detector
 luci-app-iperf
@@ -245,7 +243,6 @@ luci-app-ipsec-server
 luci-app-ipsec-vpnserver-manyusers
 luci-app-iptvhelper
 luci-app-ipv6clientfilter
-luci-app-irqbalance
 luci-app-istoredup
 luci-app-istoreenhance
 luci-app-istorego
@@ -315,7 +312,6 @@ luci-app-njitclient
 luci-app-nodogsplash
 luci-app-npc
 luci-app-nps
-luci-app-nut
 luci-app-nvr
 luci-app-oaf
 luci-app-oled
@@ -465,7 +461,6 @@ luci-lib-taskd
 luci-lib-xterm
 luci-lighttpd
 luci-mod-listening-ports
-luci-mod-setup-wizard
 luci-nginxer
 luci-proto-fm350
 luci-proto-minieap
@@ -491,7 +486,7 @@ meig-cm
 mhz
 microsocks
 mihomo
-minieap-openwrt
+minieap
 mmdvm
 mmdvm-cal
 mmdvm-host
@@ -548,6 +543,7 @@ p910nd
 pcap-dnsproxy
 pcat-manager
 pgyvpn
+phicomm-k3screenctrl
 phtunnel
 pikpak-webdav
 pingcontrol
