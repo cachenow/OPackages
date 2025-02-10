@@ -1,6 +1,7 @@
 3proxy
 LICENSE
 LingTiGameAcc
+OpenWrt-nikki
 README.md
 ShadowVPN
 UnblockNeteaseMusic
@@ -271,7 +272,6 @@ luci-app-memos
 luci-app-mentohust
 luci-app-mfun
 luci-app-microsocks
-luci-app-mihomo
 luci-app-minieap
 luci-app-miniproxy
 luci-app-mmconfig
