@@ -1,4 +1,5 @@
 3proxy
+7z
 LICENSE
 LingTiGameAcc
 OpenWrt-nikki
@@ -18,11 +19,13 @@ aria2
 ariang
 assets
 atinout
+audit
 autokick-wiwiz
 autoshare-ksmbd
 autoshare-samba
 autoupdate
 baidupcs-go
+bandwidthd
 bitsrunlogin-go
 brlaser
 brook
@@ -45,6 +48,7 @@ dapnet-gateway
 dcc2-wiwiz
 ddns-scripts
 ddnsto
+dhrystone
 dns-forwarder
 dns2socks
 dns2tcp
@@ -60,6 +64,7 @@ ffmpeg-static
 fibocom-dial
 fibocom_QMI_WWAN
 filebrowser
+flent-tools
 floatip
 fm350-modem
 forked-daapd
@@ -242,7 +247,6 @@ luci-app-hypercpe
 luci-app-hypermodem
 luci-app-ikoolproxy
 luci-app-immich
-luci-app-insomclash
 luci-app-interfaces-statistics
 luci-app-internet-detector
 luci-app-iperf
@@ -563,10 +567,10 @@ q
 qBittorrent
 qBittorrent-Enhanced-Edition
 qBittorrent-static
+qfirehose
 qosmate
 qt6base
 qt6tools
-quassel-irssi
 quectel-cm
 quectel_MHI
 quectel_QMI_WWAN
@@ -590,12 +594,11 @@ shadowsocks-libev
 shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
-simple-adblock
 simple-obfs
 simpleproxy
 sing-box
+slirp4netns
 smartdns
-snort
 speedtest-cli
 speedtest-web
 speedtestcli
@@ -606,6 +609,7 @@ ssocks
 sub-web
 subconverter
 sunpanel
+supervisor
 switch-lan-play
 sysuh3c
 tailscale
@@ -613,7 +617,9 @@ taskd
 tcping
 tcping-simple
 tcpping
+tintin
 tinyfecvpn
+tinymembench
 tinyportmapper
 toml11
 tor-fw-helper
