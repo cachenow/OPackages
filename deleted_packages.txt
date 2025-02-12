@@ -19,13 +19,11 @@ aria2
 ariang
 assets
 atinout
-audit
 autokick-wiwiz
 autoshare-ksmbd
 autoshare-samba
 autoupdate
 baidupcs-go
-bandwidthd
 bitsrunlogin-go
 brlaser
 brook
@@ -617,7 +615,6 @@ taskd
 tcping
 tcping-simple
 tcpping
-tintin
 tinyfecvpn
 tinymembench
 tinyportmapper
