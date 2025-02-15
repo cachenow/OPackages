@@ -64,7 +64,6 @@ fibocom_QMI_WWAN
 filebrowser
 flent-tools
 floatip
-fm350-modem
 forked-daapd
 frp
 fullconenat
@@ -393,6 +392,7 @@ luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
 luci-app-ssrust
+luci-app-ssw
 luci-app-store
 luci-app-strongswan-swanctl
 luci-app-subconverter
@@ -604,6 +604,7 @@ spotifyd
 sqm-scripts-extra
 srelay
 ssocks
+ssw
 sub-web
 subconverter
 sunpanel
