@@ -472,7 +472,6 @@ luci-lib-xterm
 luci-lighttpd
 luci-mod-listening-ports
 luci-nginxer
-luci-proto-fm350
 luci-proto-minieap
 luci-proto-netkeeper
 luci-proto-quectel
