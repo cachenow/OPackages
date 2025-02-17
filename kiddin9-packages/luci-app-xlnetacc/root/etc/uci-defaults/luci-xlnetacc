@@ -6,6 +6,7 @@ uci batch <<EOF
     "init": "xlnetacc"
 }
 EEOF
+/etc/init.d/ucitrack reload
 }
 EOF
 rm -rf /tmp/luci-*

@@ -6,6 +6,7 @@
     "init": "frp"
 }
 EEOF
+/etc/init.d/ucitrack reload
 }
 
 uci -q batch <<-EOF >/dev/null
