@@ -309,7 +309,7 @@ luci-app-netkeeper-interception
 luci-app-netspeedtest
 luci-app-nettask
 luci-app-nextcloud
-luci-app-nezha
+luci-app-nezha-agent-v1
 luci-app-nfs
 luci-app-nginx
 luci-app-nginx-manager
