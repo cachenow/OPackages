@@ -8,7 +8,6 @@ ShadowVPN
 UnblockNeteaseMusic
 UnblockNeteaseMusic-Go
 adbyby
-adguardhome
 aic8800
 airconnect
 alac
