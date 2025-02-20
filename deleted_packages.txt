@@ -541,6 +541,7 @@ openwrt-go-stun
 openwrt-luci-proto-tinc
 openwrt-mproxy
 openwrt-natmapt
+openwrt-netdata
 openwrt-nezha
 openwrt-peanut
 openwrt-rgmac
