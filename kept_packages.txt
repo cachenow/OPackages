@@ -26,6 +26,7 @@ luci-app-zerotier
 luci-lib-fs
 miniupnpd
 mosdns
+netdata
 pdnsd-alt
 shellsync
 sms-tool
