@@ -1,7 +1,6 @@
 3proxy
 7z
 LICENSE
-LingTiGameAcc
 OpenWrt-nikki
 README.md
 ShadowVPN
@@ -107,12 +106,12 @@ libcryptopp
 libdouble-conversion
 libmmdvm
 libwxwidgets
+lingtigameacc
 linkease
 linkmount
 lua-neturl
 luci-app-3ginfo-lite
 luci-app-3proxy
-luci-app-LingTiGameAcc
 luci-app-accesscontrol-plus
 luci-app-adbyby-plus
 luci-app-adguardhome
@@ -268,6 +267,7 @@ luci-app-ksmbd
 luci-app-lanraragi
 luci-app-leigod-acc
 luci-app-libreswan
+luci-app-lingtigameacc
 luci-app-linkease
 luci-app-lite-watchdog
 luci-app-log
