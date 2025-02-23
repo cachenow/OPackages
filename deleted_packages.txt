@@ -71,7 +71,6 @@ geth
 gmediarender
 gn
 gnurl
-go-aliyundrive-webdav
 go-nats
 go-rice
 go-wol
@@ -220,7 +219,6 @@ luci-app-forcedata
 luci-app-frps
 luci-app-fullconenat
 luci-app-gecoosac
-luci-app-go-aliyundrive-webdav
 luci-app-gobinetmodem
 luci-app-gogs
 luci-app-gost
