@@ -61,7 +61,6 @@ fibocom_QMI_WWAN
 filebrowser
 flent-tools
 floatip
-forked-daapd
 frp
 fullconenat
 fullconenat-nft
