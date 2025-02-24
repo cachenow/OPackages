@@ -377,7 +377,6 @@ luci-app-smbuser
 luci-app-sms-tool
 luci-app-sms-tool-js
 luci-app-softethervpn
-luci-app-softethervpn-stable
 luci-app-spdmodem
 luci-app-speederv2
 luci-app-speedtest-web
@@ -592,7 +591,6 @@ simpleproxy
 sing-box
 slirp4netns
 smartdns
-softethervpn
 speedtest-cli
 speedtest-web
 speedtestcli
