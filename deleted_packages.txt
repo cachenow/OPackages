@@ -1,7 +1,6 @@
 3proxy
 7z
 LICENSE
-OpenWrt-nikki
 README.md
 ShadowVPN
 UnblockNeteaseMusic
@@ -14,7 +13,6 @@ amule
 antileech
 aria2
 ariang
-assets
 atinout
 autokick-wiwiz
 autoshare-ksmbd
@@ -51,6 +49,7 @@ dnsforwarder
 dockerd
 dsmboot
 dufs
+easytier
 eqos-master-wiwiz
 ethstatus
 fancontrol
@@ -311,6 +310,7 @@ luci-app-nginx-manager
 luci-app-nginx-proxy
 luci-app-nginx-ui
 luci-app-ngrokc
+luci-app-nikki
 luci-app-njitclient
 luci-app-nodogsplash
 luci-app-npc
@@ -516,6 +516,7 @@ netmaker
 nexttrace
 nginx-ui
 ngrokc
+nikki
 njitclient
 nload
 nps
