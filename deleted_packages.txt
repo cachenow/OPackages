@@ -37,7 +37,6 @@ dae
 daed
 daed-next
 daemonlogger
-dapnet-gateway
 dcc2-wiwiz
 ddns-scripts
 ddnsto
@@ -89,7 +88,6 @@ internet-detector-mod-modem-restart
 ipset-lists
 ipt2socks
 iptvhelper
-ircddb-gateway
 istoreenhance
 joker
 jpcre2
@@ -101,8 +99,6 @@ leigod-acc
 libcron
 libcryptopp
 libdouble-conversion
-libmmdvm
-libwxwidgets
 lingtigameacc
 linkease
 linkmount
@@ -490,10 +486,6 @@ mhz
 microsocks
 mihomo
 minieap
-mmdvm
-mmdvm-cal
-mmdvm-host
-mmdvm-luci
 mnh
 modemband
 modeminfo
@@ -520,7 +512,6 @@ nikki
 njitclient
 nload
 nps
-nxdn-clients
 oaf
 ookla-speedtest
 open-app-filter
@@ -544,7 +535,6 @@ openwrt-rgmac
 openwrt-stuntman
 openwrt-ympd
 oscam
-p25-clients
 p910nd
 pcap-dnsproxy
 pcat-manager
@@ -655,4 +645,3 @@ xtables-wgobfs
 xunyou
 ykdl
 you-get
-ysf-clients
