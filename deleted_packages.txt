@@ -295,7 +295,6 @@ luci-app-natter2
 luci-app-navidrome
 luci-app-neko
 luci-app-nekobox
-luci-app-netkeeper-interception
 luci-app-netspeedtest
 luci-app-nettask
 luci-app-nextcloud
@@ -308,7 +307,6 @@ luci-app-nginx-ui
 luci-app-ngrokc
 luci-app-nikki
 luci-app-njitclient
-luci-app-nodogsplash
 luci-app-npc
 luci-app-nps
 luci-app-nvr
@@ -463,7 +461,6 @@ luci-lighttpd
 luci-mod-listening-ports
 luci-nginxer
 luci-proto-minieap
-luci-proto-netkeeper
 luci-proto-quectel
 luci-proto-tun2socks
 luci-proto-wwan
@@ -502,9 +499,6 @@ nanohatoled
 natter
 natter2
 netbird
-netkeeper
-netkeeper-interception
-netmaker
 nexttrace
 nginx-ui
 ngrokc
@@ -522,7 +516,6 @@ openwrt-alwaysonline
 openwrt-bcrypt-tool
 openwrt-caddy
 openwrt-dist-luci
-openwrt-dogcom
 openwrt-einat-ebpf
 openwrt-fastfetch
 openwrt-go-stun
