@@ -479,6 +479,7 @@ luci-themedog
 lucky
 lux
 meig-cm
+mentohust
 mhz
 microsocks
 mihomo
