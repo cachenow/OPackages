@@ -46,6 +46,7 @@ dns2socks
 dns2tcp
 dnsforwarder
 dockerd
+dogcom
 dsmboot
 dufs
 easytier
