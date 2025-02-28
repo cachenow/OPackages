@@ -372,6 +372,7 @@ luci-app-sms-tool
 luci-app-sms-tool-js
 luci-app-softethervpn
 luci-app-spdmodem
+luci-app-spectra-config
 luci-app-speederv2
 luci-app-speedtest-web
 luci-app-spotifyd
@@ -474,6 +475,7 @@ luci-theme-kucat
 luci-theme-lightblue
 luci-theme-material3
 luci-theme-routerich
+luci-theme-spectra
 luci-theme-teleofis
 luci-themedog
 lucky
