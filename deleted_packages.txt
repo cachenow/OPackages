@@ -46,7 +46,6 @@ dns2socks
 dns2tcp
 dnsforwarder
 dockerd
-dogcom
 dsmboot
 dufs
 easytier
@@ -518,6 +517,7 @@ openwrt-alwaysonline
 openwrt-bcrypt-tool
 openwrt-caddy
 openwrt-dist-luci
+openwrt-dogcom
 openwrt-einat-ebpf
 openwrt-fastfetch
 openwrt-go-stun
