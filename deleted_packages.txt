@@ -57,7 +57,6 @@ ffmpeg-static
 fibocom-dial
 fibocom_QMI_WWAN
 filebrowser
-flent-tools
 floatip
 frp
 fullconenat
@@ -564,7 +563,6 @@ rkp-ipid
 rosy-file-server
 routergo
 rrm-nr-distributor
-rsyslog
 rtl8189es
 rustdesk-server
 scutclient
@@ -577,7 +575,6 @@ shortcut-fe
 simple-obfs
 simpleproxy
 sing-box
-slirp4netns
 smartdns
 speedtest-cli
 speedtest-web
@@ -628,6 +625,7 @@ vmease
 vncrepeater
 vpn-policy-routing
 vpnbypass
+vsftpd
 watchcat
 webd
 webdav2
