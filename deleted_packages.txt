@@ -101,6 +101,7 @@ libdouble-conversion
 lingtigameacc
 linkease
 linkmount
+lua-maxminddb
 lua-neturl
 luci-app-3ginfo-lite
 luci-app-3proxy
@@ -551,6 +552,7 @@ qosmate
 qt6base
 qt6tools
 quectel-cm
+quectel-qmi-wwan
 quectel_MHI
 quectel_QMI_WWAN
 quectel_cm_5G
