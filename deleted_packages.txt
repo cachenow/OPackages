@@ -55,7 +55,6 @@ fancontrol
 ffmpeg-remux
 ffmpeg-static
 fibocom-dial
-fibocom-qmi-wwan
 fibocom_QMI_WWAN
 filebrowser
 floatip
