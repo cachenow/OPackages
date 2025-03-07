@@ -59,6 +59,7 @@ fibocom-qmi-wwan
 fibocom_QMI_WWAN
 filebrowser
 floatip
+fogvdn
 frp
 fullconenat
 fullconenat-nft
@@ -212,6 +213,7 @@ luci-app-fileassistant
 luci-app-filebrowser
 luci-app-filebrowser-go
 luci-app-floatip
+luci-app-fogvdn
 luci-app-forcedata
 luci-app-frps
 luci-app-fullconenat
