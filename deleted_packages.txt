@@ -621,9 +621,6 @@ upx-static
 uugamebooster
 uwsgi
 v2dat
-v2ray-core
-v2ray-geodata
-v2ray-plugin
 verysync
 vmease
 vncrepeater
