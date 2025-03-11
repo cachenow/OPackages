@@ -188,7 +188,6 @@ luci-app-dnsmasq-ipset
 luci-app-dnspod
 luci-app-dnsproxy
 luci-app-docker
-luci-app-dockerman
 luci-app-dogcom
 luci-app-domain-proxy
 luci-app-drawio
@@ -514,6 +513,7 @@ nload
 nps
 oaf
 ookla-speedtest
+ooniprobe
 open-app-filter
 openai
 openvpn-dns-hotplug
