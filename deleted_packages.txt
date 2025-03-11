@@ -188,6 +188,7 @@ luci-app-dnsmasq-ipset
 luci-app-dnspod
 luci-app-dnsproxy
 luci-app-docker
+luci-app-dockerman
 luci-app-dogcom
 luci-app-domain-proxy
 luci-app-drawio
