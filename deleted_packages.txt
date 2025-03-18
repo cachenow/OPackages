@@ -527,7 +527,6 @@ openwrt-dogcom
 openwrt-einat-ebpf
 openwrt-fastfetch
 openwrt-go-stun
-openwrt-hv-tools
 openwrt-luci-proto-tinc
 openwrt-mproxy
 openwrt-natmapt
