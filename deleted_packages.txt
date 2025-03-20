@@ -403,7 +403,6 @@ luci-app-tailscale
 luci-app-tasks
 luci-app-taskschedule
 luci-app-tcpdump
-luci-app-temp-status
 luci-app-tencentcloud-cos
 luci-app-tencentddns
 luci-app-timecontrol
@@ -587,7 +586,6 @@ speedtestcli
 spotifyd
 sqm-scripts-extra
 srelay
-ssocks
 ssw
 sub-web
 subconverter
