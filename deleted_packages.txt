@@ -75,7 +75,6 @@ go-wol
 gost
 gotop
 gowebdav
-haproxy
 headscale
 hickory-dns
 homebox
@@ -504,7 +503,6 @@ naiveproxy
 nanohatoled
 natter
 natter2
-netbird
 nexttrace
 nginx-ui
 ngrokc
@@ -619,7 +617,6 @@ unishare
 upx
 upx-static
 uugamebooster
-uwsgi
 v2dat
 verysync
 vmease
