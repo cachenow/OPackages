@@ -130,7 +130,6 @@ luci-app-atinout
 luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autoshell
-luci-app-autotimeset
 luci-app-autoupdate
 luci-app-banmac-ipt
 luci-app-banmac-nft
@@ -399,6 +398,7 @@ luci-app-syscontrol
 luci-app-systools
 luci-app-sysuh3c
 luci-app-tailscale
+luci-app-taskplan
 luci-app-tasks
 luci-app-taskschedule
 luci-app-tcpdump
