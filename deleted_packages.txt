@@ -240,7 +240,6 @@ luci-app-iperf
 luci-app-iperf3-server
 luci-app-ipinfo
 luci-app-ipsec-server
-luci-app-ipsec-vpnserver-manyusers
 luci-app-iptvhelper
 luci-app-ipv6clientfilter
 luci-app-istoredup
