@@ -422,6 +422,7 @@ luci-app-unblockmusic
 luci-app-unblockneteasemusic
 luci-app-unifi
 luci-app-unishare
+luci-app-uptimekuma
 luci-app-usb-printer
 luci-app-usb3disable
 luci-app-usbmodem
@@ -616,6 +617,7 @@ upx
 upx-static
 uugamebooster
 v2dat
+v2ray-plugin
 verysync
 vmease
 vncrepeater
