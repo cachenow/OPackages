@@ -43,6 +43,7 @@ ddnsto
 dhrystone
 dns-forwarder
 dns2socks
+dns2socks-rust
 dns2tcp
 dnsforwarder
 dockerd
