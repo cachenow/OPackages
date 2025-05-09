@@ -1,3 +1,4 @@
+3ginfo
 3proxy
 7z
 LICENSE
@@ -53,7 +54,6 @@ easytier
 eqos-master-wiwiz
 ethstatus
 fancontrol
-ffmpeg-remux
 ffmpeg-static
 fibocom-dial
 fibocom_QMI_WWAN
@@ -92,7 +92,6 @@ istoreenhance
 joker
 jpcre2
 k3-firmware
-k3screenctrl
 kismet
 lcdsimple
 leigod-acc
@@ -290,6 +289,7 @@ luci-app-my-dnshelper
 luci-app-mymind
 luci-app-n2n
 luci-app-nastools
+luci-app-nat6-helper
 luci-app-natmapt
 luci-app-natter
 luci-app-natter2
@@ -308,6 +308,7 @@ luci-app-nginx-ui
 luci-app-ngrokc
 luci-app-nikki
 luci-app-njitclient
+luci-app-nodogsplash
 luci-app-npc
 luci-app-nps
 luci-app-nvr
@@ -377,6 +378,7 @@ luci-app-speederv2
 luci-app-speedtest-web
 luci-app-spotifyd
 luci-app-squid-adv
+luci-app-ss-redir
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
@@ -482,6 +484,7 @@ luci-theme-teleofis
 luci-themedog
 lucky
 lux
+maxminddb-dump-country
 meig-cm
 mentohust
 mhz
@@ -508,7 +511,6 @@ nginx-ui
 ngrokc
 nikki
 njitclient
-nload
 nps
 oaf
 ookla-speedtest
@@ -518,7 +520,6 @@ openai
 openvpn-dns-hotplug
 openwrt-Toolkit
 openwrt-alwaysonline
-openwrt-bcrypt-tool
 openwrt-caddy
 openwrt-dist-luci
 openwrt-dogcom
@@ -546,7 +547,6 @@ polarssl
 polipo
 ps3netsrv
 q
-qBittorrent
 qBittorrent-Enhanced-Edition
 qBittorrent-static
 qfirehose
@@ -575,6 +575,7 @@ shadowsocks-libev
 shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
+simcom_QMI_WWAN
 simple-obfs
 simpleproxy
 sing-box
@@ -585,6 +586,7 @@ speedtestcli
 spotifyd
 sqm-scripts-extra
 srelay
+ss-redir
 ssw
 sub-web
 subconverter
