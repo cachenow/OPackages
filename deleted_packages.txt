@@ -436,6 +436,7 @@ luci-app-verysync
 luci-app-vnt
 luci-app-wan-mac
 luci-app-watchcat
+luci-app-watchdog
 luci-app-webadmin
 luci-app-webd
 luci-app-webdav
@@ -485,6 +486,7 @@ luci-themedog
 lucky
 lux
 maxminddb-dump-country
+me
 meig-cm
 mentohust
 mhz
