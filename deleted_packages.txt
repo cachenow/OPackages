@@ -47,6 +47,7 @@ dns2socks
 dns2socks-rust
 dns2tcp
 dnsforwarder
+doc
 dockerd
 dsmboot
 dufs
