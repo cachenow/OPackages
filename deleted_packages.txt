@@ -291,6 +291,7 @@ luci-app-mymind
 luci-app-n2n
 luci-app-nastools
 luci-app-nat6-helper
+luci-app-natmap
 luci-app-natmapt
 luci-app-natter
 luci-app-natter2
@@ -531,6 +532,7 @@ openwrt-fastfetch
 openwrt-go-stun
 openwrt-luci-proto-tinc
 openwrt-mproxy
+openwrt-natmap
 openwrt-natmapt
 openwrt-nezha
 openwrt-peanut
