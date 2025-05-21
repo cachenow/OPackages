@@ -301,7 +301,7 @@ luci-app-nekobox
 luci-app-netspeedtest
 luci-app-nettask
 luci-app-nextcloud
-luci-app-nezha-agent-v1
+luci-app-nezhav1
 luci-app-nfs
 luci-app-nginx
 luci-app-nginx-manager
@@ -534,7 +534,7 @@ openwrt-luci-proto-tinc
 openwrt-mproxy
 openwrt-natmap
 openwrt-natmapt
-openwrt-nezha
+openwrt-nezhav1
 openwrt-peanut
 openwrt-rgmac
 openwrt-stuntman
