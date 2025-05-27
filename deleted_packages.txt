@@ -328,10 +328,6 @@ luci-app-nps
 luci-app-nvr
 luci-app-oaf
 luci-app-oled
-luci-app-omr-bypass
-luci-app-omr-dscp
-luci-app-omr-quota
-luci-app-omr-tracker
 luci-app-oneapi
 luci-app-onliner
 luci-app-openai
@@ -537,10 +533,6 @@ nikki
 njitclient
 nps
 oaf
-omr-bypass
-omr-dscp
-omr-quota
-omr-tracker
 ookla-speedtest
 ooniprobe
 open-app-filter
