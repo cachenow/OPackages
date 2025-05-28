@@ -113,14 +113,12 @@ lua-periphery
 luci-app-3ginfo-lite
 luci-app-3proxy
 luci-app-accesscontrol-plus
-luci-app-adbyby-plus
 luci-app-adguardhome
 luci-app-advancedplus
 luci-app-airconnect
 luci-app-airplay2
 luci-app-airwhu
 luci-app-aliddns
-luci-app-aliyundrive-webdav
 luci-app-alpha-config
 luci-app-alwaysonline
 luci-app-amlogic
@@ -182,11 +180,9 @@ luci-app-daed-next
 luci-app-dawn
 luci-app-ddns
 luci-app-ddnsto
-luci-app-design-config
 luci-app-disks-info
 luci-app-dnscrypt-proxy2
 luci-app-dnsfilter
-luci-app-dnsforwarder
 luci-app-dnsleaktest
 luci-app-dnsmasq-ipset
 luci-app-dnspod
@@ -202,7 +198,6 @@ luci-app-dsvpn
 luci-app-dufs
 luci-app-dynv6
 luci-app-easyconfig-transfer
-luci-app-easymesh
 luci-app-easytier
 luci-app-easyupdate
 luci-app-einat
@@ -219,7 +214,6 @@ luci-app-filebrowser-go
 luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
-luci-app-frps
 luci-app-fullconenat
 luci-app-gecoosac
 luci-app-glorytun-tcp
@@ -359,7 +353,6 @@ luci-app-pptp-server
 luci-app-pptpd
 luci-app-ps3netsrv
 luci-app-public-ip-monitor
-luci-app-pushbot
 luci-app-pve
 luci-app-qbittorrent
 luci-app-qos-emong
@@ -376,9 +369,7 @@ luci-app-rustdesk-server
 luci-app-sakurafrp
 luci-app-school
 luci-app-scutclient
-luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
-luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
@@ -396,7 +387,6 @@ luci-app-squid-adv
 luci-app-ss-redir
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
-luci-app-ssrserver-python
 luci-app-ssrust
 luci-app-ssw
 luci-app-store
@@ -430,13 +420,13 @@ luci-app-tn-lldpd
 luci-app-tn-netports
 luci-app-torbp
 luci-app-transmission
+luci-app-trojan-server
 luci-app-ttl
 luci-app-typecho
 luci-app-ua2f
 luci-app-ubuntu
 luci-app-ubuntu2
 luci-app-udp2raw
-luci-app-unblockmusic
 luci-app-unblockneteasemusic
 luci-app-unifi
 luci-app-unishare
@@ -455,6 +445,7 @@ luci-app-watchdog
 luci-app-webadmin
 luci-app-webd
 luci-app-webdav
+luci-app-webrestriction
 luci-app-webviewdev
 luci-app-webvirtcloud
 luci-app-wechatpush
@@ -472,6 +463,7 @@ luci-app-xunlei
 luci-app-xunyou
 luci-app-xupnpd
 luci-app-xwan
+luci-app-yggdrasil
 luci-app-ympd
 luci-app-yt-dlp
 luci-lib-iform
