@@ -6,6 +6,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-turboacc
+PKG_FLAGS:=nonshared
 
 PKG_CONFIG_DEPENDS:= \
 	CONFIG_PACKAGE_TURBOACC_INCLUDE_NO_FASTPATH \
