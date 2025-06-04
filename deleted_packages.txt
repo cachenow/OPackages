@@ -124,7 +124,6 @@ luci-app-alpha-config
 luci-app-alwaysonline
 luci-app-amlogic
 luci-app-amule
-luci-app-antiblock
 luci-app-ap-modem
 luci-app-apfree-wifidog
 luci-app-arcadia
