@@ -377,6 +377,7 @@ luci-app-shadowsocks-rust
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
+luci-app-smartinfo
 luci-app-smartvpn
 luci-app-smbuser
 luci-app-sms-tool
