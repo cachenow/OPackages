@@ -283,6 +283,7 @@ luci-app-miniproxy
 luci-app-mlvpn
 luci-app-mmconfig
 luci-app-mnh
+luci-app-modem
 luci-app-modemband
 luci-app-modeminfo
 luci-app-mproxy
