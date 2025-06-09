@@ -655,6 +655,7 @@ vpn-policy-routing
 vpnbypass
 vsftpd
 watchcat
+watchdog
 webd
 webdav2
 wifidog-wiwiz
