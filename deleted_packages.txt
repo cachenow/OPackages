@@ -109,6 +109,7 @@ linkmount
 lua-maxminddb
 lua-neturl
 lua-periphery
+luci-app-3cat
 luci-app-3ginfo-lite
 luci-app-3proxy
 luci-app-accesscontrol-plus
