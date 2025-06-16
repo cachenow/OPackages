@@ -329,7 +329,7 @@ luci-app-oaf
 luci-app-oled
 luci-app-oneapi
 luci-app-onliner
-luci-app-openai
+luci-app-openlist
 luci-app-openvpn-client
 luci-app-openwebui
 luci-app-oscam
@@ -537,7 +537,7 @@ oaf
 ookla-speedtest
 ooniprobe
 open-app-filter
-openai
+openlist
 openvpn-dns-hotplug
 openwrt-Toolkit
 openwrt-alwaysonline
