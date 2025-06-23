@@ -534,6 +534,7 @@ ngrokc
 nikki
 njitclient
 nps
+nvtop
 oaf
 ookla-speedtest
 ooniprobe
