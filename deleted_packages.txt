@@ -141,7 +141,6 @@ luci-app-banmac-ipt
 luci-app-banmac-nft
 luci-app-beardropper
 luci-app-bitsrunlogin-go
-luci-app-bmtedge
 luci-app-bridge
 luci-app-broadbandacc
 luci-app-bypass
@@ -182,6 +181,7 @@ luci-app-daed-next
 luci-app-dawn
 luci-app-ddns
 luci-app-ddnsto
+luci-app-demon
 luci-app-design-config
 luci-app-disks-info
 luci-app-dnscrypt-proxy2
