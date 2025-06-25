@@ -579,8 +579,6 @@ qosmate
 qt6base
 qt6tools
 quectel-cm
-quectel-mhi-pcie
-quectel-qmi-wwan
 quectel-sprd-pcie
 quectel_MHI
 quectel_QMI_WWAN
