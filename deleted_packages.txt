@@ -58,7 +58,6 @@ ethstatus
 fancontrol
 ffmpeg-static
 fibocom-dial
-fibocom-qmi-wwan
 fibocom_QMI_WWAN
 filebrowser
 floatip
@@ -579,7 +578,6 @@ qosmate
 qt6base
 qt6tools
 quectel-cm
-quectel-sprd-pcie
 quectel_MHI
 quectel_QMI_WWAN
 quectel_cm_5G
@@ -601,6 +599,7 @@ shadowsocks-libev
 shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
+simcom_QMI_WWAN
 simple-obfs
 simpleproxy
 sing-box
