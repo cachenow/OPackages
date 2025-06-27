@@ -52,6 +52,7 @@ dockerd
 dsmboot
 dsvpn
 dufs
+duperemove
 easytier
 eqos-master-wiwiz
 ethstatus
