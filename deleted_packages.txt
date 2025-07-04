@@ -557,7 +557,6 @@ openwrt-natmapt
 openwrt-nezhav1
 openwrt-peanut
 openwrt-rgmac
-openwrt-shadowsocks-rust
 openwrt-stuntman
 openwrt-ympd
 oscam
