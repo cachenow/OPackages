@@ -90,6 +90,7 @@ ifmetric
 internet-detector
 internet-detector-mod-email
 internet-detector-mod-modem-restart
+internet-detector-mod-telegram
 ipcalc
 ipset-lists
 ipt2socks
