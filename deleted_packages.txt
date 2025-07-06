@@ -122,6 +122,7 @@ luci-app-airconnect
 luci-app-airplay2
 luci-app-airwhu
 luci-app-aliddns
+luci-app-alist
 luci-app-aliyundrive-webdav
 luci-app-alpha-config
 luci-app-alwaysonline
@@ -156,6 +157,7 @@ luci-app-chinadns-ng
 luci-app-chinesesubfinder
 luci-app-chongyoung
 luci-app-chongyoung2.0
+luci-app-chrony
 luci-app-cifs
 luci-app-cifs-mount
 luci-app-clash
