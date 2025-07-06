@@ -321,7 +321,6 @@ luci-app-nginx
 luci-app-nginx-ha
 luci-app-nginx-manager
 luci-app-nginx-proxy
-luci-app-nginx-ui
 luci-app-ngrokc
 luci-app-nikki
 luci-app-njitclient
@@ -532,7 +531,6 @@ natter
 natter2
 netspeedtest
 nexttrace
-nginx-ui
 ngrokc
 nikki
 njitclient
