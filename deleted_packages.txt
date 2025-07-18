@@ -230,7 +230,6 @@ luci-app-gobinetmodem
 luci-app-gogs
 luci-app-gost
 luci-app-gpioled
-luci-app-gpoint
 luci-app-gpsysupgrade
 luci-app-guest-wifi
 luci-app-haproxy-tcp
@@ -332,7 +331,7 @@ luci-app-oaf
 luci-app-oled
 luci-app-oneapi
 luci-app-onliner
-luci-app-openlist
+luci-app-openlist2
 luci-app-openvpn-client
 luci-app-openwebui
 luci-app-oscam
@@ -541,7 +540,7 @@ oaf
 ookla-speedtest
 ooniprobe
 open-app-filter
-openlist
+openlist2
 openvpn-dns-hotplug
 openwrt-Toolkit
 openwrt-alwaysonline
