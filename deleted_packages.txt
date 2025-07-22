@@ -644,6 +644,7 @@ tuic-client
 tuic-server
 tun2socks
 tvhelper
+tw_QMI_WWAN
 ua2f
 ucl
 udp2raw
