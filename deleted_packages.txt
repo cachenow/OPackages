@@ -508,6 +508,7 @@ maxminddb-dump-country
 me
 meig-cm
 mentohust
+mergerfs
 mhz
 microsocks
 mihomo
@@ -644,7 +645,6 @@ tuic-client
 tuic-server
 tun2socks
 tvhelper
-tw_QMI_WWAN
 ua2f
 ucl
 udp2raw
