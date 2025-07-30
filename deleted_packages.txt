@@ -442,7 +442,6 @@ luci-app-unifi
 luci-app-unishare
 luci-app-uptimekuma
 luci-app-usb-printer
-luci-app-usb3disable
 luci-app-usbmodem
 luci-app-uugamebooster
 luci-app-v2ray-server
