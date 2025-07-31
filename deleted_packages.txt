@@ -644,6 +644,7 @@ tun2socks
 tvhelper
 ua2f
 ucl
+ucode
 udp2raw
 unishare
 upx
