@@ -363,6 +363,7 @@ luci-app-public-ip-monitor
 luci-app-pushbot
 luci-app-pve
 luci-app-qbittorrent
+luci-app-qiyougamebooster
 luci-app-qos-emong
 luci-app-qosmate
 luci-app-quickstart
@@ -575,6 +576,7 @@ q
 qBittorrent-Enhanced-Edition
 qBittorrent-static
 qfirehose
+qiyougamebooster
 qosmate
 qt6base
 qt6tools
