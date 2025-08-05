@@ -99,7 +99,6 @@ joker
 jpcre2
 k3-firmware
 kismet
-lcdsimple
 leigod-acc
 libcron
 libcryptopp
@@ -212,7 +211,6 @@ luci-app-eqosplus
 luci-app-excalidraw
 luci-app-fan
 luci-app-fancontrol
-luci-app-fchomo
 luci-app-feishuvpn
 luci-app-fileassistant
 luci-app-filebrowser
@@ -510,7 +508,6 @@ mentohust
 mergerfs
 mhz
 microsocks
-mihomo
 minieap
 mlvpn
 mnh
@@ -624,7 +621,6 @@ supervisor
 switch-lan-play
 systemtap
 sysuh3c
-tailscale
 taskd
 tcping
 tcping-simple
