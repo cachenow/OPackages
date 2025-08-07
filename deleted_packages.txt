@@ -521,7 +521,6 @@ mrtg
 msd
 msd_lite
 mstpd
-mwol
 my-default-settings
 my-dnshelper
 n2n
@@ -535,7 +534,6 @@ netspeedtest
 nexttrace
 ngrokc
 nikki
-njitclient
 nps
 nvtop
 oaf
@@ -629,7 +627,6 @@ tailscale
 taskd
 tcping
 tcping-simple
-tcpping
 tcptraceroute
 tinyfecvpn
 tinymembench
