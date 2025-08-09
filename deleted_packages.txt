@@ -48,6 +48,7 @@ dns2tcp
 dnsforwarder
 doc
 dockerd
+docs
 dsmboot
 dsvpn
 dufs
