@@ -22,7 +22,6 @@ luci-app-vlmcsd
 luci-app-vsftpd
 luci-app-xlnetacc
 luci-app-zerotier
-luci-lib-fs
 luci-theme-argon
 miniupnpd
 mosdns

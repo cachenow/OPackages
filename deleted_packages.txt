@@ -122,7 +122,6 @@ luci-app-airconnect
 luci-app-airplay2
 luci-app-airwhu
 luci-app-aliddns
-luci-app-alist
 luci-app-aliyundrive-webdav
 luci-app-alpha-config
 luci-app-alwaysonline
@@ -157,7 +156,6 @@ luci-app-chinadns-ng
 luci-app-chinesesubfinder
 luci-app-chongyoung
 luci-app-chongyoung2.0
-luci-app-cifs
 luci-app-cifs-mount
 luci-app-clash
 luci-app-clouddrive2
@@ -261,7 +259,6 @@ luci-app-jackett
 luci-app-jederproxy
 luci-app-jellyfin
 luci-app-k3screenctrl
-luci-app-k3usb
 luci-app-kodexplorer
 luci-app-ksmbd
 luci-app-lanraragi
@@ -281,7 +278,6 @@ luci-app-mentohust
 luci-app-mergerfs
 luci-app-mfun
 luci-app-microsocks
-luci-app-minieap
 luci-app-miniproxy
 luci-app-mlvpn
 luci-app-mmconfig
@@ -297,7 +293,6 @@ luci-app-mtphotos
 luci-app-multiaccountdial
 luci-app-music-remote-center
 luci-app-mwan3helper
-luci-app-mwol
 luci-app-my-dnshelper
 luci-app-mymind
 luci-app-n2n
@@ -379,7 +374,9 @@ luci-app-rustdesk-server
 luci-app-sakurafrp
 luci-app-school
 luci-app-scutclient
+luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
+luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
@@ -431,7 +428,6 @@ luci-app-tn-lldpd
 luci-app-tn-netports
 luci-app-torbp
 luci-app-transmission
-luci-app-trojan-server
 luci-app-ttl
 luci-app-typecho
 luci-app-ua2f
@@ -455,7 +451,6 @@ luci-app-watchdog
 luci-app-webadmin
 luci-app-webd
 luci-app-webdav
-luci-app-webrestriction
 luci-app-webviewdev
 luci-app-webvirtcloud
 luci-app-wechatpush
@@ -473,7 +468,6 @@ luci-app-xunlei
 luci-app-xunyou
 luci-app-xupnpd
 luci-app-xwan
-luci-app-yggdrasil
 luci-app-ympd
 luci-app-yt-dlp
 luci-lib-iform
