@@ -21,6 +21,7 @@ autoshare-samba
 autoupdate
 baidupcs-go
 bitsrunlogin-go
+boltbrowser
 brlaser
 brook
 cdnspeedtest
@@ -38,10 +39,8 @@ daed
 daed-next
 daemonlogger
 dcc2-wiwiz
-ddns-scripts
 ddnsto
 dhrystone
-dns-forwarder
 dns2socks
 dns2socks-rust
 dns2tcp
@@ -55,6 +54,7 @@ duperemove
 easytier
 eqos-master-wiwiz
 ethstatus
+fan2go
 fancontrol
 ffmpeg-static
 fibocom-dial
@@ -526,6 +526,7 @@ netspeedtest
 nexttrace
 ngrokc
 nikki
+node-pnpm
 nps
 nvtop
 oaf
@@ -553,8 +554,8 @@ openwrt-stuntman
 openwrt-ympd
 oscam
 p910nd
-pcap-dnsproxy
 pcat-manager
+pcat-mgr
 pgyvpn
 phicomm-k3screenctrl
 phtunnel
@@ -580,6 +581,7 @@ quickstart
 r8152
 rapidjson
 redsocks2
+rhash
 rkp-ipid
 rosy-file-server
 routergo
@@ -618,7 +620,6 @@ sysuh3c
 tailscale
 taskd
 tcping
-tcping-simple
 tcptraceroute
 tinyfecvpn
 tinymembench
