@@ -507,7 +507,6 @@ minieap
 mlvpn
 mnh
 modemband
-modemfeed
 modeminfo
 mptcp
 mrtg
