@@ -54,6 +54,7 @@ duperemove
 easytier
 eqos-master-wiwiz
 ethstatus
+fail2banop
 fan2go
 fancontrol
 ffmpeg-static
