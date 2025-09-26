@@ -214,7 +214,7 @@ luci-app-fancontrol
 luci-app-fchomo
 luci-app-feishuvpn
 luci-app-fileassistant
-luci-app-filebrowser-go
+luci-app-filebrowser
 luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
