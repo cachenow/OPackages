@@ -138,6 +138,7 @@ luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autoshell
 luci-app-autoupdate
+luci-app-bandix
 luci-app-banmac-ipt
 luci-app-banmac-nft
 luci-app-beardropper
@@ -536,6 +537,7 @@ openlist2
 openvpn-dns-hotplug
 openwrt-Toolkit
 openwrt-alwaysonline
+openwrt-bandix
 openwrt-caddy
 openwrt-dist-luci
 openwrt-dogcom
