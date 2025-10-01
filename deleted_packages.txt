@@ -62,6 +62,7 @@ fibocom_QMI_WWAN
 filebrowser
 floatip
 fogvdn
+frp
 fullconenat
 fullconenat-nft
 gallery-dl
@@ -219,6 +220,7 @@ luci-app-filebrowser
 luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
+luci-app-frps
 luci-app-fullconenat
 luci-app-gecoosac
 luci-app-glorytun-tcp
@@ -379,6 +381,7 @@ luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
+luci-app-smartdns
 luci-app-smartinfo
 luci-app-smartvpn
 luci-app-smbuser

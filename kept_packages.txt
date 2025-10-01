@@ -8,6 +8,7 @@ luci-app-arpbind
 luci-app-autoreboot
 luci-app-ddns-go
 luci-app-diskman
+luci-app-frpc
 luci-app-ipsec-vpnd
 luci-app-mosdns
 luci-app-netdata
