@@ -176,6 +176,7 @@ luci-app-cpu-status-mini
 luci-app-cpufreq
 luci-app-cpulimit
 luci-app-cqustdotnet
+luci-app-csshnpd
 luci-app-cupsd
 luci-app-dae
 luci-app-daed
