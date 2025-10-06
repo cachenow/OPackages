@@ -592,6 +592,7 @@ rosy-file-server
 routergo
 rrm-nr-distributor
 rtl8189es
+rust-bindgen
 rustdesk-server
 scutclient
 sendat
