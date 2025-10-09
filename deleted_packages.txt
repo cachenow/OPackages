@@ -198,6 +198,7 @@ luci-app-docker
 luci-app-dockerman
 luci-app-dogcom
 luci-app-domain-proxy
+luci-app-dpanel
 luci-app-drawio
 luci-app-droidmodem
 luci-app-droidnet
