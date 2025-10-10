@@ -511,7 +511,6 @@ mihomo
 minieap
 mlvpn
 mnh
-modemband
 modeminfo
 mptcp
 mrtg
