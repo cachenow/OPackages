@@ -44,6 +44,7 @@ dns2socks
 dns2socks-rust
 dns2tcp
 dnsforwarder
+dnsproxy
 doc
 dockerd
 dsmboot
@@ -115,6 +116,7 @@ lua-periphery
 luci-app-3cat
 luci-app-3ginfo-lite
 luci-app-3proxy
+luci-app-accesscontrol
 luci-app-accesscontrol-plus
 luci-app-adbyby-plus
 luci-app-adguardhome
@@ -128,12 +130,10 @@ luci-app-alpha-config
 luci-app-alwaysonline
 luci-app-amlogic
 luci-app-amule
-luci-app-ap-modem
 luci-app-apfree-wifidog
 luci-app-arcadia
 luci-app-aria2
 luci-app-at-socat
-luci-app-atcommands
 luci-app-atinout
 luci-app-autoipsetadder
 luci-app-autorepeater
@@ -186,7 +186,6 @@ luci-app-ddns
 luci-app-ddnsto
 luci-app-demon
 luci-app-design-config
-luci-app-disks-info
 luci-app-dnscrypt-proxy2
 luci-app-dnsfilter
 luci-app-dnsforwarder
@@ -217,11 +216,11 @@ luci-app-fan
 luci-app-fancontrol
 luci-app-fchomo
 luci-app-feishuvpn
-luci-app-fileassistant
 luci-app-filebrowser
 luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
+luci-app-frpc
 luci-app-frps
 luci-app-fullconenat
 luci-app-gecoosac
@@ -251,6 +250,7 @@ luci-app-iperf
 luci-app-iperf3-server
 luci-app-ipinfo
 luci-app-ipsec-server
+luci-app-ipsec-vpnd
 luci-app-iptvhelper
 luci-app-ipv6clientfilter
 luci-app-istoredup
@@ -264,7 +264,6 @@ luci-app-jederproxy
 luci-app-jellyfin
 luci-app-k3screenctrl
 luci-app-kodexplorer
-luci-app-ksmbd
 luci-app-lanraragi
 luci-app-leigod-acc
 luci-app-libreswan
@@ -286,9 +285,6 @@ luci-app-miniproxy
 luci-app-mlvpn
 luci-app-mmconfig
 luci-app-mnh
-luci-app-modem
-luci-app-modemband
-luci-app-modeminfo
 luci-app-mproxy
 luci-app-mptcp
 luci-app-msd
@@ -309,6 +305,7 @@ luci-app-natter2
 luci-app-navidrome
 luci-app-neko
 luci-app-nekobox
+luci-app-netdata
 luci-app-netspeedtest
 luci-app-nettask
 luci-app-nextcloud
@@ -326,7 +323,6 @@ luci-app-nodogsplash
 luci-app-npc
 luci-app-nps
 luci-app-nvr
-luci-app-oaf
 luci-app-oled
 luci-app-oneapi
 luci-app-onliner
@@ -368,13 +364,13 @@ luci-app-qos-emong
 luci-app-qosmate
 luci-app-quickstart
 luci-app-ramfree
-luci-app-rclone
 luci-app-redsocks
 luci-app-routerdog
 luci-app-rtbwmon
 luci-app-rtorrent
 luci-app-runmynas
 luci-app-rustdesk-server
+luci-app-samba4
 luci-app-school
 luci-app-scutclient
 luci-app-shadowsocks-libev
@@ -419,7 +415,6 @@ luci-app-tailscale
 luci-app-taskplan
 luci-app-tasks
 luci-app-taskschedule
-luci-app-tcpdump
 luci-app-temp-status
 luci-app-tencentcloud-cos
 luci-app-tencentddns
@@ -457,7 +452,6 @@ luci-app-webd
 luci-app-webdav
 luci-app-webviewdev
 luci-app-webvirtcloud
-luci-app-wechatpush
 luci-app-wifidog
 luci-app-wizard
 luci-app-wolplus
@@ -465,6 +459,7 @@ luci-app-wrtbwmon
 luci-app-wxedge
 luci-app-xclient
 luci-app-xjay
+luci-app-xlnetacc
 luci-app-xray
 luci-app-xray-status
 luci-app-xteve
@@ -511,7 +506,6 @@ mihomo
 minieap
 mlvpn
 mnh
-modeminfo
 mptcp
 mrtg
 msd
@@ -526,6 +520,7 @@ natflow
 natter
 natter2
 ndisc
+netdata
 netspeedtest
 nexttrace
 ngrokc
@@ -649,7 +644,6 @@ unishare
 upx
 upx-static
 uugamebooster
-v2dat
 v2ray-plugin
 verysync
 vmease
@@ -662,7 +656,7 @@ watchdog
 webd
 webdav2
 wifidog-wiwiz
-wrtbwmon
+wol
 wxbase
 xmm-modem
 xray-core
