@@ -11,9 +11,6 @@ luci-app-diskman
 luci-app-disks-info
 luci-app-fileassistant
 luci-app-ksmbd
-luci-app-modem
-luci-app-modemband
-luci-app-modeminfo
 luci-app-mosdns
 luci-app-oaf
 luci-app-openclash
