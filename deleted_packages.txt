@@ -44,7 +44,6 @@ dns2socks
 dns2socks-rust
 dns2tcp
 dnsforwarder
-dnsproxy
 doc
 dockerd
 dsmboot
@@ -116,7 +115,6 @@ lua-periphery
 luci-app-3cat
 luci-app-3ginfo-lite
 luci-app-3proxy
-luci-app-accesscontrol
 luci-app-accesscontrol-plus
 luci-app-adbyby-plus
 luci-app-adguardhome
@@ -130,10 +128,12 @@ luci-app-alpha-config
 luci-app-alwaysonline
 luci-app-amlogic
 luci-app-amule
+luci-app-ap-modem
 luci-app-apfree-wifidog
 luci-app-arcadia
 luci-app-aria2
 luci-app-at-socat
+luci-app-atcommands
 luci-app-atinout
 luci-app-autoipsetadder
 luci-app-autorepeater
@@ -186,6 +186,7 @@ luci-app-ddns
 luci-app-ddnsto
 luci-app-demon
 luci-app-design-config
+luci-app-disks-info
 luci-app-dnscrypt-proxy2
 luci-app-dnsfilter
 luci-app-dnsforwarder
@@ -216,11 +217,11 @@ luci-app-fan
 luci-app-fancontrol
 luci-app-fchomo
 luci-app-feishuvpn
+luci-app-fileassistant
 luci-app-filebrowser
 luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
-luci-app-frpc
 luci-app-frps
 luci-app-fullconenat
 luci-app-gecoosac
@@ -250,7 +251,6 @@ luci-app-iperf
 luci-app-iperf3-server
 luci-app-ipinfo
 luci-app-ipsec-server
-luci-app-ipsec-vpnd
 luci-app-iptvhelper
 luci-app-ipv6clientfilter
 luci-app-istoredup
@@ -308,7 +308,6 @@ luci-app-natter2
 luci-app-navidrome
 luci-app-neko
 luci-app-nekobox
-luci-app-netdata
 luci-app-netspeedtest
 luci-app-nettask
 luci-app-nextcloud
@@ -326,6 +325,7 @@ luci-app-nodogsplash
 luci-app-npc
 luci-app-nps
 luci-app-nvr
+luci-app-oaf
 luci-app-oled
 luci-app-oneapi
 luci-app-onliner
@@ -367,6 +367,7 @@ luci-app-qos-emong
 luci-app-qosmate
 luci-app-quickstart
 luci-app-ramfree
+luci-app-rclone
 luci-app-redsocks
 luci-app-routerdog
 luci-app-rtbwmon
@@ -418,6 +419,7 @@ luci-app-tailscale
 luci-app-taskplan
 luci-app-tasks
 luci-app-taskschedule
+luci-app-tcpdump
 luci-app-temp-status
 luci-app-tencentcloud-cos
 luci-app-tencentddns
@@ -462,7 +464,6 @@ luci-app-wrtbwmon
 luci-app-wxedge
 luci-app-xclient
 luci-app-xjay
-luci-app-xlnetacc
 luci-app-xray
 luci-app-xray-status
 luci-app-xteve
@@ -485,6 +486,7 @@ luci-proto-tun2socks
 luci-proto-wwan
 luci-proto-xmm
 luci-theme-alpha
+luci-theme-argon
 luci-theme-design
 luci-theme-edge
 luci-theme-inas
@@ -509,6 +511,7 @@ mihomo
 minieap
 mlvpn
 mnh
+modeminfo
 mptcp
 mrtg
 msd
@@ -523,7 +526,6 @@ natflow
 natter
 natter2
 ndisc
-netdata
 netspeedtest
 nexttrace
 ngrokc
@@ -647,6 +649,7 @@ unishare
 upx
 upx-static
 uugamebooster
+v2dat
 v2ray-plugin
 verysync
 vmease
@@ -659,7 +662,7 @@ watchdog
 webd
 webdav2
 wifidog-wiwiz
-wol
+wrtbwmon
 wxbase
 xmm-modem
 xray-core
