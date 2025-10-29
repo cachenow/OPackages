@@ -517,6 +517,7 @@ mrtg
 msd
 msd_lite
 mstpd
+mtproxy
 my-default-settings
 my-dnshelper
 n2n
