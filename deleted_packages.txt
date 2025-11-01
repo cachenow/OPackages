@@ -290,7 +290,6 @@ luci-app-modemband
 luci-app-modeminfo
 luci-app-mproxy
 luci-app-mptcp
-luci-app-msd
 luci-app-msd_lite
 luci-app-mtphotos
 luci-app-multiaccountdial
@@ -334,6 +333,7 @@ luci-app-openvpn-client
 luci-app-openvpn-server-client
 luci-app-openwebui
 luci-app-oscam
+luci-app-ota
 luci-app-owntone
 luci-app-package-manager
 luci-app-packagesync
@@ -514,7 +514,6 @@ mnh
 modeminfo
 mptcp
 mrtg
-msd
 msd_lite
 mstpd
 mtproxy
