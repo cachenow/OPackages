@@ -294,6 +294,7 @@ luci-app-msd_lite
 luci-app-mtphotos
 luci-app-multiaccountdial
 luci-app-music-remote-center
+luci-app-mwan3-ledhelper
 luci-app-mwan3helper
 luci-app-my-dnshelper
 luci-app-mymind
@@ -517,6 +518,7 @@ mrtg
 msd_lite
 mstpd
 mtproxy
+mwan3-ledhelper
 my-default-settings
 my-dnshelper
 n2n
