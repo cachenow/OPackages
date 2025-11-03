@@ -474,6 +474,7 @@ luci-app-xupnpd
 luci-app-xwan
 luci-app-ympd
 luci-app-yt-dlp
+luci-app-zdinnav
 luci-lib-iform
 luci-lib-mac-vendor
 luci-lib-taskd
