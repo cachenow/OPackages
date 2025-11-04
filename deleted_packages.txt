@@ -181,7 +181,6 @@ luci-app-cupsd
 luci-app-dae
 luci-app-daed
 luci-app-daed-next
-luci-app-dawn
 luci-app-ddns
 luci-app-ddnsto
 luci-app-demon
