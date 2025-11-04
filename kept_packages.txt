@@ -26,7 +26,6 @@ luci-app-xlnetacc
 luci-app-zerotier
 miniupnpd
 mosdns
-netdata
 shellsync
 sms-tool
 telegrambot
