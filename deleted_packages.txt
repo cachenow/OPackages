@@ -20,6 +20,7 @@ autoshare-ksmbd
 autoshare-samba
 autoupdate
 baidupcs-go
+baidupcs-web
 bitsrunlogin-go
 boltbrowser
 brlaser
@@ -31,6 +32,7 @@ clouddrive2
 cloudreve
 cpufreq
 cpulimit
+cpulimit-ng
 cups
 cups-bjnp
 dae
@@ -87,6 +89,7 @@ homebox
 homeredirect
 hysteria
 ifmetric
+inter_i40e
 internet-detector
 internet-detector-mod-email
 internet-detector-mod-modem-restart
@@ -229,6 +232,7 @@ luci-app-glorytun-udp
 luci-app-gobinetmodem
 luci-app-gogs
 luci-app-gost
+luci-app-gowebdav
 luci-app-gpioled
 luci-app-gpsysupgrade
 luci-app-guest-wifi
@@ -302,6 +306,7 @@ luci-app-nastools
 luci-app-nat6-helper
 luci-app-natmap
 luci-app-natmapt
+luci-app-natpierce
 luci-app-natter
 luci-app-natter2
 luci-app-navidrome
@@ -350,6 +355,7 @@ luci-app-phtunnel
 luci-app-pikpak-webdav
 luci-app-pingcontrol
 luci-app-plex
+luci-app-poweroff
 luci-app-poweroffdevice
 luci-app-pppoe-relay
 luci-app-pppoe-server
@@ -572,6 +578,7 @@ polarssl
 polipo
 ps3netsrv
 q
+qBittorrent
 qBittorrent-Enhanced-Edition
 qBittorrent-static
 qfirehose
