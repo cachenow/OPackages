@@ -47,6 +47,7 @@ dns2socks-rust
 dns2tcp
 dnsforwarder
 doc
+docker-lan-bridge
 dockerd
 dsmboot
 dsvpn
@@ -383,6 +384,7 @@ luci-app-rustdesk-server
 luci-app-samba4
 luci-app-school
 luci-app-scutclient
+luci-app-shadowrt
 luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
 luci-app-shairplay
