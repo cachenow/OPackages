@@ -580,8 +580,6 @@ polarssl
 polipo
 ps3netsrv
 q
-qBittorrent
-qBittorrent-EE
 qBittorrent-Enhanced-Edition
 qBittorrent-static
 qfirehose
