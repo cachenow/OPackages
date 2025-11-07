@@ -20,7 +20,6 @@ autoshare-ksmbd
 autoshare-samba
 autoupdate
 baidupcs-go
-baidupcs-web
 bitsrunlogin-go
 boltbrowser
 brlaser
@@ -502,6 +501,7 @@ luci-theme-inas
 luci-theme-kucat
 luci-theme-lightblue
 luci-theme-material3
+luci-theme-merona
 luci-theme-openmptcprouter
 luci-theme-routerich
 luci-theme-spectra
@@ -581,6 +581,7 @@ polipo
 ps3netsrv
 q
 qBittorrent
+qBittorrent-EE
 qBittorrent-Enhanced-Edition
 qBittorrent-static
 qfirehose
