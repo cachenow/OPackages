@@ -89,7 +89,6 @@ homebox
 homeredirect
 hysteria
 ifmetric
-inter_i40e
 internet-detector
 internet-detector-mod-email
 internet-detector-mod-modem-restart
