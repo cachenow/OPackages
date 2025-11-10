@@ -421,7 +421,7 @@ luci-app-synology
 luci-app-syscontrol
 luci-app-systools
 luci-app-sysuh3c
-luci-app-tailscale
+luci-app-tailscale-community
 luci-app-taskplan
 luci-app-tasks
 luci-app-taskschedule
@@ -632,7 +632,6 @@ supervisor
 switch-lan-play
 systemtap
 sysuh3c
-tailscale
 taskd
 tcping
 tcptraceroute
