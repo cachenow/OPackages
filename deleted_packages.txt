@@ -320,7 +320,6 @@ luci-app-nft-timecontrol
 luci-app-nginx
 luci-app-nginx-ha
 luci-app-nginx-manager
-luci-app-nginx-proxy
 luci-app-ngrokc
 luci-app-nikki
 luci-app-njitclient
