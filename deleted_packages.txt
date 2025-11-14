@@ -623,6 +623,7 @@ sqm-autorate
 sqm-scripts-extra
 srelay
 ss-redir
+ssd1306
 ssw
 sub-web
 subconverter
