@@ -111,9 +111,7 @@ libdvbcsa
 lingtigameacc
 linkease
 linkmount
-lua-maxminddb
 lua-neturl
-lua-periphery
 luci-app-3cat
 luci-app-3ginfo-lite
 luci-app-3proxy
@@ -266,6 +264,7 @@ luci-app-jederproxy
 luci-app-jellyfin
 luci-app-k3screenctrl
 luci-app-kodexplorer
+luci-app-kucat-config
 luci-app-lanraragi
 luci-app-leigod-acc
 luci-app-libreswan
@@ -538,7 +537,6 @@ netspeedtest
 nexttrace
 ngrokc
 nikki
-node-pnpm
 nps
 nvtop
 oaf
