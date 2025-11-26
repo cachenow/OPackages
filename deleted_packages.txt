@@ -119,6 +119,7 @@ luci-app-accesscontrol-plus
 luci-app-adbyby-plus
 luci-app-adguardhome
 luci-app-advancedplus
+luci-app-aihelper
 luci-app-airconnect
 luci-app-airplay2
 luci-app-airwhu
@@ -602,6 +603,7 @@ rust-bindgen
 rustdesk-server
 scutclient
 sendat
+services
 shadow-tls
 shadowsocks-libev
 shadowsocks-rust
