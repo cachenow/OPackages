@@ -544,6 +544,7 @@ oaf
 ookla-speedtest
 ooniprobe
 open-app-filter
+opencode
 openlist2
 openvpn-dns-hotplug
 openwrt-Toolkit
