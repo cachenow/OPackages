@@ -484,6 +484,7 @@ luci-lib-mac-vendor
 luci-lib-taskd
 luci-lib-xterm
 luci-lighttpd
+luci-mod-istorenext
 luci-mod-listening-ports
 luci-nginxer
 luci-proto-minieap
@@ -592,7 +593,6 @@ quectel_QMI_WWAN
 quectel_cm_5G
 quickjspp
 quickstart
-r8152
 rapidjson
 redsocks2
 rhash
