@@ -24,6 +24,7 @@ luci-app-vsftpd
 luci-app-wechatpush
 luci-app-xlnetacc
 luci-app-zerotier
+luci-lib-fs
 miniupnpd
 mosdns
 shellsync
