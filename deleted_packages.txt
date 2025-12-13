@@ -104,7 +104,6 @@ jpcre2
 k3-firmware
 kismet
 lcdsimple
-leigod-acc
 libcron
 libcryptopp
 libdouble-conversion
@@ -269,7 +268,6 @@ luci-app-k3usb
 luci-app-kodexplorer
 luci-app-kucat-config
 luci-app-lanraragi
-luci-app-leigod-acc
 luci-app-libreswan
 luci-app-lingtigameacc
 luci-app-linkease
