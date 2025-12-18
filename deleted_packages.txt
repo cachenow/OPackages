@@ -59,6 +59,7 @@ ethstatus
 fail2banop
 fan2go
 fancontrol
+fastnet
 ffmpeg-static
 fibocom-dial
 fibocom_QMI_WWAN
@@ -215,6 +216,7 @@ luci-app-eqosplus
 luci-app-excalidraw
 luci-app-fan
 luci-app-fancontrol
+luci-app-fastnet
 luci-app-fchomo
 luci-app-feishuvpn
 luci-app-fileassistant
