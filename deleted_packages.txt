@@ -631,6 +631,7 @@ ss-redir
 ssd1306
 ssw
 sub-web
+subconverter
 sunpanel
 supervisor
 switch-lan-play
