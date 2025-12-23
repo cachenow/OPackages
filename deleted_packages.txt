@@ -61,7 +61,6 @@ fan2go
 fancontrol
 fastnet
 ffmpeg-static
-fibocom-dial
 fibocom_QMI_WWAN
 filebrowser
 floatip
@@ -280,6 +279,7 @@ luci-app-mac
 luci-app-macvlan
 luci-app-mail
 luci-app-memos
+luci-app-mentohust
 luci-app-mergerfs
 luci-app-mfun
 luci-app-microsocks
@@ -307,7 +307,6 @@ luci-app-nastools
 luci-app-nat6-helper
 luci-app-natmap
 luci-app-natmapt
-luci-app-natpierce
 luci-app-natter
 luci-app-natter2
 luci-app-navidrome
@@ -432,7 +431,6 @@ luci-app-tencentddns
 luci-app-timecontrol
 luci-app-timedreboot
 luci-app-timewol
-luci-app-tinyfecvpn
 luci-app-tinyfilemanager
 luci-app-tn-lldpd
 luci-app-tn-netports
@@ -616,17 +614,14 @@ shadowsocksr-libev
 shortcut-fe
 simcom_QMI_WWAN
 simple-obfs
-simpleproxy
 sing-box
 smartdns
 speedtest-cli
 speedtest-web
-speedtestc
 speedtestcli
 spotifyd
 sqm-autorate
 sqm-scripts-extra
-srelay
 ss-redir
 ssd1306
 ssw
@@ -635,12 +630,10 @@ subconverter
 sunpanel
 supervisor
 switch-lan-play
-systemtap
 sysuh3c
 taskd
 tcping
 tcptraceroute
-tinyfecvpn
 tinymembench
 tinyportmapper
 toml11
