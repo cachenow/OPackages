@@ -532,7 +532,6 @@ my-default-settings
 my-dnshelper
 n2n
 naiveproxy
-nanohatoled
 natflow
 natter
 natter2
