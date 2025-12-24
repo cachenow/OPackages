@@ -63,6 +63,7 @@ fastnet
 ffmpeg-static
 fibocom_QMI_WWAN
 filebrowser
+flash-fox
 floatip
 fogvdn
 frp
