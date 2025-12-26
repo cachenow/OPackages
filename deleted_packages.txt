@@ -489,6 +489,7 @@ luci-lib-xterm
 luci-lighttpd
 luci-mod-istorenext
 luci-mod-listening-ports
+luci-nginx
 luci-nginxer
 luci-proto-minieap
 luci-proto-quectel
