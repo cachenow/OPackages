@@ -639,6 +639,7 @@ tinymembench
 tinyportmapper
 toml11
 tor-fw-helper
+torrserver
 totd
 tracebox
 transfer
