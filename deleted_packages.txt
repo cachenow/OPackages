@@ -318,7 +318,6 @@ luci-app-nettask
 luci-app-nextcloud
 luci-app-nezhav1
 luci-app-nfs
-luci-app-nft-timecontrol
 luci-app-nginx
 luci-app-nginx-ha
 luci-app-nginx-manager
