@@ -104,6 +104,7 @@ joker
 jpcre2
 k3-firmware
 kai
+kai_session
 kismet
 libcron
 libcryptopp
