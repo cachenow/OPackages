@@ -1,6 +1,7 @@
 3ginfo
 3proxy
 7z
+7zip
 LICENSE
 README.md
 ShadowVPN
@@ -30,6 +31,7 @@ cellled
 chinadns-ng
 clouddrive2
 cloudreve
+cpu-checker
 cpufreq
 cpulimit
 cpulimit-ng
@@ -530,6 +532,7 @@ modeminfo
 mptcp
 mrtg
 msd_lite
+msr-tools
 mstpd
 mtproxy
 mwan3-ledhelper
