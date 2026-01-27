@@ -112,6 +112,7 @@ libcron
 libcryptopp
 libdouble-conversion
 libdvbcsa
+libvirt
 lingtigameacc
 linkease
 linkmount
