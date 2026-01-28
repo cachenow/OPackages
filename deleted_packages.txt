@@ -113,6 +113,8 @@ libcryptopp
 libdouble-conversion
 libdvbcsa
 libvirt
+libvirt-glib
+libvirt-python
 lingtigameacc
 linkease
 linkmount
