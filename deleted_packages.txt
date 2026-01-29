@@ -580,6 +580,7 @@ openwrt-rgmac
 openwrt-stuntman
 openwrt-ympd
 oscam
+osinfo-db
 p910nd
 package_kernel_tcp-brutal
 pcat-manager
