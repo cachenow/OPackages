@@ -115,6 +115,7 @@ libdvbcsa
 libvirt
 libvirt-glib
 libvirt-python
+libxml2-python
 lingtigameacc
 linkease
 linkmount
