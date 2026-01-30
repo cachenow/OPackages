@@ -672,6 +672,7 @@ uugamebooster
 v2dat
 v2ray-plugin
 verysync
+virt-manager
 vmease
 vncrepeater
 vpn-policy-routing
