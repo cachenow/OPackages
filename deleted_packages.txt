@@ -12,6 +12,7 @@ aihelper
 airconnect
 alac
 aliyundrive-webdav
+alpine-musl-compat
 amule
 antileech
 aria2
@@ -68,6 +69,7 @@ filebrowser
 flash-fox
 floatip
 fogvdn
+fonts
 frp
 fullconenat
 fullconenat-nft
@@ -83,6 +85,7 @@ gnurl
 go-nats
 go-rice
 go-wol
+gobject-introspection-prebuilt
 gost
 gotop
 gowebdav
@@ -112,6 +115,7 @@ libcron
 libcryptopp
 libdouble-conversion
 libdvbcsa
+libosinfo
 libvirt
 libvirt-glib
 libvirt-python
@@ -582,6 +586,7 @@ openwrt-stuntman
 openwrt-ympd
 oscam
 osinfo-db
+ovmf
 p910nd
 package_kernel_tcp-brutal
 pcat-manager
@@ -594,6 +599,7 @@ pingcontrol
 polarssl
 polipo
 ps3netsrv
+python-gobject-prebuilt
 q
 qBittorrent-Enhanced-Edition
 qBittorrent-static
