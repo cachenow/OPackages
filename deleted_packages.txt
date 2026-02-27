@@ -328,6 +328,7 @@ luci-app-natter2
 luci-app-navidrome
 luci-app-neko
 luci-app-nekobox
+luci-app-netspeedtest
 luci-app-nettask
 luci-app-nextcloud
 luci-app-nezhav1
@@ -555,6 +556,7 @@ natflow
 natter
 natter2
 ndisc
+netspeedtest
 nexttrace
 ngrokc
 nikki
@@ -638,6 +640,7 @@ simcom_QMI_WWAN
 simple-obfs
 sing-box
 smartdns
+speedtest-cli
 speedtest-web
 speedtestcli
 spotifyd
