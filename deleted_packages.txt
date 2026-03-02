@@ -76,7 +76,6 @@ fullconenat
 fullconenat-nft
 gallery-dl
 gcompat
-gecoosac
 geoview
 geth
 glorytun
@@ -239,7 +238,6 @@ luci-app-fogvdn
 luci-app-forcedata
 luci-app-frps
 luci-app-fullconenat
-luci-app-gecoosac
 luci-app-glorytun-tcp
 luci-app-glorytun-udp
 luci-app-gobinetmodem
