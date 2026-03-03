@@ -224,7 +224,6 @@ luci-app-easytier
 luci-app-easyupdate
 luci-app-einat
 luci-app-emby
-luci-app-eqosplus
 luci-app-excalidraw
 luci-app-fan
 luci-app-fancontrol
