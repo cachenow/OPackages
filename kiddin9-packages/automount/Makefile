@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=automount
 PKG_FLAGS:=nonshared
-PKG_RELEASE:=4
+PKG_RELEASE:=1
 
 PKG_CONFIG_DEPENDS:= \
 	CONFIG_TARGET_ramips \

@@ -2,7 +2,6 @@
 3proxy
 7z
 7zip
-LICENSE
 README.md
 ShadowVPN
 UnblockNeteaseMusic
@@ -124,7 +123,9 @@ libxml2-python
 lingtigameacc
 linkease
 linkmount
+lua-maxminddb
 lua-neturl
+lua-periphery
 luci-app-3cat
 luci-app-3ginfo-lite
 luci-app-3proxy
@@ -224,6 +225,7 @@ luci-app-easytier
 luci-app-easyupdate
 luci-app-einat
 luci-app-emby
+luci-app-eqosplus
 luci-app-excalidraw
 luci-app-fan
 luci-app-fancontrol
@@ -351,7 +353,6 @@ luci-app-openwebui
 luci-app-oscam
 luci-app-ota
 luci-app-owntone
-luci-app-package-manager
 luci-app-packagesync
 luci-app-packet-capture
 luci-app-parentcontrol
@@ -553,7 +554,6 @@ natflow
 natter
 natter2
 ndisc
-netspeedtest
 nexttrace
 ngrokc
 nikki
@@ -582,7 +582,6 @@ openwrt-natmap
 openwrt-natmapt
 openwrt-nezhav1
 openwrt-peanut
-openwrt-php-nginx
 openwrt-rgmac
 openwrt-stuntman
 openwrt-ympd
@@ -637,7 +636,6 @@ simcom_QMI_WWAN
 simple-obfs
 sing-box
 smartdns
-speedtest-cli
 speedtest-web
 speedtestcli
 spotifyd
