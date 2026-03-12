@@ -527,7 +527,6 @@ luci-themedog
 lucky
 lux
 maxminddb-dump-country
-me
 meig-cm
 mentohust
 mergerfs
