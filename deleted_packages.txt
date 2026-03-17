@@ -347,6 +347,7 @@ luci-app-oled
 luci-app-oneapi
 luci-app-onliner
 luci-app-openclaw
+luci-app-openclawmgr
 luci-app-openlist2
 luci-app-openvpn-client
 luci-app-openvpn-server-client
