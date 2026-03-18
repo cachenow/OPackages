@@ -495,6 +495,7 @@ luci-app-yggdrasil
 luci-app-ympd
 luci-app-yt-dlp
 luci-app-zdinnav
+luci-lib-docker
 luci-lib-iform
 luci-lib-mac-vendor
 luci-lib-taskd
