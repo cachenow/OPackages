@@ -306,6 +306,7 @@ luci-app-mnh
 luci-app-modem
 luci-app-modemband
 luci-app-modeminfo
+luci-app-momo
 luci-app-mproxy
 luci-app-mptcp
 luci-app-msd_lite
@@ -538,6 +539,7 @@ minieap
 mlvpn
 mnh
 modeminfo
+momo
 mptcp
 mrtg
 msd_lite
