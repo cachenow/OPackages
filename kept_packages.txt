@@ -18,7 +18,6 @@ luci-app-openvpn-server
 luci-app-socat
 luci-app-telegrambot
 luci-app-turboacc
-luci-app-upnp
 luci-app-vlmcsd
 luci-app-vsftpd
 luci-app-wechatpush
