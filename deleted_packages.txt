@@ -373,7 +373,6 @@ luci-app-poweroff
 luci-app-poweroffdevice
 luci-app-pppoe-relay
 luci-app-pppoe-server
-luci-app-pppoe-user
 luci-app-pppwn
 luci-app-pptp-server
 luci-app-pptpd
