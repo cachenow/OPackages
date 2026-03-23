@@ -146,7 +146,6 @@ luci-app-amule
 luci-app-ap-modem
 luci-app-apfree-wifidog
 luci-app-arcadia
-luci-app-aria2
 luci-app-at-socat
 luci-app-atcommands
 luci-app-atinout
