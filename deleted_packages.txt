@@ -604,6 +604,7 @@ qBittorrent-Enhanced-Edition
 qBittorrent-static
 qfirehose
 qiyougamebooster
+qmbimat
 qosmate
 qt6base
 qt6tools
