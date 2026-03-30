@@ -253,7 +253,6 @@ luci-app-homebridge
 luci-app-homeproxy
 luci-app-homeredirect
 luci-app-htreader
-luci-app-hypercpe
 luci-app-hypermodem
 luci-app-ikoolproxy
 luci-app-immich
