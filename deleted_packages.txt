@@ -474,7 +474,6 @@ luci-app-webviewdev
 luci-app-webvirtcloud
 luci-app-wifidog
 luci-app-wifihistory
-luci-app-wizard
 luci-app-wolplus
 luci-app-wrtbwmon
 luci-app-wxedge
