@@ -21,6 +21,7 @@ atinout
 autokick-wiwiz
 autoupdate
 baidupcs-go
+beszel-agent
 bitsrunlogin-go
 boltbrowser
 brlaser
