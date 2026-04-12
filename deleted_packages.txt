@@ -181,7 +181,6 @@ luci-app-codeserver
 luci-app-control-timewol
 luci-app-control-webrestriction
 luci-app-control-weburl
-luci-app-coredns
 luci-app-cpe
 luci-app-cpu-perf
 luci-app-cpu-status
