@@ -531,6 +531,8 @@ mergerfs
 mhz
 microsocks
 mihomo
+mihomo-alpha
+mihomo-meta
 minieap
 mlvpn
 mnh
