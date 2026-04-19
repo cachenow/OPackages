@@ -499,6 +499,7 @@ luci-nginx
 luci-nginxer
 luci-proto-minieap
 luci-proto-openvpn
+luci-proto-openvpnc
 luci-proto-quectel
 luci-proto-tun2socks
 luci-proto-wwan
