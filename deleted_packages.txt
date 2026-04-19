@@ -245,6 +245,7 @@ luci-app-gpsysupgrade
 luci-app-guest-wifi
 luci-app-haproxy-tcp
 luci-app-heimdall
+luci-app-hermes
 luci-app-homeassistant
 luci-app-homebox
 luci-app-homebridge
