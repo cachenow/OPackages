@@ -76,6 +76,7 @@ gallery-dl
 gcompat
 geoview
 geth
+ghttpd
 glorytun
 glorytun-udp
 gmediarender
@@ -234,6 +235,7 @@ luci-app-fogvdn
 luci-app-forcedata
 luci-app-frps
 luci-app-fullconenat
+luci-app-ghttpd
 luci-app-glorytun-tcp
 luci-app-glorytun-udp
 luci-app-gobinetmodem
