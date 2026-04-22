@@ -253,12 +253,14 @@ luci-app-homebox
 luci-app-homebridge
 luci-app-homeproxy
 luci-app-homeredirect
+luci-app-hotplug
 luci-app-htreader
 luci-app-hypermodem
 luci-app-ikoolproxy
 luci-app-immich
 luci-app-interfaces-statistics
 luci-app-internet-detector
+luci-app-iolines
 luci-app-iperf
 luci-app-iperf3-server
 luci-app-ipinfo
@@ -365,8 +367,10 @@ luci-app-phtunnel
 luci-app-pikpak-webdav
 luci-app-pingcontrol
 luci-app-plex
+luci-app-pollmydevice
 luci-app-poweroff
 luci-app-poweroffdevice
+luci-app-powersupply
 luci-app-pppoe-relay
 luci-app-pppoe-server
 luci-app-pppwn
@@ -384,6 +388,7 @@ luci-app-quickstart
 luci-app-ramfree
 luci-app-rclone
 luci-app-redsocks
+luci-app-report
 luci-app-routerdog
 luci-app-rtbwmon
 luci-app-rtorrent
@@ -399,12 +404,16 @@ luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
+luci-app-simman
+luci-app-simman2
 luci-app-smartdns
 luci-app-smartinfo
 luci-app-smartvpn
 luci-app-smbuser
 luci-app-sms-tool
 luci-app-sms-tool-js
+luci-app-smscontrol
+luci-app-snmpd-ssl
 luci-app-softethervpn
 luci-app-spdmodem
 luci-app-speedtest-web
@@ -418,6 +427,7 @@ luci-app-ssrserver-python
 luci-app-ssrust
 luci-app-ssw
 luci-app-store
+luci-app-strongswan
 luci-app-strongswan-swanctl
 luci-app-subconverter
 luci-app-sunpanel
@@ -479,6 +489,7 @@ luci-app-wrtbwmon
 luci-app-wxedge
 luci-app-xclient
 luci-app-xjay
+luci-app-xl2tpd
 luci-app-xray
 luci-app-xray-status
 luci-app-xteve
@@ -488,6 +499,7 @@ luci-app-xupnpd
 luci-app-xwan
 luci-app-ympd
 luci-app-yt-dlp
+luci-app-zabbix
 luci-app-zdinnav
 luci-lib-docker
 luci-lib-iform
@@ -500,6 +512,7 @@ luci-mod-listening-ports
 luci-nginx
 luci-nginxer
 luci-proto-minieap
+luci-proto-nbiot
 luci-proto-openvpn
 luci-proto-openvpnc
 luci-proto-quectel
@@ -542,7 +555,6 @@ mrtg
 msd_lite
 msr-tools
 mstpd
-mtproxy
 musl-obstack
 mwan3-ledhelper
 my-default-settings
@@ -653,6 +665,7 @@ sysuh3c
 taskd
 tcping
 tcptraceroute
+teleproxy
 tinymembench
 tinyportmapper
 toml11
