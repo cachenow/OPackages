@@ -349,6 +349,7 @@ luci-app-nvr
 luci-app-oaf
 luci-app-oled
 luci-app-oneapi
+luci-app-onekeyap
 luci-app-onliner
 luci-app-openclaw
 luci-app-openclawmgr
@@ -394,6 +395,7 @@ luci-app-quickstart
 luci-app-ramfree
 luci-app-rclone
 luci-app-redsocks
+luci-app-repeater
 luci-app-report
 luci-app-routerdog
 luci-app-rtbwmon
@@ -515,6 +517,9 @@ luci-lib-xterm
 luci-lighttpd
 luci-mod-istorenext
 luci-mod-listening-ports
+luci-mod-network
+luci-mod-status
+luci-mod-system
 luci-nginx
 luci-nginxer
 luci-proto-minieap
