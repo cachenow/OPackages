@@ -31,7 +31,6 @@ cellled
 chinadns-ng
 clouddrive2
 cloudreve
-cp210x-cfg
 cpu-checker
 cpufreq
 cpulimit
@@ -64,7 +63,6 @@ fail2banop
 fan2go
 fancontrol
 fastnet
-fbfdownloader
 ffmpeg-static
 fibocom_QMI_WWAN
 filebrowser
@@ -374,7 +372,6 @@ luci-app-phtunnel
 luci-app-pikpak-webdav
 luci-app-pingcontrol
 luci-app-plex
-luci-app-pollmydevice
 luci-app-poweroff
 luci-app-poweroffdevice
 luci-app-powersupply
@@ -412,8 +409,6 @@ luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
-luci-app-simman
-luci-app-simman2
 luci-app-smartdns
 luci-app-smartinfo
 luci-app-smartvpn
@@ -435,7 +430,6 @@ luci-app-ssrserver-python
 luci-app-ssrust
 luci-app-ssw
 luci-app-store
-luci-app-strongswan
 luci-app-strongswan-swanctl
 luci-app-subconverter
 luci-app-sunpanel
@@ -623,7 +617,6 @@ pikpak-webdav
 pingcontrol
 polarssl
 polipo
-pollmydevice
 powersupply
 pptpd-ext
 ps3netsrv
@@ -662,8 +655,6 @@ shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
 simcom_QMI_WWAN
-simman
-simman2
 simple-obfs
 sing-box
 smartdns
