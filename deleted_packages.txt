@@ -31,6 +31,7 @@ cellled
 chinadns-ng
 clouddrive2
 cloudreve
+cp210x-cfg
 cpu-checker
 cpufreq
 cpulimit
@@ -58,10 +59,12 @@ duperemove
 easytier
 eqos-master-wiwiz
 ethstatus
+event-handler
 fail2banop
 fan2go
 fancontrol
 fastnet
+fbfdownloader
 ffmpeg-static
 fibocom_QMI_WWAN
 filebrowser
@@ -94,12 +97,14 @@ headscale
 hickory-dns
 homebox
 homeredirect
+hotplug-generator
 hysteria
 ifmetric
 internet-detector
 internet-detector-mod-email
 internet-detector-mod-modem-restart
 internet-detector-mod-telegram
+iolines
 ipcalc
 ipset-lists
 ipt2socks
@@ -123,6 +128,7 @@ libxml2-python
 lingtigameacc
 linkease
 linkmount
+linux-serial-test
 lua-maxminddb
 lua-neturl
 lua-periphery
@@ -557,6 +563,7 @@ msr-tools
 mstpd
 musl-obstack
 mwan3-ledhelper
+mxsldr
 my-default-settings
 my-dnshelper
 n2n
@@ -565,6 +572,7 @@ natflow
 natter
 natter2
 ndisc
+net-snmp-ssl
 nexttrace
 ngrokc
 nikki
@@ -610,6 +618,9 @@ pikpak-webdav
 pingcontrol
 polarssl
 polipo
+pollmydevice
+powersupply
+pptpd-ext
 ps3netsrv
 python-gobject-prebuilt
 q
@@ -629,6 +640,7 @@ quickjspp
 quickstart
 rapidjson
 redsocks2
+report
 rhash
 rkp-ipid
 rosy-file-server
@@ -645,9 +657,13 @@ shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
 simcom_QMI_WWAN
+simman
+simman2
 simple-obfs
 sing-box
 smartdns
+smscontrol
+smstools3-fix
 speedtest-web
 speedtestcli
 spotifyd
@@ -656,10 +672,13 @@ sqm-scripts-extra
 ss-redir
 ssd1306
 ssw
+stm32flash-gd
 sub-web
 subconverter
 sunpanel
 supervisor
+svcontrol
+svupgrade
 switch-lan-play
 sysuh3c
 taskd
@@ -704,6 +723,7 @@ webdav2
 wifidog-wiwiz
 wrtbwmon
 wxbase
+xl2tpd-ext
 xmm-modem
 xray-core
 xray-plugin
@@ -713,4 +733,5 @@ xunyou
 ykdl
 you-get
 z8102
+zabbix-config
 zip
