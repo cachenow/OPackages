@@ -605,7 +605,6 @@ openwrt-stuntman
 openwrt-ympd
 oscam
 osinfo-db
-other
 ovmf
 p910nd
 package_kernel_tcp-brutal
