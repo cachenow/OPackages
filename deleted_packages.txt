@@ -107,6 +107,7 @@ ipcalc
 ipset-lists
 ipt2socks
 iptvhelper
+ipv6-neigh
 istoreenhance
 joker
 jpcre2
