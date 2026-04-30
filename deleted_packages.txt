@@ -399,6 +399,7 @@ luci-app-report
 luci-app-routerdog
 luci-app-rtbwmon
 luci-app-rtorrent
+luci-app-rtp2httpd
 luci-app-runmynas
 luci-app-rustdesk-server
 luci-app-samba4
