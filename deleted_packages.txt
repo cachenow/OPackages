@@ -71,7 +71,6 @@ flash-fox
 floatip
 fogvdn
 fonts
-frp
 fullconenat
 fullconenat-nft
 gallery-dl
@@ -239,7 +238,6 @@ luci-app-filebrowser
 luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
-luci-app-frps
 luci-app-fullconenat
 luci-app-ghttpd
 luci-app-glorytun-tcp
