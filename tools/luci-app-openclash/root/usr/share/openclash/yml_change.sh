@@ -661,12 +661,12 @@ begin
          if fake_ip_mode == 'fake-ip' && (china_ip_route || china_ip6_route)
             filter_mode = Value.dig('dns', 'fake-ip-filter-mode')
             if filter_mode == 'blacklist' || filter_mode.nil?
-               filter_rule = 'RULE-SET,cn'
+               filter_rule = 'rule-set:cn'
                (Value['dns']['fake-ip-filter'] ||= []) << filter_rule
             end
             if filter_mode == 'whitelist'
                filters = Value.dig('dns', 'fake-ip-filter') || []
-               deleted_filters = filters.select { |f| f =~ /(geosite:?|rule-set,?).*(@cn|:cn|,cn|:china)/i }
+               deleted_filters = filters.select { |f| f =~ /(geosite:?|rule-set:?).*(@cn|:cn|,cn|:china)/i }
                if deleted_filters.any?
                   Value['dns']['fake-ip-filter'] -= deleted_filters
                   deleted_filters.each do |f|
