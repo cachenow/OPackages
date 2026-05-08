@@ -628,6 +628,7 @@ qBittorrent-static
 qfirehose
 qiyougamebooster
 qmbimat
+qminfo
 qosmate
 qt6base
 qt6tools
