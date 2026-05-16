@@ -143,6 +143,7 @@ luci-app-aihelper
 luci-app-airconnect
 luci-app-airplay2
 luci-app-aliddns
+luci-app-alist
 luci-app-aliyundrive-webdav
 luci-app-alpha-config
 luci-app-alwaysonline
@@ -356,6 +357,7 @@ luci-app-openlist2
 luci-app-openvpn-client
 luci-app-openvpn-server-client
 luci-app-openwebui
+luci-app-opkg
 luci-app-oscam
 luci-app-ota
 luci-app-owntone
