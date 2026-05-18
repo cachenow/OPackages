@@ -91,7 +91,6 @@ gost
 gotop
 gowebdav
 grpcurl
-haproxy
 headscale
 hickory-dns
 homebox
