@@ -143,6 +143,7 @@ luci-app-airconnect
 luci-app-airplay2
 luci-app-aliddns
 luci-app-alist
+luci-app-aliyundrive-fuse
 luci-app-aliyundrive-webdav
 luci-app-alpha-config
 luci-app-alwaysonline
@@ -221,6 +222,7 @@ luci-app-droidnet
 luci-app-dsvpn
 luci-app-dufs
 luci-app-dynv6
+luci-app-e2guardian
 luci-app-easyconfig-transfer
 luci-app-easymesh
 luci-app-easytier
@@ -374,6 +376,7 @@ luci-app-phtunnel
 luci-app-pikpak-webdav
 luci-app-pingcontrol
 luci-app-plex
+luci-app-polipo
 luci-app-poweroff
 luci-app-poweroffdevice
 luci-app-powersupply
