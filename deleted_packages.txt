@@ -20,6 +20,7 @@ ariang
 atinout
 autokick-wiwiz
 autoupdate
+baidudrive
 baidupcs-go
 beszel-agent
 bitsrunlogin-go
@@ -159,6 +160,7 @@ luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autoshell
 luci-app-autoupdate
+luci-app-baidudrive
 luci-app-bandix
 luci-app-banmac-ipt
 luci-app-banmac-nft
@@ -394,6 +396,7 @@ luci-app-qbittorrent-enhanced
 luci-app-qiyougamebooster
 luci-app-qos-emong
 luci-app-qosmate
+luci-app-quickfile
 luci-app-quickstart
 luci-app-ramfree
 luci-app-rclone
@@ -642,6 +645,7 @@ quectel-cm
 quectel_MHI
 quectel_QMI_WWAN
 quectel_cm_5G
+quickfile
 quickjspp
 quickstart
 rapidjson
