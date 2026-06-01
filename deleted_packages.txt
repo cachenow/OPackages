@@ -76,6 +76,7 @@ fullconenat
 fullconenat-nft
 gallery-dl
 gcompat
+gecoosac
 geoview
 geth
 ghttpd
@@ -244,6 +245,7 @@ luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
 luci-app-fullconenat
+luci-app-gecoosac
 luci-app-ghttpd
 luci-app-glorytun-tcp
 luci-app-glorytun-udp
