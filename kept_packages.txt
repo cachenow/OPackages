@@ -9,6 +9,7 @@ luci-app-autoreboot
 luci-app-ddns-go
 luci-app-diskman
 luci-app-filetransfer
+luci-app-firewall
 luci-app-ipsec-vpnd
 luci-app-ksmbd
 luci-app-mosdns
