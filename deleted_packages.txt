@@ -109,7 +109,6 @@ ipcalc
 ipset-lists
 ipt2socks
 iptvhelper
-ipv6-neigh
 istoreenhance
 joker
 jpcre2
@@ -703,7 +702,6 @@ torrserver
 totd
 tracebox
 transfer
-trojan
 trojan-plus
 tsping
 tuic-client
