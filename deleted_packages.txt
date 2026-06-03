@@ -702,6 +702,7 @@ torrserver
 totd
 tracebox
 transfer
+trojan
 trojan-plus
 tsping
 tuic-client
