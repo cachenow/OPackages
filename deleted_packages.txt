@@ -614,6 +614,7 @@ openwrt-peanut
 openwrt-rgmac
 openwrt-stuntman
 openwrt-ympd
+opera-proxy
 oscam
 osinfo-db
 ovmf
