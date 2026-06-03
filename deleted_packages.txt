@@ -94,7 +94,6 @@ gotop
 gowebdav
 grpcurl
 headscale
-hickory-dns
 homebox
 homeredirect
 hotplug-generator
@@ -704,7 +703,6 @@ totd
 tracebox
 transfer
 trojan
-trojan-plus
 tsping
 tuic-client
 tuic-server
