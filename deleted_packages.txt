@@ -66,6 +66,7 @@ fan2go
 fancontrol
 fastnet
 ffmpeg-static
+fibocom-qmi-wwan
 fibocom_QMI_WWAN
 filebrowser
 flash-fox
@@ -563,6 +564,7 @@ mihomo-meta
 minieap
 mlvpn
 mnh
+modemband
 modeminfo
 momo
 mptcp
@@ -643,6 +645,10 @@ qosmate
 qt6base
 qt6tools
 quectel-cm
+quectel-gobinet
+quectel-mhi-pcie
+quectel-qmi-wwan
+quectel-sprd-pcie
 quectel_MHI
 quectel_QMI_WWAN
 quectel_cm_5G
@@ -667,7 +673,6 @@ shadowsocks-libev
 shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
-simcom_QMI_WWAN
 simple-obfs
 sing-box
 smartdns
@@ -730,6 +735,7 @@ webd
 webdav2
 wifidog-wiwiz
 wrtbwmon
+wwan-packages
 wxbase
 xl2tpd-ext
 xmm-modem
