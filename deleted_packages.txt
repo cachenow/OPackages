@@ -66,8 +66,8 @@ fan2go
 fancontrol
 fastnet
 ffmpeg-static
+fibocom-dial
 fibocom-qmi-wwan
-fibocom_QMI_WWAN
 filebrowser
 flash-fox
 floatip
@@ -75,6 +75,7 @@ fogvdn
 fonts
 fullconenat
 fullconenat-nft
+fusiontunx
 gallery-dl
 gcompat
 gecoosac
@@ -244,6 +245,7 @@ luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
 luci-app-fullconenat
+luci-app-fusiontunx
 luci-app-gecoosac
 luci-app-ghttpd
 luci-app-glorytun-tcp
@@ -649,8 +651,6 @@ quectel-gobinet
 quectel-mhi-pcie
 quectel-qmi-wwan
 quectel-sprd-pcie
-quectel_MHI
-quectel_QMI_WWAN
 quectel_cm_5G
 quickfile
 quickjspp
@@ -707,7 +707,6 @@ torrserver
 totd
 tracebox
 transfer
-trojan
 tsping
 tuic-client
 tuic-server
@@ -735,7 +734,6 @@ webd
 webdav2
 wifidog-wiwiz
 wrtbwmon
-wwan-packages
 wxbase
 xl2tpd-ext
 xmm-modem
