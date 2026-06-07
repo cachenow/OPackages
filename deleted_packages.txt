@@ -648,7 +648,6 @@ qosmate
 qt6base
 qt6tools
 quectel-cm
-quectel-gobinet
 quectel-qmi-wwan
 quectel-sprd-pcie
 quectel_cm_5G
