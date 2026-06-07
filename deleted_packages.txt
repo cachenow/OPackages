@@ -67,7 +67,8 @@ fancontrol
 fastnet
 ffmpeg-static
 fibocom-dial
-fibocom-qmi-wwan
+fibocom_MHI
+fibocom_QMI_WWAN
 filebrowser
 flash-fox
 floatip
@@ -557,6 +558,7 @@ lucky
 lux
 maxminddb-dump-country
 meig-cm
+meig_QMI_WWAN
 mentohust
 mergerfs
 mhz
@@ -567,7 +569,6 @@ mihomo-meta
 minieap
 mlvpn
 mnh
-modemband
 modeminfo
 momo
 mptcp
@@ -648,8 +649,10 @@ qosmate
 qt6base
 qt6tools
 quectel-cm
-quectel-qmi-wwan
-quectel-sprd-pcie
+quectel_Gobinet
+quectel_MHI
+quectel_QMI_WWAN
+quectel_SRPD_PCIE
 quectel_cm_5G
 quickfile
 quickjspp
@@ -672,6 +675,7 @@ shadowsocks-libev
 shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
+simcom_QMI_WWAN
 simple-obfs
 sing-box
 smartdns
