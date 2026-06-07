@@ -647,7 +647,6 @@ qosmate
 qt6base
 qt6tools
 quectel-cm
-quectel_MHI
 quectel_QMI_WWAN
 quectel_cm_5G
 quickfile
