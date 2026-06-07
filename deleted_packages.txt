@@ -66,8 +66,6 @@ fan2go
 fancontrol
 fastnet
 ffmpeg-static
-fibocom-dial
-fibocom_MHI
 fibocom_QMI_WWAN
 filebrowser
 flash-fox
@@ -569,6 +567,7 @@ mihomo-meta
 minieap
 mlvpn
 mnh
+modemband
 modeminfo
 momo
 mptcp
