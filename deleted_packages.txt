@@ -66,6 +66,7 @@ fan2go
 fancontrol
 fastnet
 ffmpeg-static
+fibocom_MHI
 fibocom_QMI_WWAN
 filebrowser
 flash-fox
@@ -647,6 +648,7 @@ qosmate
 qt6base
 qt6tools
 quectel-cm
+quectel_MHI
 quectel_QMI_WWAN
 quectel_cm_5G
 quickfile
