@@ -91,6 +91,7 @@ go-nats
 go-rice
 go-wol
 gobject-introspection-prebuilt
+golang
 gost
 gotop
 gowebdav
