@@ -278,7 +278,6 @@ luci-app-iperf3-server
 luci-app-ipinfo
 luci-app-ipsec-server
 luci-app-iptvhelper
-luci-app-ipv6clientfilter
 luci-app-istoredup
 luci-app-istoreenhance
 luci-app-istorego
