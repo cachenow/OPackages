@@ -143,6 +143,7 @@ luci-app-adguardhome
 luci-app-advancedplus
 luci-app-aihelper
 luci-app-airconnect
+luci-app-airoha-npu
 luci-app-airplay2
 luci-app-aliddns
 luci-app-alist
