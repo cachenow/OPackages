@@ -488,6 +488,7 @@ luci-app-uugamebooster
 luci-app-v2ray-server
 luci-app-vaultwarden
 luci-app-verysync
+luci-app-virtualdog
 luci-app-vnt
 luci-app-wan-mac
 luci-app-watchcat
@@ -724,6 +725,7 @@ v2dat
 v2ray-plugin
 verysync
 virt-manager
+virtualdog
 vmease
 vncrepeater
 vpn-policy-routing
