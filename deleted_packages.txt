@@ -117,6 +117,7 @@ jpcre2
 k3-firmware
 kai
 kai_session
+kaiplus
 kismet
 libcron
 libcryptopp
@@ -290,6 +291,7 @@ luci-app-jederproxy
 luci-app-jellyfin
 luci-app-k3screenctrl
 luci-app-kai
+luci-app-kaiplus
 luci-app-kodexplorer
 luci-app-kucat-config
 luci-app-lanraragi
