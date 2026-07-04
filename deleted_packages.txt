@@ -40,7 +40,6 @@ cups
 cups-bjnp
 dae
 daed
-daed-next
 daemonlogger
 dcc2-wiwiz
 ddnsto
@@ -203,7 +202,6 @@ luci-app-csshnpd
 luci-app-cupsd
 luci-app-dae
 luci-app-daed
-luci-app-daed-next
 luci-app-daede
 luci-app-ddns
 luci-app-ddnsto
@@ -731,6 +729,7 @@ verysync
 virt-manager
 virtualdog
 vmease
+vmlinux-btf
 vncrepeater
 vpn-policy-routing
 vpnbypass
