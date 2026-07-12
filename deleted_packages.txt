@@ -22,6 +22,7 @@ autokick-wiwiz
 autoupdate
 baidudrive
 baidupcs-go
+baidusdk
 beszel-agent
 bitsrunlogin-go
 boltbrowser
@@ -398,6 +399,7 @@ luci-app-pushbot
 luci-app-pve
 luci-app-qbittorrent
 luci-app-qbittorrent-enhanced
+luci-app-qemu-vms
 luci-app-qiyougamebooster
 luci-app-qos-emong
 luci-app-qosmate
@@ -644,6 +646,7 @@ python-gobject-prebuilt
 q
 qBittorrent-Enhanced-Edition
 qbittorrent
+qemu-vms
 qfirehose
 qiyougamebooster
 qmbimat
