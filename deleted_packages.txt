@@ -582,6 +582,7 @@ msr-tools
 mstpd
 musl-obstack
 mwan3-ledhelper
+mwan3-nft
 mxsldr
 my-default-settings
 my-dnshelper
