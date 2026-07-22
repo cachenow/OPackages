@@ -199,7 +199,6 @@ luci-app-cpu-status-mini
 luci-app-cpufreq
 luci-app-cpulimit
 luci-app-cqustdotnet
-luci-app-csshnpd
 luci-app-cupsd
 luci-app-dae
 luci-app-daed
@@ -294,7 +293,6 @@ luci-app-kaiplus
 luci-app-kodexplorer
 luci-app-kucat-config
 luci-app-lanraragi
-luci-app-libreswan
 luci-app-lingtigameacc
 luci-app-linkease
 luci-app-lite-watchdog
@@ -448,7 +446,6 @@ luci-app-ssrserver-python
 luci-app-ssrust
 luci-app-ssw
 luci-app-store
-luci-app-strongswan-swanctl
 luci-app-subconverter
 luci-app-sunpanel
 luci-app-supervisord
@@ -503,7 +500,6 @@ luci-app-webdav
 luci-app-webviewdev
 luci-app-webvirtcloud
 luci-app-wifidog
-luci-app-wifihistory
 luci-app-wizard
 luci-app-wolplus
 luci-app-wrtbwmon
