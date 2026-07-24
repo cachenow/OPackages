@@ -728,6 +728,7 @@ v2ray-plugin
 verysync
 virt-manager
 virtualdog
+virtualdog-efi
 vmease
 vmlinux-btf
 vncrepeater
