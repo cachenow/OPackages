@@ -130,7 +130,8 @@ libvirt-python
 libxml2-python
 lingtigameacc
 linkease
-linkmount
+linkeasefull
+linkeaselite
 linux-serial-test
 lua-maxminddb
 lua-neturl
@@ -295,6 +296,8 @@ luci-app-kucat-config
 luci-app-lanraragi
 luci-app-lingtigameacc
 luci-app-linkease
+luci-app-linkeasefull
+luci-app-linkeaselite
 luci-app-lite-watchdog
 luci-app-log
 luci-app-lorawan-basicstation
@@ -520,6 +523,7 @@ luci-app-zabbix
 luci-app-zdinnav
 luci-lib-docker
 luci-lib-iform
+luci-lib-linkeasefile
 luci-lib-mac-vendor
 luci-lib-taskd
 luci-lib-xterm
