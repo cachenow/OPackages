@@ -611,12 +611,14 @@ openwrt-bandix
 openwrt-caddy
 openwrt-dist-luci
 openwrt-dogcom
+openwrt-e2guardian
 openwrt-einat-ebpf
 openwrt-fastfetch
 openwrt-go-stun
 openwrt-hv-tools
 openwrt-luci-proto-tinc
 openwrt-mproxy
+openwrt-mwgp
 openwrt-natmap
 openwrt-natmapt
 openwrt-nezhav1
