@@ -381,6 +381,7 @@ luci-app-photoprism
 luci-app-phtunnel
 luci-app-pikpak-webdav
 luci-app-pingcontrol
+luci-app-pingpacket
 luci-app-plex
 luci-app-polipo
 luci-app-poweroff
