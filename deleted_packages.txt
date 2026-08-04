@@ -549,6 +549,7 @@ luci-theme-argon
 luci-theme-aurora
 luci-theme-design
 luci-theme-edge
+luci-theme-footstrap
 luci-theme-inas
 luci-theme-kucat
 luci-theme-lightblue
