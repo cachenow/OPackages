@@ -102,6 +102,7 @@ homeredirect
 hotplug-generator
 hysteria
 ifmetric
+images
 internet-detector
 internet-detector-mod-email
 internet-detector-mod-modem-restart
