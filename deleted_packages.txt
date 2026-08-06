@@ -133,7 +133,6 @@ lingtigameacc
 linkease
 linkease-common-bin
 linkeasefull
-linkeaselite
 linux-serial-test
 lua-maxminddb
 lua-neturl
