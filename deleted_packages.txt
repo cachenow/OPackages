@@ -297,7 +297,6 @@ luci-app-lanraragi
 luci-app-lingtigameacc
 luci-app-linkease
 luci-app-linkeasefull
-luci-app-linkeaselite
 luci-app-lite-watchdog
 luci-app-log
 luci-app-lorawan-basicstation
