@@ -2,6 +2,7 @@
 3proxy
 7z
 7zip
+LICENSE
 README.md
 ShadowVPN
 UnblockNeteaseMusic
