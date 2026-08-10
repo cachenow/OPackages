@@ -412,6 +412,7 @@ luci-app-rclone
 luci-app-redsocks
 luci-app-repeater
 luci-app-report
+luci-app-rms
 luci-app-routerdog
 luci-app-rtbwmon
 luci-app-rtorrent
@@ -670,6 +671,7 @@ redsocks2
 report
 rhash
 rkp-ipid
+rms
 rosy-file-server
 routergo
 rrm-nr-distributor
@@ -760,4 +762,5 @@ ykdl
 you-get
 z8102
 zabbix-config
+zabbix-ssl
 zip
