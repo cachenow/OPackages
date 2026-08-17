@@ -113,6 +113,7 @@ iolines
 ipcalc
 ipset-lists
 ipt2socks
+ipt2socks-rs
 iptvhelper
 istoreenhance
 joker
