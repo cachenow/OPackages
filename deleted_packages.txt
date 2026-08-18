@@ -164,6 +164,7 @@ luci-app-arcadia
 luci-app-at-socat
 luci-app-atcommands
 luci-app-atinout
+luci-app-authshield
 luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autoshell
@@ -511,6 +512,7 @@ luci-app-wifidog
 luci-app-wizard
 luci-app-wolplus
 luci-app-wrtbwmon
+luci-app-wwand
 luci-app-wxedge
 luci-app-xclient
 luci-app-xjay
@@ -547,6 +549,7 @@ luci-proto-openvpnc
 luci-proto-quectel
 luci-proto-tun2socks
 luci-proto-wwan
+luci-proto-wwand
 luci-proto-xmm
 luci-theme-alpha
 luci-theme-argon
@@ -753,6 +756,8 @@ webd
 webdav2
 wifidog-wiwiz
 wrtbwmon
+wwand
+wwand-lpac
 wxbase
 xl2tpd-ext
 xmm-modem
