@@ -128,6 +128,7 @@ libcryptopp
 libdouble-conversion
 libdvbcsa
 libosinfo
+librespeed-common
 libvirt
 libvirt-glib
 libvirt-python
@@ -299,6 +300,7 @@ luci-app-kaiplus
 luci-app-kodexplorer
 luci-app-kucat-config
 luci-app-lanraragi
+luci-app-librespeed
 luci-app-lingtigameacc
 luci-app-linkease
 luci-app-linkeasefull
