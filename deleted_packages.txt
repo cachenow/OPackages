@@ -73,7 +73,6 @@ flash-fox
 floatip
 fogvdn
 fonts
-frp
 fullconenat
 fullconenat-nft
 fusiontunx
