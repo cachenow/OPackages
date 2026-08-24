@@ -127,7 +127,6 @@ libcryptopp
 libdouble-conversion
 libdvbcsa
 libosinfo
-librespeed-common
 libvirt
 libvirt-glib
 libvirt-python
@@ -299,7 +298,6 @@ luci-app-kaiplus
 luci-app-kodexplorer
 luci-app-kucat-config
 luci-app-lanraragi
-luci-app-librespeed
 luci-app-lingtigameacc
 luci-app-linkease
 luci-app-linkeasefull
@@ -434,6 +432,7 @@ luci-app-shadowsocks-rust
 luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
+luci-app-shunt
 luci-app-shutdown
 luci-app-smartdns
 luci-app-smartinfo
@@ -692,6 +691,7 @@ shadowsocks-libev
 shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
+shunt
 simcom_QMI_WWAN
 simple-obfs
 sing-box
