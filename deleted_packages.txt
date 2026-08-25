@@ -727,6 +727,7 @@ torrserver
 totd
 tracebox
 transfer
+transmission-web-control
 tsping
 tuic-client
 tuic-server
