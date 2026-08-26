@@ -53,6 +53,7 @@ dnsforwarder
 doc
 docker-lan-bridge
 dockerd
+dockermanager
 dsmboot
 dsvpn
 dufs
