@@ -433,7 +433,6 @@ luci-app-shadowsocks-rust
 luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
-luci-app-shunt
 luci-app-shutdown
 luci-app-smartdns
 luci-app-smartinfo
@@ -691,7 +690,6 @@ shadowsocks-libev
 shadowsocks-rust
 shadowsocksr-libev
 shortcut-fe
-shunt
 simcom_QMI_WWAN
 simple-obfs
 sing-box
