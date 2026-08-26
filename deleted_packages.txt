@@ -530,6 +530,7 @@ luci-app-yt-dlp
 luci-app-zdinnav
 luci-lib-docker
 luci-lib-iform
+luci-lib-linkeaseauth
 luci-lib-linkeasefile
 luci-lib-mac-vendor
 luci-lib-taskd
@@ -558,6 +559,7 @@ luci-theme-design
 luci-theme-edge
 luci-theme-footstrap
 luci-theme-inas
+luci-theme-istorenas
 luci-theme-kucat
 luci-theme-lightblue
 luci-theme-material3
