@@ -223,6 +223,7 @@ luci-app-dnspod
 luci-app-dnsproxy
 luci-app-docker
 luci-app-dockerman
+luci-app-dockermanager
 luci-app-dogcom
 luci-app-domain-proxy
 luci-app-dpanel
