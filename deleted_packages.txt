@@ -582,6 +582,7 @@ mihomo
 mihomo-alpha
 mihomo-meta
 minieap
+mise
 mlvpn
 mnh
 modemband
