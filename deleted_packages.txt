@@ -9,6 +9,7 @@ UnblockNeteaseMusic
 UnblockNeteaseMusic-Go
 aavmf
 adbyby
+agentflow
 airconnect
 alac
 aliyundrive-webdav
@@ -148,6 +149,7 @@ luci-app-accesscontrol-plus
 luci-app-adbyby-plus
 luci-app-adguardhome
 luci-app-advancedplus
+luci-app-agentflow
 luci-app-airconnect
 luci-app-airoha-npu
 luci-app-airplay2
