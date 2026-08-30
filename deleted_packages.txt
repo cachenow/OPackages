@@ -254,7 +254,6 @@ luci-app-filebrowser
 luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
-luci-app-frps
 luci-app-fusiontunx
 luci-app-gecoosac
 luci-app-ghttpd
