@@ -256,6 +256,7 @@ luci-app-fogvdn
 luci-app-forcedata
 luci-app-frps
 luci-app-fusiontunx
+luci-app-fwlive
 luci-app-gecoosac
 luci-app-ghttpd
 luci-app-glorytun-tcp
