@@ -1,4 +1,3 @@
-3ginfo
 3proxy
 7z
 7zip
@@ -82,6 +81,7 @@ fusiontunx
 gallery-dl
 gcompat
 gecoosac
+geo2txt
 geoview
 geth
 ghttpd
@@ -553,7 +553,6 @@ luci-proto-openvpn
 luci-proto-openvpnc
 luci-proto-quectel
 luci-proto-tun2socks
-luci-proto-wwan
 luci-proto-wwand
 luci-proto-xmm
 luci-theme-alpha
@@ -642,7 +641,6 @@ openwrt-rgmac
 openwrt-stuntman
 openwrt-ympd
 opera-proxy
-oscam
 osinfo-db
 ovmf
 p910nd
