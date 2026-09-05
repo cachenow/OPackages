@@ -614,6 +614,7 @@ net-snmp-ssl
 nexttrace
 ngrokc
 nikki
+node-pnpm
 nps
 nvtop
 oaf
