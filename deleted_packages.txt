@@ -70,6 +70,7 @@ fastnet
 ffmpeg-static
 fibocom_QMI_WWAN
 filebrowser
+filebrowser-q
 flash-fox
 floatip
 fogvdn
@@ -251,6 +252,7 @@ luci-app-fchomo
 luci-app-feishuvpn
 luci-app-fileassistant
 luci-app-filebrowser-go
+luci-app-filebrowser-q
 luci-app-floatip
 luci-app-fogvdn
 luci-app-forcedata
