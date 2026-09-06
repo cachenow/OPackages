@@ -473,6 +473,7 @@ luci-app-syncdial
 luci-app-syncthing
 luci-app-synology
 luci-app-syscontrol
+luci-app-sysctl
 luci-app-systools
 luci-app-sysuh3c
 luci-app-taskplan
