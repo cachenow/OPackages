@@ -270,6 +270,7 @@ luci-app-gowebdav
 luci-app-gpioled
 luci-app-gpsysupgrade
 luci-app-guest-wifi
+luci-app-haproxy-manager
 luci-app-haproxy-tcp
 luci-app-heimdall
 luci-app-hermes
@@ -443,6 +444,7 @@ luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shutdown
+luci-app-smart-reboot
 luci-app-smartdns
 luci-app-smartinfo
 luci-app-smartvpn
@@ -705,6 +707,7 @@ shortcut-fe
 simcom_QMI_WWAN
 simple-obfs
 sing-box
+smart-reboot
 smartdns
 smscontrol
 smstools3-fix
