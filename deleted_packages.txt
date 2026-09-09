@@ -361,7 +361,6 @@ luci-app-nextcloud
 luci-app-nezhav1
 luci-app-nfs
 luci-app-nginx
-luci-app-nginx-ha
 luci-app-nginx-manager
 luci-app-ngrokc
 luci-app-nikki
