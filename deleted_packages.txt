@@ -15,11 +15,13 @@ aliyundrive-webdav
 alpine-musl-compat
 amule
 antileech
+apfree-wifidog
 aria2
 ariang
 atinout
 autokick-wiwiz
 autoupdate
+aw-bpf
 baidudrive
 baidupcs-go
 baidusdk
@@ -173,6 +175,7 @@ luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autoshell
 luci-app-autoupdate
+luci-app-aw-bpf
 luci-app-baidudrive
 luci-app-bandix
 luci-app-banmac-ipt
@@ -458,7 +461,6 @@ luci-app-speedtest-web
 luci-app-spotifyd
 luci-app-sqm-autorate
 luci-app-squid-adv
-luci-app-ss-redir
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
@@ -527,6 +529,7 @@ luci-app-wwand
 luci-app-wxedge
 luci-app-xclient
 luci-app-xjay
+luci-app-xkcptun
 luci-app-xl2tpd
 luci-app-xray
 luci-app-xray-status
@@ -536,7 +539,6 @@ luci-app-xunyou
 luci-app-xupnpd
 luci-app-xwan
 luci-app-ympd
-luci-app-yt-dlp
 luci-app-zdinnav
 luci-lib-docker
 luci-lib-iform
@@ -715,7 +717,6 @@ speedtestcli
 spotifyd
 sqm-autorate
 sqm-scripts-extra
-ss-redir
 ssd1306
 ssw
 stm32flash-gd
@@ -772,6 +773,7 @@ wrtbwmon
 wwand
 wwand-lpac
 wxbase
+xkcptun
 xl2tpd-ext
 xmm-modem
 xray-core
