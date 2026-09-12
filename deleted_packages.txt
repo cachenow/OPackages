@@ -577,6 +577,7 @@ luci-theme-material3
 luci-theme-merona
 luci-theme-openmptcprouter
 luci-theme-routerich
+luci-theme-shadcn
 luci-theme-spectra
 luci-theme-teleofis
 luci-themedog
