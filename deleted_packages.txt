@@ -21,7 +21,6 @@ ariang
 atinout
 autokick-wiwiz
 autoupdate
-aw-bpf
 baidudrive
 baidupcs-go
 baidusdk
@@ -175,7 +174,6 @@ luci-app-autoipsetadder
 luci-app-autorepeater
 luci-app-autoshell
 luci-app-autoupdate
-luci-app-aw-bpf
 luci-app-baidudrive
 luci-app-bandix
 luci-app-banmac-ipt
