@@ -33,6 +33,7 @@ cdnspeedtest
 cellled
 chinadns-ng
 clouddrive2
+cloudflared-next
 cloudreve
 cpu-checker
 cpufreq
@@ -60,6 +61,7 @@ dsvpn
 dufs
 duperemove
 easytier
+easytier-next
 easytier-noweb
 eqos-master-wiwiz
 ethstatus
@@ -77,6 +79,7 @@ floatip
 fogvdn
 fonts
 frp
+frpc-next
 fullconenat
 fullconenat-nft
 fusiontunx
@@ -137,6 +140,7 @@ libvirt-glib
 libvirt-python
 libxml2-python
 lingtigameacc
+linkback
 linkease
 linkease-common-bin
 linkeasefull
@@ -164,6 +168,7 @@ luci-app-alwaysonline
 luci-app-amlogic
 luci-app-amule
 luci-app-ap-modem
+luci-app-ap-switch
 luci-app-apfree-wifidog
 luci-app-arcadia
 luci-app-at-socat
@@ -196,6 +201,7 @@ luci-app-chongyoung
 luci-app-chongyoung2.0
 luci-app-cifs-mount
 luci-app-clouddrive2
+luci-app-cloudflared-next
 luci-app-cloudflarespeedtest
 luci-app-cloudreve
 luci-app-codeserver
@@ -256,8 +262,10 @@ luci-app-fileassistant
 luci-app-filebrowser-go
 luci-app-filebrowser-q
 luci-app-floatip
+luci-app-flowproxy
 luci-app-fogvdn
 luci-app-forcedata
+luci-app-frpc-next
 luci-app-frps
 luci-app-fusiontunx
 luci-app-fwlive
@@ -312,6 +320,7 @@ luci-app-kodexplorer
 luci-app-kucat-config
 luci-app-lanraragi
 luci-app-lingtigameacc
+luci-app-linkback
 luci-app-linkease
 luci-app-linkeasefull
 luci-app-lite-watchdog
@@ -465,6 +474,7 @@ luci-app-ssr-mudb-server
 luci-app-ssr-plus
 luci-app-ssrserver-python
 luci-app-ssrust
+luci-app-ssserver-next
 luci-app-ssw
 luci-app-store
 luci-app-subconverter
@@ -705,6 +715,7 @@ sendat
 shadow-tls
 shadowsocks-libev
 shadowsocks-rust
+shadowsocks-rust-next
 shadowsocksr-libev
 shortcut-fe
 simcom_QMI_WWAN
@@ -730,6 +741,7 @@ svcontrol
 svupgrade
 switch-lan-play
 sysuh3c
+tailscale-next
 taskd
 tcping
 tcptraceroute
