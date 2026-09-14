@@ -241,6 +241,7 @@ luci-app-e2guardian
 luci-app-easyconfig-transfer
 luci-app-easymesh
 luci-app-easytier
+luci-app-easytier-next
 luci-app-easyupdate
 luci-app-einat
 luci-app-emby
@@ -384,6 +385,7 @@ luci-app-openwebui
 luci-app-opkg
 luci-app-oscam
 luci-app-ota
+luci-app-oui
 luci-app-owntone
 luci-app-packagesync
 luci-app-packet-capture
@@ -546,6 +548,7 @@ luci-lib-mac-vendor
 luci-lib-taskd
 luci-lib-xterm
 luci-lighttpd
+luci-mod-dashboard
 luci-mod-istorenext
 luci-mod-listening-ports
 luci-mod-network
