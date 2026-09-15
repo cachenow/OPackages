@@ -706,6 +706,7 @@ rkp-ipid
 rms
 rosy-file-server
 routergo
+rpcd-mod-luci
 rrm-nr-distributor
 rtl8189es
 rust-bindgen
