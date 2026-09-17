@@ -90,6 +90,7 @@ geo2txt
 geoview
 geth
 ghttpd
+gitbackup
 glorytun
 glorytun-udp
 gmediarender
@@ -271,6 +272,7 @@ luci-app-fusiontunx
 luci-app-fwlive
 luci-app-gecoosac
 luci-app-ghttpd
+luci-app-gitbackup
 luci-app-glorytun-tcp
 luci-app-glorytun-udp
 luci-app-gobinetmodem
