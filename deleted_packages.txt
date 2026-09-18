@@ -398,6 +398,7 @@ luci-app-oscam
 luci-app-ota
 luci-app-oui
 luci-app-owntone
+luci-app-package-manager
 luci-app-packagesync
 luci-app-packet-capture
 luci-app-parentcontrol
