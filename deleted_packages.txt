@@ -634,6 +634,7 @@ net-snmp-ssl
 nexttrace
 ngrokc
 nikki
+njit8021xclient
 node-pnpm
 nps
 nvtop
@@ -712,6 +713,7 @@ routergo
 rpcd-mod-luci
 rrm-nr-distributor
 rtl8189es
+rtp2httpd
 rust-bindgen
 rustdesk-server
 scutclient
@@ -750,6 +752,7 @@ taskd
 tcping
 tcptraceroute
 teleproxy
+tinyfecvpn
 tinymembench
 tinyportmapper
 toml11
@@ -759,6 +762,7 @@ totd
 tracebox
 transfer
 transmission-web-control
+trojan
 tsping
 tuic-client
 tuic-server
@@ -767,6 +771,7 @@ tvhelper
 ua2f
 ucl
 udp2raw
+udpspeeder
 unishare
 upx
 upx-static
