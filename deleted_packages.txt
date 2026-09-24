@@ -128,6 +128,7 @@ joker
 jpcre2
 k3-firmware
 kai
+kai-agent
 kai_session
 kaiplus
 kismet
@@ -143,6 +144,7 @@ libxml2-python
 lingtigameacc
 linkback
 linkease
+linkease-app-entry
 linkease-common-bin
 linkeasefull
 linux-serial-test
@@ -325,6 +327,7 @@ luci-app-lingtigameacc
 luci-app-linkback
 luci-app-linkease
 luci-app-linkeasefull
+luci-app-linkeasefull-embed
 luci-app-lite-watchdog
 luci-app-log
 luci-app-lorawan-basicstation
