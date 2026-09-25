@@ -267,6 +267,7 @@ luci-app-filebrowser-q
 luci-app-floatip
 luci-app-flowproxy
 luci-app-fogvdn
+luci-app-footstrap-files
 luci-app-forcedata
 luci-app-frpc-next
 luci-app-frps
