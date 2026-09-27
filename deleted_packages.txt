@@ -802,6 +802,7 @@ wwand-ipa
 wwand-ipad
 wwand-lpac
 wwand-qlog
+wwand-rsim
 wxbase
 xkcptun
 xl2tpd-ext
