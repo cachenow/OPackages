@@ -107,8 +107,8 @@ gowebdav
 grpcurl
 headscale
 homebox
-homeproxy-hiddify
 homeredirect
+honk
 hotplug-generator
 hysteria
 ifmetric
@@ -208,6 +208,7 @@ luci-app-cloudflared-next
 luci-app-cloudflarespeedtest
 luci-app-cloudreve
 luci-app-codeserver
+luci-app-conntrack
 luci-app-control-timewol
 luci-app-control-webrestriction
 luci-app-control-weburl
@@ -227,9 +228,11 @@ luci-app-ddnsto
 luci-app-demon
 luci-app-design-config
 luci-app-disks-info
+luci-app-dlna-player
 luci-app-dnscrypt-proxy2
 luci-app-dnsfilter
 luci-app-dnsforwarder
+luci-app-dnsguard
 luci-app-dnsleaktest
 luci-app-dnsmasq-ipset
 luci-app-dnspod
@@ -294,7 +297,9 @@ luci-app-homeassistant
 luci-app-homebox
 luci-app-homebridge
 luci-app-homeproxy
+luci-app-homeproxy-pro
 luci-app-homeredirect
+luci-app-honk
 luci-app-hotplug
 luci-app-htreader
 luci-app-hypermodem
@@ -339,9 +344,11 @@ luci-app-macvlan
 luci-app-mail
 luci-app-memos
 luci-app-mentohust
+luci-app-meow
 luci-app-mergerfs
 luci-app-mfun
 luci-app-microsocks
+luci-app-minigate
 luci-app-miniproxy
 luci-app-mlvpn
 luci-app-mmconfig
@@ -373,6 +380,7 @@ luci-app-navidrome
 luci-app-neko
 luci-app-nekobox
 luci-app-netspeedtest
+luci-app-netstat
 luci-app-nettask
 luci-app-nextcloud
 luci-app-nezhav1
@@ -401,6 +409,7 @@ luci-app-opkg
 luci-app-oscam
 luci-app-ota
 luci-app-oui
+luci-app-overview-manager
 luci-app-owntone
 luci-app-package-manager
 luci-app-packagesync
@@ -436,6 +445,7 @@ luci-app-qbittorrent-enhanced
 luci-app-qemu-vms
 luci-app-qiyougamebooster
 luci-app-qos-emong
+luci-app-qosify
 luci-app-qosmate
 luci-app-quickfile
 luci-app-quickstart
@@ -455,16 +465,19 @@ luci-app-rustdesk-server
 luci-app-samba4
 luci-app-school
 luci-app-scutclient
+luci-app-sfp-info
 luci-app-shadowrt
 luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
 luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
+luci-app-shunt
 luci-app-shutdown
 luci-app-smart-reboot
 luci-app-smartdns
 luci-app-smartinfo
+luci-app-smartsafehub
 luci-app-smartvpn
 luci-app-smbuser
 luci-app-sms-tool
@@ -485,6 +498,7 @@ luci-app-ssserver-next
 luci-app-ssw
 luci-app-store
 luci-app-subconverter
+luci-app-substore
 luci-app-sunpanel
 luci-app-supervisord
 luci-app-suselogin
@@ -504,6 +518,7 @@ luci-app-tcpdump
 luci-app-temp-status
 luci-app-tencentcloud-cos
 luci-app-tencentddns
+luci-app-thermal-guard
 luci-app-timecontrol
 luci-app-timedreboot
 luci-app-timewol
@@ -511,6 +526,7 @@ luci-app-tinyfilemanager
 luci-app-tn-lldpd
 luci-app-tn-netports
 luci-app-torbp
+luci-app-trafficctl
 luci-app-transmission
 luci-app-ttl
 luci-app-typecho
@@ -541,6 +557,7 @@ luci-app-webvirtcloud
 luci-app-wifidog
 luci-app-wizard
 luci-app-wolplus
+luci-app-wrqr
 luci-app-wrtbwmon
 luci-app-wwand
 luci-app-wxedge
@@ -604,6 +621,7 @@ lux
 maxminddb-dump-country
 meig-cm
 mentohust
+meow
 mergerfs
 mhz
 microsocks
@@ -639,6 +657,7 @@ nexttrace
 ngrokc
 nikki
 njit8021xclient
+node
 node-pnpm
 nps
 nvtop
@@ -720,6 +739,7 @@ rtl8189es
 rtp2httpd
 rust-bindgen
 rustdesk-server
+safeshield
 scutclient
 sendat
 shadow-tls
@@ -756,6 +776,7 @@ taskd
 tcping
 tcptraceroute
 teleproxy
+thermal-guard
 tinyfecvpn
 tinymembench
 tinyportmapper
