@@ -297,7 +297,6 @@ luci-app-homeassistant
 luci-app-homebox
 luci-app-homebridge
 luci-app-homeproxy
-luci-app-homeproxy-pro
 luci-app-homeredirect
 luci-app-honk
 luci-app-hotplug
@@ -748,6 +747,7 @@ shadowsocks-rust
 shadowsocks-rust-next
 shadowsocksr-libev
 shortcut-fe
+shunt
 simcom_QMI_WWAN
 simple-obfs
 sing-box
