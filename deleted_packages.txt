@@ -381,6 +381,7 @@ luci-app-nekobox
 luci-app-netspeedtest
 luci-app-netstat
 luci-app-nettask
+luci-app-netwiz
 luci-app-nextcloud
 luci-app-nezhav1
 luci-app-nfs
@@ -511,6 +512,9 @@ luci-app-syscontrol
 luci-app-sysctl
 luci-app-systools
 luci-app-sysuh3c
+luci-app-tailscale
+luci-app-tailscale-community
+luci-app-tailscale-next
 luci-app-taskplan
 luci-app-tasks
 luci-app-taskschedule
