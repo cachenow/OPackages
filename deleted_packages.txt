@@ -32,6 +32,7 @@ brook
 cdnspeedtest
 cellled
 chinadns-ng
+clashoo
 clouddrive2
 cloudflared-next
 cloudreve
@@ -74,6 +75,7 @@ ffmpeg-static
 fibocom_QMI_WWAN
 filebrowser
 filebrowser-q
+firewall4
 flash-fox
 floatip
 fogvdn
@@ -203,6 +205,7 @@ luci-app-chinesesubfinder
 luci-app-chongyoung
 luci-app-chongyoung2.0
 luci-app-cifs-mount
+luci-app-clashoo
 luci-app-clouddrive2
 luci-app-cloudflared-next
 luci-app-cloudflarespeedtest
@@ -297,6 +300,7 @@ luci-app-homeassistant
 luci-app-homebox
 luci-app-homebridge
 luci-app-homeproxy
+luci-app-homeproxy-pro
 luci-app-homeredirect
 luci-app-honk
 luci-app-hotplug
@@ -697,6 +701,7 @@ osinfo-db
 ovmf
 p910nd
 package_kernel_tcp-brutal
+patches
 pcat-manager
 pcat-mgr
 pgyvpn
@@ -803,6 +808,7 @@ ucl
 udp2raw
 udpspeeder
 unishare
+upstream
 upx
 upx-static
 uugamebooster
