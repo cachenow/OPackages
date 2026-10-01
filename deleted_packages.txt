@@ -613,10 +613,12 @@ luci-theme-argon
 luci-theme-aurora
 luci-theme-design
 luci-theme-footstrap
+luci-theme-glass
 luci-theme-inas
 luci-theme-istorenas
 luci-theme-kucat
 luci-theme-lightblue
+luci-theme-liquid
 luci-theme-material3
 luci-theme-merona
 luci-theme-openmptcprouter
