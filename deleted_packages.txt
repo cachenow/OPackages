@@ -176,6 +176,7 @@ luci-app-amule
 luci-app-ap-modem
 luci-app-ap-switch
 luci-app-apfree-wifidog
+luci-app-appflow
 luci-app-arcadia
 luci-app-at-socat
 luci-app-atcommands
@@ -199,6 +200,7 @@ luci-app-campusnet
 luci-app-cd8021x
 luci-app-cellled
 luci-app-cellularstatus
+luci-app-cf-dns-speedtest
 luci-app-change-mac
 luci-app-chatgpt-web
 luci-app-chinadns-ng
@@ -231,6 +233,8 @@ luci-app-ddns
 luci-app-ddnsto
 luci-app-demon
 luci-app-design-config
+luci-app-devgate
+luci-app-diskbox
 luci-app-disks-info
 luci-app-dlna-player
 luci-app-dnscrypt-proxy2
@@ -433,6 +437,7 @@ luci-app-pikpak-webdav
 luci-app-pingcontrol
 luci-app-pingpacket
 luci-app-plex
+luci-app-podman
 luci-app-polipo
 luci-app-poweroff
 luci-app-poweroffdevice
@@ -453,6 +458,7 @@ luci-app-qiyougamebooster
 luci-app-qos-emong
 luci-app-qosify
 luci-app-qosmate
+luci-app-quickactions
 luci-app-quickfile
 luci-app-quickstart
 luci-app-ramfree
@@ -460,6 +466,7 @@ luci-app-rclone
 luci-app-redsocks
 luci-app-repeater
 luci-app-report
+luci-app-rmm-dashboard
 luci-app-rms
 luci-app-routerdog
 luci-app-rtbwmon
@@ -471,7 +478,9 @@ luci-app-rustdesk-server
 luci-app-samba4
 luci-app-school
 luci-app-scutclient
+luci-app-secbox
 luci-app-sfp-info
+luci-app-shadcnui-config
 luci-app-shadowrt
 luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
@@ -552,6 +561,7 @@ luci-app-usb-printer
 luci-app-usbmodem
 luci-app-uugamebooster
 luci-app-v2ray-server
+luci-app-vantage
 luci-app-vaultwarden
 luci-app-verysync
 luci-app-virtualdog
@@ -593,6 +603,7 @@ luci-lib-taskd
 luci-lib-xterm
 luci-lighttpd
 luci-mod-dashboard
+luci-mod-fluentdashboard
 luci-mod-istorenext
 luci-mod-listening-ports
 luci-mod-network
@@ -612,6 +623,8 @@ luci-theme-alpha
 luci-theme-argon
 luci-theme-aurora
 luci-theme-design
+luci-theme-fluent
+luci-theme-fluent-lite
 luci-theme-footstrap
 luci-theme-glass
 luci-theme-inas
@@ -619,13 +632,18 @@ luci-theme-istorenas
 luci-theme-kucat
 luci-theme-lightblue
 luci-theme-liquid
+luci-theme-luxe
 luci-theme-material3
 luci-theme-merona
+luci-theme-noobwrt
 luci-theme-openmptcprouter
+luci-theme-rmm
 luci-theme-routerich
 luci-theme-shadcn
+luci-theme-shadcnui
 luci-theme-spectra
 luci-theme-teleofis
+luci-theme-vantage
 luci-themedog
 lucky
 lux
