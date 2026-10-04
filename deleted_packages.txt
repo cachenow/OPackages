@@ -188,8 +188,6 @@ luci-app-autoshell
 luci-app-autoupdate
 luci-app-baidudrive
 luci-app-bandix
-luci-app-banmac-ipt
-luci-app-banmac-nft
 luci-app-beardropper
 luci-app-bitsrunlogin-go
 luci-app-bridge
