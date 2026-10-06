@@ -354,7 +354,6 @@ luci-app-meow
 luci-app-mergerfs
 luci-app-mfun
 luci-app-microsocks
-luci-app-minigate
 luci-app-miniproxy
 luci-app-mlvpn
 luci-app-mmconfig
@@ -656,6 +655,7 @@ mihomo
 mihomo-alpha
 mihomo-meta
 minieap
+minigate
 mise
 mlvpn
 mnh
