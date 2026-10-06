@@ -3,7 +3,6 @@ coremark
 ddns-go
 dnsproxy
 firewall
-luci-app-accesscontrol
 luci-app-argon-config
 luci-app-arpbind
 luci-app-autoreboot
@@ -16,7 +15,6 @@ luci-app-ipsec-vpnd
 luci-app-ksmbd
 luci-app-mosdns
 luci-app-netdata
-luci-app-nft-qos
 luci-app-openclash
 luci-app-openvpn-server
 luci-app-socat
@@ -29,7 +27,6 @@ luci-app-wechatpush
 luci-app-xlnetacc
 luci-app-zerotier
 luci-base
-luci-lib-fs
 miniupnpd
 mosdns
 netdata

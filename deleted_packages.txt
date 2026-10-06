@@ -158,7 +158,6 @@ luci-app-3cat
 luci-app-3ginfo-lite
 luci-app-3proxy
 luci-app-accesscontrol-plus
-luci-app-adbyby-plus
 luci-app-adguardhome
 luci-app-advancedplus
 luci-app-agentflow
@@ -167,7 +166,6 @@ luci-app-airoha-npu
 luci-app-airplay2
 luci-app-aliddns
 luci-app-alist
-luci-app-aliyundrive-fuse
 luci-app-aliyundrive-webdav
 luci-app-alpha-config
 luci-app-alwaysonline
@@ -230,14 +228,12 @@ luci-app-daede
 luci-app-ddns
 luci-app-ddnsto
 luci-app-demon
-luci-app-design-config
 luci-app-devgate
 luci-app-diskbox
 luci-app-disks-info
 luci-app-dlna-player
 luci-app-dnscrypt-proxy2
 luci-app-dnsfilter
-luci-app-dnsforwarder
 luci-app-dnsguard
 luci-app-dnsleaktest
 luci-app-dnsmasq-ipset
@@ -255,7 +251,6 @@ luci-app-droidnet
 luci-app-dsvpn
 luci-app-dufs
 luci-app-dynv6
-luci-app-e2guardian
 luci-app-easyconfig-transfer
 luci-app-easymesh
 luci-app-easytier
@@ -295,7 +290,6 @@ luci-app-gpioled
 luci-app-gpsysupgrade
 luci-app-guest-wifi
 luci-app-haproxy-manager
-luci-app-haproxy-tcp
 luci-app-heimdall
 luci-app-hermes
 luci-app-hijpass
@@ -343,7 +337,6 @@ luci-app-linkeasefull-embed
 luci-app-lite-watchdog
 luci-app-log
 luci-app-lorawan-basicstation
-luci-app-ltqtapi
 luci-app-lucky
 luci-app-mac
 luci-app-macvlan
@@ -371,7 +364,6 @@ luci-app-music-remote-center
 luci-app-mwan3-ledhelper
 luci-app-mwan3-ledhelper-nft
 luci-app-mwan3-nft
-luci-app-mwan3helper
 luci-app-my-dnshelper
 luci-app-mymind
 luci-app-n2n
@@ -427,9 +419,7 @@ luci-app-passwall
 luci-app-passwall2
 luci-app-pcimodem
 luci-app-penpot
-luci-app-pgyvpn
 luci-app-photoprism
-luci-app-phtunnel
 luci-app-pikpak-webdav
 luci-app-pingcontrol
 luci-app-pingpacket
@@ -441,7 +431,6 @@ luci-app-poweroffdevice
 luci-app-powersupply
 luci-app-pppoe-relay
 luci-app-pppoe-server
-luci-app-pppwn
 luci-app-pptp-server
 luci-app-pptpd
 luci-app-ps3netsrv
@@ -479,16 +468,13 @@ luci-app-secbox
 luci-app-sfp-info
 luci-app-shadcnui-config
 luci-app-shadowrt
-luci-app-shadowsocks-libev
 luci-app-shadowsocks-rust
-luci-app-shairplay
 luci-app-shanligong
 luci-app-shortcutmenu
 luci-app-shunt
 luci-app-shutdown
 luci-app-smart-reboot
 luci-app-smartdns
-luci-app-smartinfo
 luci-app-smartsafehub
 luci-app-smartvpn
 luci-app-smbuser
@@ -504,7 +490,6 @@ luci-app-sqm-autorate
 luci-app-squid-adv
 luci-app-ssr-mudb-server
 luci-app-ssr-plus
-luci-app-ssrserver-python
 luci-app-ssrust
 luci-app-ssserver-next
 luci-app-ssw
@@ -549,7 +534,6 @@ luci-app-typecho
 luci-app-ua2f
 luci-app-ubuntu
 luci-app-ubuntu2
-luci-app-unblockmusic
 luci-app-unblockneteasemusic
 luci-app-unifi
 luci-app-unishare
@@ -557,7 +541,6 @@ luci-app-uptimekuma
 luci-app-usb-printer
 luci-app-usbmodem
 luci-app-uugamebooster
-luci-app-v2ray-server
 luci-app-vantage
 luci-app-vaultwarden
 luci-app-verysync
@@ -566,7 +549,6 @@ luci-app-vnt
 luci-app-wan-mac
 luci-app-watchcat
 luci-app-watchdog
-luci-app-webadmin
 luci-app-webd
 luci-app-webdav
 luci-app-webviewdev
@@ -591,7 +573,6 @@ luci-app-xupnpd
 luci-app-xwan
 luci-app-ympd
 luci-app-zdinnav
-luci-lib-docker
 luci-lib-iform
 luci-lib-linkeaseauth
 luci-lib-linkeasefile
