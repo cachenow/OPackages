@@ -165,7 +165,6 @@ luci-app-airconnect
 luci-app-airoha-npu
 luci-app-airplay2
 luci-app-aliddns
-luci-app-alist
 luci-app-aliyundrive-webdav
 luci-app-alpha-config
 luci-app-alwaysonline
@@ -329,6 +328,7 @@ luci-app-kaiplus
 luci-app-kodexplorer
 luci-app-kucat-config
 luci-app-lanraragi
+luci-app-librespeed
 luci-app-lingtigameacc
 luci-app-linkback
 luci-app-linkease
@@ -336,7 +336,6 @@ luci-app-linkeasefull
 luci-app-linkeasefull-embed
 luci-app-lite-watchdog
 luci-app-log
-luci-app-lorawan-basicstation
 luci-app-lucky
 luci-app-mac
 luci-app-macvlan
@@ -404,7 +403,6 @@ luci-app-openlist2
 luci-app-openvpn-client
 luci-app-openvpn-server-client
 luci-app-openwebui
-luci-app-opkg
 luci-app-oscam
 luci-app-ota
 luci-app-oui
@@ -425,7 +423,6 @@ luci-app-pingcontrol
 luci-app-pingpacket
 luci-app-plex
 luci-app-podman
-luci-app-polipo
 luci-app-poweroff
 luci-app-poweroffdevice
 luci-app-powersupply
