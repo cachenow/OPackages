@@ -134,6 +134,7 @@ kai-agent
 kai_session
 kaiplus
 kismet
+ks-cli
 libcron
 libcryptopp
 libdouble-conversion
