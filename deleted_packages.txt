@@ -374,7 +374,6 @@ luci-app-natmapt
 luci-app-natter
 luci-app-natter2
 luci-app-navidrome
-luci-app-neko
 luci-app-nekobox
 luci-app-netspeedtest
 luci-app-netstat
