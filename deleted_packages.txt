@@ -646,6 +646,7 @@ msd_lite
 msr-tools
 mstpd
 musl-obstack
+mwan3-autobalancer
 mwan3-ledhelper
 mwan3-nft
 mxsldr
