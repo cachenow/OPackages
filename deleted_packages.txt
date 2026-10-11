@@ -228,6 +228,7 @@ luci-app-ddns
 luci-app-ddnsto
 luci-app-demon
 luci-app-devgate
+luci-app-device-manager
 luci-app-diskbox
 luci-app-disks-info
 luci-app-dlna-player
@@ -400,6 +401,7 @@ luci-app-openclaw
 luci-app-openclawmgr
 luci-app-openlist2
 luci-app-openvpn-client
+luci-app-openvpn-plus
 luci-app-openvpn-server-client
 luci-app-openwebui
 luci-app-oscam
