@@ -73,7 +73,7 @@ return view.extend({
 			];
 		});
 
-		cbi_update_table(nodes.querySelector('#upnp_status_table'), rows, E('em', _('There are no active IPv4/IPv6 port maps')));
+		cbi_update_table(nodes.querySelector('#upnp_status_table'), rows, E('em', _('No active IPv4/IPv6 port maps')));
 	},
 
 	render: function(data) {
@@ -137,7 +137,7 @@ return view.extend({
 				];
 			});
 
-			cbi_update_table(table, rows, E('em', _('There are no active IPv4/IPv6 port maps')));
+			cbi_update_table(table, rows, E('em', _('No active IPv4/IPv6 port maps')));
 
 			return E('div', { 'class': 'cbi-section cbi-tblsection' }, [
 				E('h3', _('Active Port Maps')), table

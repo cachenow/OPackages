@@ -82,7 +82,7 @@ return baseclass.extend({
 			];
 		});
 
-		cbi_update_table(table, rows, E('em', _('There are no active IPv4/IPv6 port maps')));
+		cbi_update_table(table, rows, E('em', _('No active IPv4/IPv6 port maps')));
 
 		return table;
 	}

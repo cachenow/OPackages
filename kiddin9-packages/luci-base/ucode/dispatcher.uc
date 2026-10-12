@@ -963,7 +963,7 @@ dispatch = function(_http, path) {
 				let cookie_name = (http.getenv('HTTPS') == 'on') ? 'sysauth_https' : 'sysauth_http',
 				    cookie_secure = (http.getenv('HTTPS') == 'on') ? '; secure' : '';
 
-				let cookie_p = uci.get('wizard', 'default', 'cookie_p');
+				let cookie_p = uci.get('luci', 'main', 'persistent_cookies');
 				if (cookie_p == '0') {
 					http.header('Set-Cookie', `${cookie_name}=${session.sid}; path=${build_url()}; SameSite=strict; HttpOnly${cookie_secure}`);
 				} else {

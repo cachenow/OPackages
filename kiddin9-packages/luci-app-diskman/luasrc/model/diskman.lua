@@ -9,6 +9,7 @@ local ver = require "luci.version"
 local CMD = {"parted", "mdadm", "blkid", "smartctl", "df", "btrfs", "lsblk"}
 
 local d = {command ={}}
+local SYSFS_SECTOR_SIZE = 512
 for _, cmd in ipairs(CMD) do
   local command = luci.sys.exec("/usr/bin/which " .. cmd)
     d.command[cmd] = command:match("^.+"..cmd) or nil
@@ -33,7 +34,42 @@ function byte_format(byte)
   end
 end
 
+local function get_emmc_health(device)
+  if not device:match("^mmcblk%d+$") then return end
+  local path = "/sys/class/block/" .. device .. "/device/"
+  if not (nixio.fs.readfile(path .. "type") or ""):match("^MMC%s*$") then return end
+  local translate = require("luci.i18n").translate
+  local info = {}
+  local lifetime
+  -- Use the more worn of the supported A/B estimates; zero means undefined.
+  for value in (nixio.fs.readfile(path .. "life_time") or ""):gmatch("%S+") do
+    local estimate = tonumber(value)
+    if estimate and estimate >= 1 and estimate <= 11 then
+      lifetime = math.max(lifetime or 0, estimate)
+    end
+  end
+  if lifetime then
+    if lifetime == 11 then
+      info.health = translate("Estimated lifetime exceeded")
+    else
+      -- Report estimated remaining life as a range, not an exact percentage.
+      info.health = string.format("%d-%d%%", 100 - lifetime * 10, 110 - lifetime * 10)
+    end
+  end
+  local eol = tonumber(nixio.fs.readfile(path .. "pre_eol_info") or "")
+  if eol == 1 then
+    info.status = translate("Normal")
+  elseif eol == 2 then
+    info.status = translate("Warning")
+  elseif eol == 3 then
+    info.status = translate("Urgent")
+  end
+  return info
+end
+
 local get_smart_info = function(device)
+  local emmc_info = get_emmc_health(device)
+  if emmc_info then return emmc_info end
   local section
   local smart_info = {}
   for _, line in ipairs(luci.util.execl(d.command.smartctl .. " -H -A -i -n standby -f brief /dev/" .. device)) do
@@ -188,6 +224,10 @@ local get_parted_info = function(device)
       elseif device:match("mmcblk") or device:match("md") or device:match("nvme") then
         partition_temp["name"] = device.."p"..partition_temp["number"]
       end
+      -- Read the kernel partition name: older parted output does not escape colons.
+      local uevent = partition_temp["name"] ~= "-" and
+        nixio.fs.readfile("/sys/class/block/" .. partition_temp["name"] .. "/uevent") or ""
+      partition_temp["partition_name"] = (uevent or ""):match("\nPARTNAME=([^\n]+)") or "-"
       if partition_temp["number"] > 0 and partition_temp["fs"] == "" and d.command.lsblk then
         partition_temp["fs"] = (luci.util.exec(d.command.lsblk .. " /dev/" .. partition_temp["name"] .. " -no fstype") or ""):match("([^%s]+)") or ""
       end
@@ -230,7 +270,7 @@ local get_parted_info = function(device)
       elseif (p["number"] <= 4) and (p["number"] > 0) then
         local s = nixio.fs.readfile("/sys/block/"..device.."/"..p["name"].."/size")
         if s then
-          local real_size_sec = tonumber(s) * tonumber(disk_temp.logic_sec)
+          local real_size_sec = tonumber(s) * SYSFS_SECTOR_SIZE
           -- if size not equal, it's an extended
           if real_size_sec ~= p["size"] then
             disk_temp["extended_partition_index"] = i
@@ -313,7 +353,7 @@ d.get_disk_info = function(device, wakeup)
   -- if only weakup == true, weakup the disk and check parted_info.
   if smart_info.status ~= "STANDBY" or wakeup or (smart_info["p_table"] and not smart_info["p_table"]:match("Raid")) or device:match("^md") then
     disk_info = get_parted_info(device)
-    disk_info["sec_size"] = disk_info["logic_sec"] .. "/" .. disk_info["phy_sec"]
+    disk_info["sec_size"] = tostring(disk_info["logic_sec"] or "-") .. "/" .. tostring(disk_info["phy_sec"] or "-")
     disk_info["size_formated"] = byte_format(tonumber(disk_info["size"]))
     -- if status is standby, after get part info, the disk is weakuped, then get smart_info again for more informations
     if smart_info.status ~= "ACTIVE" then smart_info = get_smart_info(device) end
@@ -362,11 +402,9 @@ d.list_raid_devices = function()
       end
 
       local size = tonumber(fs.readfile(string.format("/sys/class/block/%s/size", mdpath)))
-      local ss = tonumber(fs.readfile(string.format("/sys/class/block/%s/queue/logical_block_size", mdpath)))
-
       device_info["path"] = "/dev/"..mdpath
-      device_info["size"] = size*ss
-      device_info["size_formated"] = byte_format(size*ss)
+      device_info["size"] = size * SYSFS_SECTOR_SIZE
+      device_info["size_formated"] = byte_format(device_info["size"])
       device_info["active"] = active:upper()
       device_info["level"] = level
       device_info["members"] = members
@@ -418,19 +456,18 @@ d.list_devices = function()
     local device_info = {}
     local device = "/dev/" .. bname
     local size = tonumber(fs.readfile(string.format("/sys/class/block/%s/size", bname)) or "0")
-    local ss = tonumber(fs.readfile(string.format("/sys/class/block/%s/queue/logical_block_size", bname)) or "0")
     local model = fs.readfile(string.format("/sys/class/block/%s/device/model", bname))
     local partitions = {}
     for part in nixio.fs.glob("/sys/block/" .. bname .."/" .. bname .. "*") do
       local pname = nixio.fs.basename(part)
-      local psize = byte_format(tonumber(nixio.fs.readfile(part .. "/size"))*ss)
+      local psize = byte_format(tonumber(nixio.fs.readfile(part .. "/size")) * SYSFS_SECTOR_SIZE)
       local mount_point = get_mount_point(pname)
       if mount_point then device_info["inuse"] = true end
       table.insert(partitions, {name = pname, size_formated = psize, inuse = mount_point})
     end
 
       device_info["path"] = device
-      device_info["size_formated"] = byte_format(size*ss)
+      device_info["size_formated"] = byte_format(size * SYSFS_SECTOR_SIZE)
       device_info["model"] = model
       device_info["partitions"] = partitions
       -- true or false

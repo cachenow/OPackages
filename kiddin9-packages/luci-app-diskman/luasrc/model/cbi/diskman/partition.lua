@@ -25,6 +25,25 @@ m.reset = false
 local disk_info = dm.get_disk_info(dev, true)
 local format_cmd = dm.get_format_cmd()
 
+local function is_firmware_partition(part)
+  local name = part.partition_name or ""
+  return name:match("^0:") or name:find("rootfs", 1, true)
+end
+
+local first_partition_start
+for _, part in ipairs(disk_info.partitions) do
+  local start = tonumber(part.sec_start)
+  if part.number > 0 and start then
+    first_partition_start = math.min(first_partition_start or start, start)
+  end
+end
+
+local function is_leading_free_space(part)
+  -- Bootloader data may live in the gap before the first real partition.
+  return part.number == -1 and first_partition_start and
+    tonumber(part.sec_end) < first_partition_start
+end
+
 s = m:section(Table, {disk_info}, translate("Device Info"))
 -- s:option(DummyValue, "key")
 -- s:option(DummyValue, "value")
@@ -118,14 +137,15 @@ end
 
 -- partitions info
 if not disk_info.p_table:match("Raid") then
-  s_partition_table = m:section(Table, disk_info.partitions, translate("Partitions Info"), translate("Default 2048 sector alignment, support +size{b,k,m,g,t} in End Sector"))
+  s_partition_table = m:section(Table, disk_info.partitions, translate("Partitions Info"), translate("Default 1 MiB alignment, support +size{b,k,m,g,t} in End Sector"))
 
   -- s_partition_table:option(DummyValue, "number", translate("Number"))
   s_partition_table:option(DummyValue, "name", translate("Name"))
+  s_partition_table:option(DummyValue, "partition_name", translate("Partition Name"))
   local val_sec_start = s_partition_table:option(Value, "sec_start", translate("Start Sector"))
   val_sec_start.render = function(self, section, scope)
     -- could create new partition
-    if disk_info.partitions[section].number == -1 and disk_info.partitions[section].size > 1 * 1024 * 1024 then
+    if disk_info.partitions[section].number == -1 and not is_leading_free_space(disk_info.partitions[section]) and disk_info.partitions[section].size > 1 * 1024 * 1024 then
       self.template = "cbi/value"
       Value.render(self, section, scope)
     else
@@ -136,7 +156,7 @@ if not disk_info.p_table:match("Raid") then
   local val_sec_end = s_partition_table:option(Value, "sec_end", translate("End Sector"))
   val_sec_end.render = function(self, section, scope)
     -- could create new partition
-    if disk_info.partitions[section].number == -1 and disk_info.partitions[section].size > 1 * 1024 * 1024 then
+    if disk_info.partitions[section].number == -1 and not is_leading_free_space(disk_info.partitions[section]) and disk_info.partitions[section].size > 1 * 1024 * 1024 then
       self.template = "cbi/value"
       Value.render(self, section, scope)
     else
@@ -192,8 +212,9 @@ if not disk_info.p_table:match("Raid") then
     disk_info.partitions[section]._fs = value
   end
   val_fs.render = function(self, section, scope)
-    -- use listvalue when partition not mounted
-    if disk_info.partitions[section].mount_point == "-" and disk_info.partitions[section].number ~= -1 and disk_info.partitions[section].type ~= "extended" then
+    local part = disk_info.partitions[section]
+    -- Keep firmware partitions read-only in the filesystem column.
+    if not is_firmware_partition(part) and part.mount_point == "-" and part.number ~= -1 and part.type ~= "extended" then
       self.template = "diskman/cbi/format_button"
       self.inputstyle = "reset"
       self.inputtitle = disk_info.partitions[section].fs == "raw" and translate("Format") or disk_info.partitions[section].fs
@@ -261,6 +282,12 @@ if not disk_info.p_table:match("Raid") then
   btn_action.forcewrite = true
   btn_action.template = "diskman/cbi/disabled_button"
   btn_action.render = function(self, section, scope)
+    if is_firmware_partition(disk_info.partitions[section]) or is_leading_free_space(disk_info.partitions[section]) then
+      self.template = "cbi/dvalue"
+      DummyValue.render(self, section, scope)
+      return
+    end
+    self.template = "diskman/cbi/disabled_button"
     -- if partition is mounted or the size < 1mb, then disable the add action
     if disk_info.partitions[section].mount_point ~= "-" or (disk_info.partitions[section].type ~= "extended" and disk_info.partitions[section].number == -1 and disk_info.partitions[section].size <= 1 * 1024 * 1024) then
       self.view_disabled = true
@@ -282,16 +309,17 @@ if not disk_info.p_table:match("Raid") then
     Button.render(self, section, scope)
   end
   btn_action.write = function(self, section, value)
+    if is_firmware_partition(disk_info.partitions[section]) or is_leading_free_space(disk_info.partitions[section]) then return end
     if value == translate("New") then
       local start_sec = disk_info.partitions[section]._sec_start and tonumber(disk_info.partitions[section]._sec_start) or tonumber(disk_info.partitions[section].sec_start)
       local end_sec = disk_info.partitions[section]._sec_end
+      local logic_sec = tonumber(disk_info.logic_sec)
+      local align = math.max(math.ceil(tonumber(disk_info.phy_sec) / logic_sec), math.ceil(1048576 / logic_sec))
 
       if start_sec then
         -- for sector alignment
-        local align = tonumber(disk_info.phy_sec) / tonumber(disk_info.logic_sec)
-        align = (align < 2048) and 2048
-        if start_sec < 2048 then
-          start_sec = "2048" .. "s"
+        if start_sec < align then
+          start_sec = tostring(align) .. "s"
         elseif math.fmod( start_sec, align ) ~= 0 then
           start_sec = tostring(start_sec + align - math.fmod( start_sec, align )) .. "s"
         else
@@ -306,14 +334,14 @@ if not disk_info.p_table:match("Raid") then
       if tonumber(end_size) and end_unit then
         local unit ={
           B=1,
-          S=512,
+          S=tonumber(disk_info.logic_sec),
           K=1024,
           M=1048576,
           G=1073741824,
           T=1099511627776
         }
         end_unit = end_unit:upper()
-        end_sec = tostring(tonumber(end_size) * unit[end_unit] / unit["S"] + tonumber(start_sec:sub(1,-2)) - 1 ) .. "s"
+        end_sec = tostring(math.ceil(tonumber(end_size) * unit[end_unit] / logic_sec) + tonumber(start_sec:sub(1,-2)) - 1) .. "s"
       elseif tonumber(end_sec) then
         end_sec = end_sec .. "s"
       else
@@ -325,8 +353,8 @@ if not disk_info.p_table:match("Raid") then
       if disk_info.p_table == "MBR" and disk_info["extended_partition_index"] then
         if tonumber(disk_info.partitions[disk_info["extended_partition_index"]].sec_start) <= tonumber(start_sec:sub(1,-2)) and tonumber(disk_info.partitions[disk_info["extended_partition_index"]].sec_end) >= tonumber(end_sec:sub(1,-2)) then
           part_type = "logical"
-          if tonumber(start_sec:sub(1,-2)) - tonumber(disk_info.partitions[section].sec_start) < 2048 then
-            start_sec = tonumber(start_sec:sub(1,-2)) + 2048
+          if tonumber(start_sec:sub(1,-2)) - tonumber(disk_info.partitions[section].sec_start) < align then
+            start_sec = tonumber(start_sec:sub(1,-2)) + align
             start_sec = start_sec .."s"
           end
         end
