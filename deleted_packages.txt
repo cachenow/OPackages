@@ -112,6 +112,7 @@ homeredirect
 honk
 hotplug-generator
 hysteria
+ifb-shaper
 ifmetric
 images
 internet-detector

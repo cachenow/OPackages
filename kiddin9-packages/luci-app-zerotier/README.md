@@ -212,6 +212,52 @@ stderr and continues. Two consequences are handled explicitly:
 
 ## Changelog
 
+### v2.2-r46
+
+**ztncui parity: clickable host label, member detail, IP management**
+
+- **The host label is now clickable** and shares one handler with the Manage
+  button -- click opens the detail panel (button reads *Hide*), click again
+  closes it (button reads *Manage*). One shared function, so the two paths
+  can never disagree about the panel's state.
+- **Member IDs now look like Network IDs**: a plain monospace link on the page
+  background, no white code-chip. Clicking one opens a ztncui-style read-only
+  *member detail*: every field of the controller's member record in key order,
+  then the live peer object pretty-printed -- entirely from the cached model,
+  so it costs no RPC.
+- **Clicking an IP opens a ztncui-style manager** instead of editing a
+  comma-separated string: member name and ZeroTier address on top, one row
+  per IP with its own Delete, one input row with Add, and the network's
+  managed routes read-only below. The ZeroTier API replaces `ipAssignments`
+  wholesale, so Delete commits current-minus-row and Add commits
+  current-plus-one -- a much better match for what the controller can
+  actually do than a free-form string. The old inline editor is gone.
+- The harness caught a real scoping bug before it shipped: the Add input
+  lived inside the paint closure, so the Add handler could not see it and
+  would have thrown on first use. After the fix, verified in a real browser:
+  label toggle, detail fields, ID styling, delete/add/invalid-IP handling,
+  route display and repaint, plus the r43/r44 regression suites -- **25/25**.
+
+### v2.2-r45
+
+**A packaging regression that only bites on fresh installs**
+
+- `zerotier-remote.sh` was committed `100644`, so every `git clone` based
+  build installed `/usr/bin/zerotier-remote.sh` **non-executable**. Every
+  scp deployment in this project chmod'd it explicitly afterwards, which is
+  why the bug stayed invisible until the first full firmware build+install --
+  where rpcd's `[ ! -x ]` guard then reported the file as *missing*. The file
+  was never missing; it was present and unusable. It is now committed
+  `100755`.
+- The rpcd guard now distinguishes the two cases: *"zerotier-remote.sh is
+  missing"* when the file is absent, *"zerotier-remote.sh is not executable
+  (installed 0644; it must be 0755)"* when it is present but unusable, so the
+  next occurrence is diagnosable in seconds rather than a search.
+- Note the hotplug script at `root/etc/hotplug.d/net/99-luci-zerotier` is
+  deliberately left at `0644`: OpenWrt's `/sbin/hotplug-call` *sources* files
+  (`[ -f $script ] && . $script`), it never execs them, so its mode is
+  correct as-is.
+
 ### v2.2-r44
 
 **Layout: working content first**
