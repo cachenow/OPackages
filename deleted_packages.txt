@@ -366,7 +366,6 @@ luci-app-multiaccountdial
 luci-app-music-remote-center
 luci-app-mwan3-ledhelper
 luci-app-mwan3-ledhelper-nft
-luci-app-mwan3-nft
 luci-app-my-dnshelper
 luci-app-mymind
 luci-app-n2n
