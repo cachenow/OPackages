@@ -33,7 +33,7 @@ var ZT_TR = /^zh/i.test(document.documentElement.lang || '')
 var rpcHostList = rpc.declare({ object: 'luci-zerotier', method: 'remote_list' });
 var rpcHostSet = rpc.declare({
 	object: 'luci-zerotier', method: 'remote_host_set',
-	params: [ 'section', 'name', 'host', 'port', 'user', 'controller_port', 'private_key' ]
+	params: [ 'section', 'name', 'host', 'port', 'user', 'controller_port', 'private_key', 'mode', 'api_key' ]
 });
 var rpcHostDel = rpc.declare({ object: 'luci-zerotier', method: 'remote_host_del', params: [ 'section' ] });
 var rpcDiagnose = rpc.declare({ object: 'luci-zerotier', method: 'remote_diagnose', params: [ 'section' ] });
@@ -65,6 +65,11 @@ function hostEditor(section, host, onSaved) {
 
 	var nameI = E('input', { 'type': 'text', 'id': 'zt_r_name', 'value': (host && host.name) || '', 'placeholder': _('My controller') });
 	var hostI = E('input', { 'type': 'text', 'id': 'zt_r_host', 'value': (host && host.host) || '', 'placeholder': '203.0.113.10' });
+	var modeSel = E('select', {}, [
+		E('option', { 'value': 'ssh' }, [ _('SSH tunnel') ]),
+		E('option', { 'value': 'direct' }, [ _('ZeroTier direct') ])
+	]);
+	modeSel.value = (host && host.mode) || 'ssh';
 	var portI = E('input', { 'type': 'number', 'id': 'zt_r_port', 'value': (host && host.port) || '22', 'min': '1', 'max': '65535' });
 	var userI = E('input', { 'type': 'text', 'id': 'zt_r_user', 'value': (host && host.user) || 'root' });
 	var cportI = E('input', { 'type': 'number', 'id': 'zt_r_cport', 'value': (host && host.controller_port) || '27893', 'min': '1', 'max': '65535' });
@@ -73,6 +78,12 @@ function hostEditor(section, host, onSaved) {
 		'placeholder': isNew
 			? _('Required: paste the PRIVATE key of a keypair whose public half is in the remote ~/.ssh/authorized_keys')
 			: _('Leave blank to keep the stored key')
+	});
+	var apiI = E('input', {
+		'type': 'password', 'style': 'width:100%; font-family:monospace;',
+		'placeholder': isNew
+			? _('Required: the controller API token')
+			: _('Leave blank to keep the stored token')
 	});
 
 	var msg = E('div', { 'style': 'color:red; margin-top:6px;' });
@@ -83,9 +94,12 @@ function hostEditor(section, host, onSaved) {
 		msg.textContent = '';
 		saveBtn.disabled = true;
 		var sectName = f || ('zt' + Date.now().toString(36));
+		var m = modeSel.value;
 		L.resolveDefault(rpcHostSet(
 			sectName, nameI.value, hostI.value, portI.value,
-			userI.value, cportI.value, keyI.value), {})
+			userI.value, cportI.value,
+			(m === 'ssh') ? keyI.value : '',
+			m, (m === 'direct') ? apiI.value : ''), {})
 		.then(function(res) {
 			if (res && res.code === 0) {
 				hostEditor.close();
@@ -100,17 +114,35 @@ function hostEditor(section, host, onSaved) {
 		});
 	});
 
-	hostEditor.body = E('div', { 'class': 'cbi-section' }, [
-		E('h3', {}, [ isNew ? _('Add a remote host') : _('Edit remote host') ]),
-		E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('Label')]), E('div', {}, [ nameI ]) ]),
-		E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('Public IP or host')]), E('div', {}, [ hostI ]) ]),
-		E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('SSH port')]), E('div', {}, [ portI ]) ]),
-		E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('SSH user')]), E('div', {}, [ userI ]) ]),
-		E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('Controller port')]), E('div', {}, [ cportI, E('div', { 'class': 'cbi-value-description' }, [_('The port the controller API listens on, e.g. 27893. Only reachable through the SSH tunnel.')]) ]) ]),
-		E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('SSH private key')]), E('div', {}, [ keyI ]) ]),
-		msg,
-		E('div', { 'style': 'margin-top:10px; display:flex; gap:8px;' }, [ saveBtn, cancelBtn ])
-	]);
+		var modeRow = E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('Access mode')]), E('div', {}, [ modeSel ]) ]);
+		var portRow = E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('SSH port')]), E('div', {}, [ portI ]) ]);
+		var userRow = E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('SSH user')]), E('div', {}, [ userI ]) ]);
+		var keyRow = E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('SSH private key')]), E('div', {}, [ keyI ]) ]);
+		var apiRow = E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('API key')]), E('div', {}, [ apiI ]) ]);
+
+		hostEditor.body = E('div', { 'class': 'cbi-section' }, [
+			E('h3', {}, [ isNew ? _('Add a remote host') : _('Edit remote host') ]),
+			modeRow,
+			E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('Label')]), E('div', {}, [ nameI ]) ]),
+			E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('Public IP or host')]), E('div', {}, [ hostI ]) ]),
+			portRow,
+			userRow,
+			E('div', { 'class': 'cbi-value' }, [ E('label', {}, [_('Controller port')]), E('div', {}, [ cportI, E('div', { 'class': 'cbi-value-description' }, [_('The port the controller API listens on, e.g. 27893.')]) ]) ]),
+			keyRow,
+			apiRow,
+			msg,
+			E('div', { 'style': 'margin-top:10px; display:flex; gap:8px;' }, [ saveBtn, cancelBtn ])
+		]);
+		function applyMode() {
+			var m = modeSel.value;
+			portRow.style.display = (m === 'direct') ? 'none' : '';
+			userRow.style.display = (m === 'direct') ? 'none' : '';
+			keyRow.style.display = (m === 'direct') ? 'none' : '';
+			apiRow.style.display = (m === 'direct') ? '' : 'none';
+			hostI.placeholder = (m === 'direct') ? '192.168.192.247' : '203.0.113.10';
+		}
+		modeSel.addEventListener('change', applyMode);
+		applyMode();
 	hostEditor.open();
 }
 
@@ -777,6 +809,23 @@ function diagnostics(section, host) {
 			ui.showModal(_('IP assignments') + ' — ' + (m.name || m.id), body);
 		}
 
+		/* ztncui-style read-only network detail: every field of the controller's
+		 * network object in key order. netsById already holds it -- no RPC. */
+		function networkDetail(nw) {
+			if (!nw) return E('div', { 'style': 'color:orange;' }, [_('Could not read network details')]);
+			var tbl = E('tbody', {});
+			Object.keys(nw).sort().forEach(function(k) {
+				var v = nw[k];
+				tbl.appendChild(E('tr', {}, [
+					E('td', { 'style': 'padding-right:14px; font-family:monospace; white-space:nowrap; vertical-align:top;' }, [ k + ':' ]),
+					E('td', { 'style': 'font-family:monospace; word-break:break-all;' }, [
+						E('code', {}, [ (v == null) ? '' : (typeof v === 'object' ? JSON.stringify(v, null, 2) : String(v)) ])
+					])
+				]));
+			});
+			return E('table', { 'class': 'table' }, [ tbl ]);
+		}
+
 		function memberRow(m) {
 			var mid = m.id;
 			var rmBusy = false;
@@ -785,16 +834,64 @@ function diagnostics(section, host) {
 				'style': 'cursor:pointer; text-decoration:none;',
 				'click': function(ev) {
 					ev.preventDefault();
-					if (rmBusy) return;
-					if (!confirm(_('Remove member ') + mid + ' from this network?')) return;
-					rmBusy = true;
-					L.resolveDefault(rpcMemberSet(section, nwid, mid, JSON.stringify({
-						name: '', authorized: false, activeBridge: false, ipAssignments: [], noAutoAssignIps: false
-					})), {}).then(function() { loadMembers(nwid, into); });
+				if (rmBusy) return;
+				if (!confirm(_('Remove member ') + mid + ' from this network?')) return;
+				rmBusy = true;
+				L.resolveDefault(rpcMemberSet(section, nwid, mid, JSON.stringify({
+					name: '', authorized: false, activeBridge: false, ipAssignments: [], noAutoAssignIps: false
+				})), {}).then(function(r2) {
+					if (r2 && r2.code === 0) { loadMembers(nwid, into); return; }
+					/* Failure leaves the member in place; without a notice the
+					 * reload-less silence reads as "it worked". */
+					rmBusy = false;
+					ui.addNotification(null, E('span', { 'class': 'alert-message warning' }, [ errText(r2, _('Remove failed')) ]), 'warning');
+				});
 				}
-			}, [ '✕' ]);
+			}, [ trashIcon() ]);
 
-			var nameI = E('input', { 'type': 'text', 'value': m.name || '', 'style': 'width:100%; box-sizing:border-box;' });
+	/* Stroke geometry hand-tuned by the operator (viewBox 100x110, 4.5-unit
+	 * round strokes). Single adaptation: the stroke follows currentColor
+	 * instead of the original hard black, so the glyph stays visible under
+	 * the dark theme. */
+		function trashIcon() {
+			var ns = 'http://www.w3.org/2000/svg';
+			var svg = document.createElementNS(ns, 'svg');
+			svg.setAttribute('viewBox', '0 0 100 110');
+			svg.setAttribute('width', '1.25em');
+			svg.setAttribute('height', '1.25em');
+			svg.setAttribute('aria-hidden', 'true');
+			var g = document.createElementNS(ns, 'g');
+			g.setAttribute('fill', 'none');
+			g.setAttribute('stroke', 'currentColor');
+			g.setAttribute('stroke-width', '4.5');
+			g.setAttribute('stroke-linecap', 'round');
+			g.setAttribute('stroke-linejoin', 'round');
+			var handle = document.createElementNS(ns, 'path');
+			handle.setAttribute('d', 'M 35.5 15 L 35.5 9 A 4 4 0 0 1 39.5 5 L 60.5 5 A 4 4 0 0 1 64.5 9 L 64.5 15');
+			var lid = document.createElementNS(ns, 'rect');
+			lid.setAttribute('x', '10');
+			lid.setAttribute('y', '15');
+			lid.setAttribute('width', '80');
+			lid.setAttribute('height', '12');
+			lid.setAttribute('rx', '6');
+			var body = document.createElementNS(ns, 'path');
+			body.setAttribute('d', 'M 17 27 L 20 90 A 9 9 0 0 0 29 99 L 71 99 A 9 9 0 0 0 80 90 L 83 27');
+			g.appendChild(handle);
+			g.appendChild(lid);
+			g.appendChild(body);
+			[ 34, 50, 66 ].forEach(function(x) {
+				var l = document.createElementNS(ns, 'line');
+				l.setAttribute('x1', String(x));
+				l.setAttribute('y1', '42');
+				l.setAttribute('x2', String(x));
+				l.setAttribute('y2', '82');
+				g.appendChild(l);
+			});
+			svg.appendChild(g);
+			return svg;
+		}
+
+			var nameI = E('input', { 'type': 'text', 'value': m.name || '', 'style': 'width:100%; box-sizing:border-box; font-size:inherit;' });
 			var nameBusy = false, nameAfterKey = false;
 			function commitName() {
 				var v = nameI.value;
@@ -1059,16 +1156,24 @@ function diagnostics(section, host) {
 		paintSortInd();
 		into.appendChild(E('div', { 'style': 'display:flex; gap:8px; align-items:center; margin:6px 0;' },
 			[ filterI, counterHost, refreshBtn, stamp ]));
-		/* The scroll wrapper and min-width are load-bearing: table-layout:fixed
-		 * pins column widths but does NOT clip or wrap content, so a nowrap cell
-		 * wider than its share prints over the next column. Screenshotting the
-		 * page at 820px showed "192.168.192.x" on top of "OFFLINE" down the whole
-		 * table. 1040px is where the widest nowrap cell (the peer endpoint, 26%
-		 * column) stops overflowing; below it the table scrolls instead of
-		 * colliding, and above it the min-width is inert. */
-		into.appendChild(E('div', { 'style': 'overflow-x:auto;' }, [
-			E('table', { 'class': 'table', 'style': 'table-layout:fixed; width:100%; min-width:1040px;' }, [ hdr, tbody ])
+		/* Row sizing borrows the theme's own scale instead of a hardcoded px:
+		 * argon shrinks every table/.table to 0.75rem, so the table is wrapped
+		 * in an h5 (zeroed margins/padding, size untouched) and references it
+		 * with font-size:1em -- whatever the theme's h5 size is, the rows
+		 * follow. The scroll wrapper and min-width are load-bearing:
+		 * table-layout:fixed pins column widths but does NOT clip or wrap
+		 * content, so a nowrap cell wider than its share prints over the next
+		 * column ("192.168.192.x" over "OFFLINE" at 820px). At heading size
+		 * (16px root) the widest nowrap cell (peer endpoint, 26% column) needs
+		 * 1400px of table width to stay inside its share; below it the table
+		 * scrolls instead of colliding, above it the min-width is inert. */
+		into.appendChild(E('h5', { 'style': 'margin:0; padding:0;' }, [
+			E('div', { 'style': 'overflow-x:auto;' }, [
+				E('table', { 'class': 'table', 'style': 'table-layout:fixed; width:100%; min-width:1400px; font-size:1em;' }, [ hdr, tbody ])
+			])
 		]));
+		into.appendChild(E('h4', { 'style': 'margin-top:16px;' }, [_('Detail for network')]));
+		into.appendChild(networkDetail(netsById[nwid]));
 		drawRows();
 		setStamp();
 		});
@@ -1257,10 +1362,15 @@ return view.extend({
 								E('strong', {}, [ h.name ])
 							]),
 								E('div', { 'style': 'font-family:monospace; font-size:12px; color:#666;' }, [
-									h.user + '@' + h.host + ':' + h.port + _(' (controller port ') + h.controller_port + ')'
+									(h.mode === 'direct' || h.direct)
+										? E('span', { 'style': 'color:green; font-weight:bold; margin-right:6px;' }, [ '[' + _('Direct') + ']' ])
+										: E('span', { 'style': 'color:#888; margin-right:6px;' }, [ '[SSH]' ]),
+									(h.mode === 'direct')
+										? (h.host + ':' + h.controller_port + _(' (ZeroTier direct)'))
+										: (h.user + '@' + h.host + ':' + h.port + _(' (controller port ') + h.controller_port + ')')
 								]),
-								h.key_present
-									? E('div', { 'style': 'font-size:12px; color:green;' }, [_('SSH key installed')])
+								h.key_present || h.mode === 'direct'
+									? (h.mode === 'direct' ? E('div', { 'style': 'font-size:12px; color:green;' }, [_('API token stored')]) : E('div', { 'style': 'font-size:12px; color:green;' }, [_('SSH key installed')]))
 									: E('div', { 'style': 'font-size:12px; color:red;' }, [_('No SSH key — add one before use')])
 							]),
 							E('div', { 'style': 'display:flex; gap:6px;' }, [ toggle, edit, del ])

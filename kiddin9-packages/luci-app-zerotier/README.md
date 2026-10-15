@@ -212,6 +212,118 @@ stderr and continues. Two consequences are handled explicitly:
 
 ## Changelog
 
+### v2.2-r49
+
+**Deauthorization verified end to end, and a proper trash can**
+
+- **Kick/rejoin cycle confirmed on a real member** (`017c6a82b7`, test
+  controller): `authorized: true → false → true` all return `code: 0` with no
+  anomalies. After the kick its IP stays in the member record, and re-auth
+  restores *the same address* (`192.168.192.69`) with no reassignment needed.
+  IP persistence across revoke/restore is exactly what the r36 measurement
+  had predicted.
+- **The deauthorize icon is now a trash can**, drawn inline as SVG (can with
+  lid and three stripes), instead of the bare `✕`. ztncui uses
+  `glyphicon-trash`, but this LuCI theme ships no Bootstrap Glyphicons, so
+  the glyph is drawn instead of loading a font. Verified in a real browser:
+  SVG present, no `✕` left, sort and layout regressions intact -- 5/5.
+- Correcting an earlier audit note: `allowManaged`, `allowGlobal`,
+  `allowDefault`, `allowDNS` are **client-side flags**, already present as
+  `form.Flag` rows in `general.js` basic settings. They are per-client
+  preferences, not controller-managed network config, so they do not belong
+  in the remote controller's network editor. Nothing to add there.
+- Icon refinement (no release bump): the trash can gains a lid handle and
+  its three stripes are punched through the can body with
+  `fill-rule="evenodd"`, so the background shows through -- matching
+  ztncui's `glyphicon-trash` look. Verified in-browser (9/9) and visually
+  at 96px and 24px.
+- Row sizing (no release bump): the member list now renders at the theme's
+  heading scale instead of argon's shrunken table size (0.75rem). The
+  table is wrapped in an `h5` and references it with `font-size:1em`, so
+  no pixel size is hardcoded -- if the theme changes its h5, the rows
+  follow. The trash-can icon scales the same way (`width/height:1em`),
+  like ztncui's glyphicons. The scroll min-width grows to 1400px for the
+  larger font; collision-free at the 1400px boundary (11/11 in-browser,
+  screenshots at 820/1400/1700px).
+- Audit fixes (no release bump): the member remove button now reports
+  failures with a notification instead of silently reloading; the remote
+  host label is validated (line breaks/control characters rejected --
+  UCI values cannot hold them, and the byte-count comparison is used
+  because grep can never see `\n`, its own line delimiter); CJK labels
+  pass untouched. Verified end to end on-device via ubus.
+- Icon redesign (no release bump): the trash can is now the operator's
+  hand-tuned stroke geometry (viewBox 100x110, 4.5-unit round strokes,
+  open body, three inner lines) rendered at 1.25em (20px at the current
+  16px row font). Single adaptation from the supplied SVG: the stroke
+  follows `currentColor` instead of hard black so the glyph stays visible
+  under the dark theme.
+- Semantics confirmed (no release bump): the trash can and the
+  authorized checkbox are DELIBERATELY different. The checkbox posts
+  `{authorized:false}` only -- name and IP assignments survive the
+  revoke/restore cycle. The trash can posts a full reset
+  (`name:'', authorized:false, ipAssignments:[]...`): the member record
+  itself is never deleted (the controller's DELETE endpoint is not used),
+  but its name and assigned IPs are wiped. Both keep the "this node once
+  joined" memory; only the trash also clears the metadata. Confirmed as
+  intended by the operator -- do not "unify" them in future audits.
+
+### v2.2-r48
+
+**"Detail for network" below the members table, matching ztncui**
+
+- Every network page now ends with a **Detail for network** section: all fields
+  of the controller's network object in key order -- `authTokens`,
+  `authorizationEndpoint`, `capabilities`, `clientId`, `creationTime`, `dns`,
+  `enableBroadcast`, `id`, `ipAssignmentPools`, `mtu`, `multicastLimit`,
+  `name`, `nwid`, `objtype`, `private`, `remoteTraceLevel`,
+  `remoteTraceTarget`, `revision`, `routes`, `rules`, `rulesSource`,
+  `ssoEnabled`, `tags`, `v4AssignMode`, `v6AssignMode`. It mirrors ztncui's
+  member detail, but for the network itself. Built entirely from the cached
+  `netsById` objects that `network-list` already returns, so it costs no RPC.
+- Verified in a real browser: the section is present below the members table
+  with revision, creationTime, pools, routes, rules, and v4AssignMode, plus
+  layout and sort regressions -- **10/10**.
+
+### v2.2-r47
+
+**Two ways to reach a controller: SSH, and ZeroTier-direct**
+
+- **Every host can now be reached over the ZeroTier network itself.** A
+  ZeroTier controller daemon listens on 0.0.0.0, and any member of the same
+  network may call its API with just the auth token -- provided
+  `allowManagementFrom` covers the caller (loopback only by default). Direct
+  access measures ~0.15s per call against ~1.2s for the merged SSH connection,
+  roughly 8x faster.
+- **New host access mode in the editor:** `SSH tunnel` (the existing path) or
+  `ZeroTier direct` (controller ZT address + port + API token, stored with the
+  same 0600 discipline as the SSH key). Field visibility follows the mode;
+  the host row shows a `[Direct]` or `[SSH]` badge.
+- **SSH-mode hosts upgrade themselves automatically.** Once an SSH tunnel is
+  up, the helper discovers the controller's ZeroTier addresses from its own
+  member records (each network id begins with the controller's 10-hex node
+  address), gates every candidate through the local network subnets, and on
+  the first 200 persists the token and writes a direct marker. Every later
+  call goes direct; a transient failure falls back to SSH for that call
+  without discarding the marker. The safety gate is load-bearing: a candidate
+  outside the router's own ZeroTier subnets is never contacted, because
+  probing a public address would send the controller token to the internet in
+  cleartext -- the exact reason this project tunnels in the first place.
+- Verified on-device against both the production controller and the test
+  controller: explicit direct mode (read and write, including a rename with
+  spaces), and the full auto-upgrade cycle -- probe writes the marker, direct
+  takes over (~0s), a corrupted marker falls back to SSH with the marker
+  preserved, then recovers. Browser harness: badges, editor mode toggling,
+  placeholder switching, save parameter passing, plus the r43 sort
+  regression -- 12/12.
+- Semantics pinned against ZeroTier source (1.14.2 and 1.16.2 identical):
+  loopback always allowed; `allowManagementFrom` entries are CIDR/bit-mask
+  containment checks; **a bare IP is netmask 0 = allow-all** (not least
+  privilege), `/32` is an exact single host. Production now runs
+  `allowManagementFrom = ["192.168.192.32/32"]` -- only this router and
+  loopback may call the production controller. Note `systemctl restart` on
+  these hosts does not reliably swap the daemon (a 5h37m-CPU zombie kept
+  serving the old config); stop + kill + start is required.
+
 ### v2.2-r46
 
 **ztncui parity: clickable host label, member detail, IP management**

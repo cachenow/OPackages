@@ -545,7 +545,6 @@ luci-app-vantage
 luci-app-vaultwarden
 luci-app-verysync
 luci-app-virtualdog
-luci-app-vnt
 luci-app-wan-mac
 luci-app-watchcat
 luci-app-watchdog
@@ -569,7 +568,6 @@ luci-app-xray-status
 luci-app-xteve
 luci-app-xunlei
 luci-app-xunyou
-luci-app-xupnpd
 luci-app-xwan
 luci-app-ympd
 luci-app-zdinnav
