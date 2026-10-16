@@ -305,6 +305,7 @@ luci-app-honk
 luci-app-hotplug
 luci-app-htreader
 luci-app-hypermodem
+luci-app-ifb-shaper
 luci-app-ikoolproxy
 luci-app-immich
 luci-app-interfaces-statistics

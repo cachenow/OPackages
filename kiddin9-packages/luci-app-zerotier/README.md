@@ -8,6 +8,8 @@ EEOF
 }
 # luci-app-zerotier (JavaScript Edition)
 
+**English** | [简体中文](README_zh-CN.md)
+
 A modern LuCI interface for ZeroTier VPN on OpenWrt, converted from the original Lua version and continuously improved.
 
 Forked from https://github.com/zhengmz/luci-app-zerotier, initially converted to JavaScript using AUGMENT Code plugin in VS Code, then further refined and bug-fixed using [OpenCode](https://opencode.ai) + GLM-5.1.
@@ -52,7 +54,7 @@ The custom `luci-zerotier` RPC object provides these methods (no `luci.exec` nee
 | `remote_network_list` | read | Every network's full record in a single tunnel round trip |
 | `remote_peer_list` | read | The controller's live `/peer` list (status, version, latency, paths) |
 | `remote_moon_plan` | read | The exact remote command a moon creation would run, plus a digest |
-| `remote_host_set` | write | Add/update a remote host; writes the private key to a `0600` file |
+| `remote_host_set` | write | Add/update a remote host; generates a dedicated key pair when none is stored and returns the public key (pasting a private key still works for API callers) |
 | `remote_host_del` | write | Remove a remote host and its key file |
 | `remote_network_set` | write | Create or update a network on the remote controller |
 | `remote_network_del` | write | Delete a network on the remote controller |
@@ -257,6 +259,30 @@ stderr and continues. Two consequences are handled explicitly:
   16px row font). Single adaptation from the supplied SVG: the stroke
   follows `currentColor` instead of hard black so the glyph stays visible
   under the dark theme.
+- Host list polish (no release bump): each configured host's clickable
+  name now renders at the page-title scale -- it is a real h2 (argon:
+  1.25rem, same as the "ZeroTier - Remote Controller" heading) with only
+  the card chrome (padding/white background/shadow) neutralised inline,
+  so typography stays the theme's. The monospace connection line below
+  is unchanged, and host blocks gain margin-bottom so consecutive hosts
+  no longer touch.
+- Add-host flow redesigned (no release bump): pasting an SSH private key
+  into the browser is gone. Saving an SSH-mode host with no stored key now
+  generates a dedicated ed25519 pair on the router (dropbear's ssh-keygen
+  compat binary, verified present in every default OpenWrt image via the
+  dropbear package's unconditional ALTERNATIVES entry) and returns the
+  public half, which a modal shows as a ready-to-copy
+  `echo '<pub>' >> ~/.ssh/authorized_keys` command -- the operator runs it
+  on the remote host, which they already have their own access to. The
+  private half never crosses the browser. Editing a host shows its stored
+  public key instead. The controller-port field is likewise gone from SSH
+  mode: with nothing stored, the helper reads the remote daemon's
+  `zerotier-one.port` over the same SSH access (the controller API shares
+  that port), commits the finding to UCI, and every later call reads it
+  like a typed value. Direct mode still requires the port (no SSH to
+  discover with). Verified end to end on-device: key generation, clean-HOME
+  authentication with the generated key, controller read through the app
+  stack, and the discovered port (27893) landing in UCI. 32/32 in-browser.
 - Semantics confirmed (no release bump): the trash can and the
   authorized checkbox are DELIBERATELY different. The checkbox posts
   `{authorized:false}` only -- name and IP assignments survive the
