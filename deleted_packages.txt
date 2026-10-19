@@ -188,6 +188,7 @@ luci-app-autoupdate
 luci-app-baidudrive
 luci-app-bandix
 luci-app-beardropper
+luci-app-beszel-agent
 luci-app-bitsrunlogin-go
 luci-app-bridge
 luci-app-broadbandacc
