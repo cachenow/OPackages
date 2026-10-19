@@ -229,6 +229,7 @@ luci-app-daede
 luci-app-ddns
 luci-app-ddnsto
 luci-app-demon
+luci-app-design-config
 luci-app-devgate
 luci-app-device-manager
 luci-app-diskbox
