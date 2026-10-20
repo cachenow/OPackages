@@ -555,6 +555,7 @@ luci-app-webd
 luci-app-webdav
 luci-app-webviewdev
 luci-app-webvirtcloud
+luci-app-weechat
 luci-app-wifidog
 luci-app-wizard
 luci-app-wolplus
@@ -686,6 +687,7 @@ openwrt-dogcom
 openwrt-e2guardian
 openwrt-einat-ebpf
 openwrt-fastfetch
+openwrt-gately
 openwrt-go-stun
 openwrt-hv-tools
 openwrt-luci-proto-tinc
