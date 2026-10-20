@@ -86,6 +86,7 @@ fullconenat
 fullconenat-nft
 fusiontunx
 gallery-dl
+gately
 gcompat
 gecoosac
 geo2txt
@@ -281,6 +282,7 @@ luci-app-frpc-next
 luci-app-frps
 luci-app-fusiontunx
 luci-app-fwlive
+luci-app-gately
 luci-app-gecoosac
 luci-app-ghttpd
 luci-app-gitbackup
@@ -687,7 +689,6 @@ openwrt-dogcom
 openwrt-e2guardian
 openwrt-einat-ebpf
 openwrt-fastfetch
-openwrt-gately
 openwrt-go-stun
 openwrt-hv-tools
 openwrt-luci-proto-tinc
