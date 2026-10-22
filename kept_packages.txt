@@ -3,7 +3,6 @@ coremark
 ddns-go
 dnsproxy
 firewall
-luci-app-argon-config
 luci-app-arpbind
 luci-app-autoreboot
 luci-app-ddns-go
