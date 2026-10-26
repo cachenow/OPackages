@@ -331,7 +331,6 @@ luci-app-jackett
 luci-app-jederproxy
 luci-app-jellyfin
 luci-app-k3screenctrl
-luci-app-kai
 luci-app-kaiplus
 luci-app-kodexplorer
 luci-app-kucat-config
