@@ -126,6 +126,7 @@ ipset-lists
 ipt2socks
 ipt2socks-rs
 iptvhelper
+isp-split
 istoreenhance
 joker
 jpcre2
@@ -320,6 +321,7 @@ luci-app-iperf3-server
 luci-app-ipinfo
 luci-app-ipsec-server
 luci-app-iptvhelper
+luci-app-isp-split
 luci-app-istoredup
 luci-app-istoreenhance
 luci-app-istorego
@@ -666,6 +668,7 @@ natter2
 ndisc
 net-snmp-ssl
 nexttrace
+nft-geoip
 ngrokc
 nikki
 njit8021xclient
