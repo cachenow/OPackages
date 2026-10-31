@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - name: Clone Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set git
       run : |
@@ -57,6 +57,7 @@ jobs:
         git clone https://github.com/kiddin9/op-packages ./kiddin9-packages
         find ./kiddin9-packages -path '*/.*' -delete
         rm -rf ./kiddin9-packages/autocore
+        rm -rf ./kiddin9-packages/miniupnpd
         
         wget https://github.com/cachenow/BuildAuto-X86/raw/main/.config -O ./.config
         chmod +x ./delete.sh && ./delete.sh
