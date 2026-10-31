@@ -25,7 +25,7 @@ luci-app-wechatpush
 luci-app-xlnetacc
 luci-app-zerotier
 luci-base
-miniupnpd
+luci-theme-argon
 mosdns
 netdata
 opkg
@@ -34,4 +34,5 @@ sms-tool
 telegrambot
 ttyd
 vlmcsd
+vsftpd
 wol

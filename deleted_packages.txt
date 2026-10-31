@@ -603,7 +603,6 @@ luci-proto-tun2socks
 luci-proto-wwand
 luci-proto-xmm
 luci-theme-alpha
-luci-theme-argon
 luci-theme-aurora
 luci-theme-design
 luci-theme-fluent
@@ -827,7 +826,6 @@ vmlinux-btf
 vncrepeater
 vpn-policy-routing
 vpnbypass
-vsftpd
 watchcat
 watchdog
 webd
