@@ -821,6 +821,7 @@ verysync
 virt-manager
 virtualdog
 virtualdog-efi
+vless-core-cli
 vmease
 vmlinux-btf
 vncrepeater
