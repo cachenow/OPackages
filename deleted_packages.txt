@@ -201,6 +201,7 @@ luci-app-cd8021x
 luci-app-cellled
 luci-app-cellularstatus
 luci-app-cf-dns-speedtest
+luci-app-cf-optimizer
 luci-app-change-mac
 luci-app-chatgpt-web
 luci-app-chinadns-ng
