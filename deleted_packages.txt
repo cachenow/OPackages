@@ -552,6 +552,7 @@ luci-app-vantage
 luci-app-vaultwarden
 luci-app-verysync
 luci-app-virtualdog
+luci-app-vless-core
 luci-app-wan-mac
 luci-app-watchcat
 luci-app-watchdog
@@ -595,6 +596,7 @@ luci-mod-status
 luci-mod-system
 luci-nginx
 luci-nginxer
+luci-proto-hev2socks
 luci-proto-minieap
 luci-proto-nbiot
 luci-proto-openvpn
