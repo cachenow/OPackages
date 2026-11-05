@@ -40,6 +40,7 @@ cpu-checker
 cpufreq
 cpulimit
 cpulimit-ng
+crypto-hw-eip93-mt7621
 cups
 cups-bjnp
 dae
