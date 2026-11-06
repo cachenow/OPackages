@@ -58,6 +58,7 @@ doc
 docker-lan-bridge
 dockerd
 dockermanager
+docs
 dsmboot
 dsvpn
 dufs
