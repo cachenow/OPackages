@@ -29,6 +29,7 @@ bitsrunlogin-go
 boltbrowser
 brlaser
 brook
+btfout
 cdnspeedtest
 cellled
 chinadns-ng
