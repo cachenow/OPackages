@@ -471,6 +471,7 @@ luci-app-rtp2httpd
 luci-app-run
 luci-app-runmynas
 luci-app-rustdesk-server
+luci-app-safeshield
 luci-app-samba4
 luci-app-school
 luci-app-scutclient
