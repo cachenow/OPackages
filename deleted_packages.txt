@@ -4,6 +4,7 @@
 LICENSE
 README.md
 ShadowVPN
+UA-Mask
 UnblockNeteaseMusic
 UnblockNeteaseMusic-Go
 aavmf
@@ -348,6 +349,7 @@ luci-app-linkease
 luci-app-linkeasefull
 luci-app-linkeasefull-embed
 luci-app-lite-watchdog
+luci-app-liteportal
 luci-app-log
 luci-app-lucky
 luci-app-mac
@@ -773,6 +775,7 @@ simcom_QMI_WWAN
 simple-obfs
 sing-box
 smart-reboot
+smart-srun
 smartdns
 smscontrol
 smstools3-fix
