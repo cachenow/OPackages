@@ -142,6 +142,7 @@ kaiplus
 kismet
 ks-cli
 ksmbd-tools
+libart
 libcron
 libcryptopp
 libdouble-conversion
@@ -757,6 +758,7 @@ rms
 rosy-file-server
 routergo
 rpcd-mod-luci
+rrdtool1n
 rrm-nr-distributor
 rtl8189es
 rtp2httpd
