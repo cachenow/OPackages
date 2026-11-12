@@ -147,6 +147,7 @@ libcron
 libcryptopp
 libdouble-conversion
 libdvbcsa
+libopenssl-gost
 libosinfo
 libvirt
 libvirt-glib
@@ -717,7 +718,6 @@ osinfo-db
 ovmf
 p910nd
 package_kernel_tcp-brutal
-pcat-mgr
 pgyvpn
 phicomm-k3screenctrl
 phtunnel
