@@ -165,7 +165,6 @@ lua-maxminddb
 lua-neturl
 lua-periphery
 luci-app-3cat
-luci-app-3ginfo-lite
 luci-app-3proxy
 luci-app-accesscontrol-plus
 luci-app-adguardhome
@@ -185,8 +184,6 @@ luci-app-ap-switch
 luci-app-apfree-wifidog
 luci-app-appflow
 luci-app-arcadia
-luci-app-at-socat
-luci-app-atcommands
 luci-app-atinout
 luci-app-authshield
 luci-app-autoipsetadder
@@ -232,6 +229,7 @@ luci-app-cpu-status-mini
 luci-app-cpufreq
 luci-app-cpulimit
 luci-app-cqustdotnet
+luci-app-crontab-wizard
 luci-app-cupsd
 luci-app-dae
 luci-app-daed
@@ -303,6 +301,7 @@ luci-app-gowebdav
 luci-app-gpioled
 luci-app-gpsysupgrade
 luci-app-guest-wifi
+luci-app-guest-wifi-js
 luci-app-haproxy-manager
 luci-app-heimdall
 luci-app-hermes
@@ -370,6 +369,7 @@ luci-app-mnh
 luci-app-modem
 luci-app-modem-manager-next
 luci-app-modemband
+luci-app-modemdata
 luci-app-modeminfo
 luci-app-momo
 luci-app-mproxy
