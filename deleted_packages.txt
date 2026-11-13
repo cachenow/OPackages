@@ -748,6 +748,7 @@ quectel_cm_5G
 quickfile
 quickjspp
 quickstart
+quickstart-netpolicy
 rapidjson
 redsocks2
 report
