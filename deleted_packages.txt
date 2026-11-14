@@ -555,7 +555,7 @@ luci-app-uptimekuma
 luci-app-usb-printer
 luci-app-usbmodem
 luci-app-uugamebooster
-luci-app-v2raya
+luci-app-v2raya-nextgen
 luci-app-vantage
 luci-app-vaultwarden
 luci-app-verysync
