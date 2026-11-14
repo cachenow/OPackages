@@ -613,8 +613,10 @@ luci-proto-quectel
 luci-proto-tun2socks
 luci-proto-wwand
 luci-proto-xmm
+luci-theme-7dollar
 luci-theme-alpha
 luci-theme-aurora
+luci-theme-carbon
 luci-theme-design
 luci-theme-fluent
 luci-theme-fluent-lite
