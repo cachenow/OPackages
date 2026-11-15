@@ -290,6 +290,7 @@ luci-app-fusiontunx
 luci-app-fwlive
 luci-app-gately
 luci-app-gecoosac
+luci-app-ghfu
 luci-app-ghttpd
 luci-app-gitbackup
 luci-app-glorytun-tcp
@@ -852,6 +853,7 @@ webdav2
 wifidog-wiwiz
 wrtbwmon
 wwand
+wwand-ims
 wwand-ipa
 wwand-ipad
 wwand-lpac
