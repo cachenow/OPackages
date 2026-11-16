@@ -33,6 +33,7 @@ brook
 btfout
 cdnspeedtest
 cellled
+changeguard
 chinadns-ng
 clashoo
 clouddrive2
@@ -160,6 +161,7 @@ linkease-app-entry
 linkease-common-bin
 linkease-runtime-transition
 linkeasefull
+linkspace
 linux-serial-test
 lua-maxminddb
 lua-neturl
@@ -400,6 +402,7 @@ luci-app-nextcloud
 luci-app-nezhav1
 luci-app-nfs
 luci-app-nginx
+luci-app-nginx-console
 luci-app-nginx-manager
 luci-app-ngrokc
 luci-app-nikki
@@ -421,6 +424,7 @@ luci-app-openvpn-client
 luci-app-openvpn-plus
 luci-app-openvpn-server-client
 luci-app-openwebui
+luci-app-optimemachine
 luci-app-oscam
 luci-app-ota
 luci-app-oui
@@ -717,6 +721,7 @@ openwrt-rgmac
 openwrt-stuntman
 openwrt-ympd
 opera-proxy
+optimemachine
 osinfo-db
 ovmf
 p910nd
