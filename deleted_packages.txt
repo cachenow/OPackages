@@ -644,6 +644,7 @@ luci-theme-shadcn
 luci-theme-shadcnui
 luci-theme-spectra
 luci-theme-teleofis
+luci-theme-uniwrt
 luci-theme-vantage
 luci-themedog
 lucky
