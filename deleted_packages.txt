@@ -1,4 +1,5 @@
 3proxy
+51ddns-agent
 7z
 7zip
 LICENSE
@@ -168,6 +169,7 @@ lua-neturl
 lua-periphery
 luci-app-3cat
 luci-app-3proxy
+luci-app-51ddns
 luci-app-accesscontrol-plus
 luci-app-adguardhome
 luci-app-advancedplus
@@ -604,7 +606,6 @@ luci-mod-dashboard
 luci-mod-fluentdashboard
 luci-mod-istorenext
 luci-mod-listening-ports
-luci-mod-network
 luci-mod-status
 luci-mod-system
 luci-nginx
