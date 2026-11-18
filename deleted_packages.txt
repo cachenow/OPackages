@@ -173,6 +173,7 @@ luci-app-51ddns
 luci-app-accesscontrol-plus
 luci-app-adguardhome
 luci-app-advancedplus
+luci-app-agent2api
 luci-app-agentflow
 luci-app-airconnect
 luci-app-airoha-npu
@@ -578,6 +579,7 @@ luci-app-webvirtcloud
 luci-app-weechat
 luci-app-wifidog
 luci-app-wizard
+luci-app-wizzard
 luci-app-wolplus
 luci-app-wrqr
 luci-app-wrtbwmon
