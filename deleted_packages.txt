@@ -606,6 +606,7 @@ luci-mod-dashboard
 luci-mod-fluentdashboard
 luci-mod-istorenext
 luci-mod-listening-ports
+luci-mod-network
 luci-mod-status
 luci-mod-system
 luci-nginx
