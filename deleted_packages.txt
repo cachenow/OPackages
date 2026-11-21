@@ -31,7 +31,6 @@ bitsrunlogin-go
 boltbrowser
 brlaser
 brook
-btfout
 cdnspeedtest
 cellled
 changeguard
@@ -58,11 +57,9 @@ dns2socks
 dns2socks-rust
 dns2tcp
 dnsforwarder
-doc
 docker-lan-bridge
 dockerd
 dockermanager
-docs
 dsmboot
 dsvpn
 dufs
@@ -85,7 +82,6 @@ firewall4
 flash-fox
 floatip
 fogvdn
-fonts
 frp
 frpc-next
 fullconenat
@@ -121,7 +117,6 @@ hotplug-generator
 hysteria
 ifb-shaper
 ifmetric
-images
 internet-detector
 internet-detector-mod-email
 internet-detector-mod-modem-restart
@@ -145,6 +140,7 @@ kismet
 ks-cli
 ksmbd-tools
 libart
+libbrotli
 libcron
 libcryptopp
 libdouble-conversion
