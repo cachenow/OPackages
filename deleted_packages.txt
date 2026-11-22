@@ -859,6 +859,7 @@ webdav2
 wifidog-wiwiz
 wrtbwmon
 wwand
+wwand-esim-transfer
 wwand-ims
 wwand-ipa
 wwand-ipad
