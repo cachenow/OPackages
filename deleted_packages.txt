@@ -471,6 +471,7 @@ luci-app-repeater
 luci-app-report
 luci-app-rmm-dashboard
 luci-app-rms
+luci-app-routelink
 luci-app-routerdog
 luci-app-rtbwmon
 luci-app-rtorrent
@@ -764,6 +765,7 @@ rhash
 rkp-ipid
 rms
 rosy-file-server
+routelinkd
 routergo
 rpcd-mod-luci
 rrdtool1n
