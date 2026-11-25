@@ -88,7 +88,6 @@ fullconenat
 fullconenat-nft
 fusiontunx
 gallery-dl
-gately
 gcompat
 gecoosac
 geo2txt
@@ -252,6 +251,7 @@ luci-app-dnsmasq-ipset
 luci-app-dnspod
 luci-app-dnsproxy
 luci-app-docker
+luci-app-dockergo
 luci-app-dockerman
 luci-app-dockermanager
 luci-app-dogcom
