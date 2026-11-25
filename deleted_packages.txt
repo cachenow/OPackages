@@ -365,6 +365,7 @@ luci-app-mergerfs
 luci-app-mfun
 luci-app-microsocks
 luci-app-miniproxy
+luci-app-mise
 luci-app-mlvpn
 luci-app-mmconfig
 luci-app-mnh
@@ -661,6 +662,7 @@ mihomo-meta
 minieap
 minigate
 mise
+mise-runtime
 mlvpn
 mnh
 modemband
