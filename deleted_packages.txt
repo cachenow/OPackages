@@ -63,6 +63,7 @@ dnsforwarder
 docker-lan-bridge
 dockerd
 dockermanager
+dsh
 dsmboot
 dsvpn
 dufs
@@ -267,6 +268,7 @@ luci-app-dpanel
 luci-app-drawio
 luci-app-droidmodem
 luci-app-droidnet
+luci-app-dsh
 luci-app-dsvpn
 luci-app-dufs
 luci-app-dynv6
@@ -432,7 +434,6 @@ luci-app-openvpn-client
 luci-app-openvpn-plus
 luci-app-openvpn-server-client
 luci-app-openwebui
-luci-app-optimemachine
 luci-app-oscam
 luci-app-ota
 luci-app-oui
@@ -736,7 +737,6 @@ openwrt-rgmac
 openwrt-stuntman
 openwrt-ympd
 opera-proxy
-optimemachine
 osinfo-db
 ovmf
 p910nd
