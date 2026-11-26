@@ -36,9 +36,11 @@ cellled
 changeguard
 chinadns-ng
 clashoo
+claude-code
 clouddrive2
 cloudflared-next
 cloudreve
+codex
 cpu-checker
 cpufreq
 cpulimit
@@ -56,6 +58,7 @@ dhrystone
 dns2socks
 dns2socks-rust
 dns2tcp
+dnsd
 dnsforwarder
 docker-lan-bridge
 dockerd
@@ -135,6 +138,7 @@ kai
 kai-agent
 kai_session
 kaiplus
+kimi
 kismet
 ks-cli
 ksmbd-tools
@@ -157,6 +161,7 @@ linkease-app-entry
 linkease-common-bin
 linkease-runtime-transition
 linkeasefull
+linkeasefull-web
 linkspace
 linux-serial-test
 lua-maxminddb
@@ -213,11 +218,13 @@ luci-app-chongyoung
 luci-app-chongyoung2.0
 luci-app-cifs-mount
 luci-app-clashoo
+luci-app-claude-code
 luci-app-clouddrive2
 luci-app-cloudflared-next
 luci-app-cloudflarespeedtest
 luci-app-cloudreve
 luci-app-codeserver
+luci-app-codex
 luci-app-conntrack
 luci-app-control-timewol
 luci-app-control-webrestriction
@@ -342,6 +349,7 @@ luci-app-jederproxy
 luci-app-jellyfin
 luci-app-k3screenctrl
 luci-app-kaiplus
+luci-app-kimi
 luci-app-kodexplorer
 luci-app-kucat-config
 luci-app-lanraragi
@@ -418,6 +426,7 @@ luci-app-onliner
 luci-app-open-box
 luci-app-openclaw
 luci-app-openclawmgr
+luci-app-opencode
 luci-app-openlist2
 luci-app-openvpn-client
 luci-app-openvpn-plus
@@ -562,6 +571,8 @@ luci-app-usbmodem
 luci-app-uugamebooster
 luci-app-v2raya-nextgen
 luci-app-vantage
+luci-app-vantage-aps
+luci-app-vantage-traffic
 luci-app-vaultwarden
 luci-app-verysync
 luci-app-virtualdog
@@ -700,6 +711,7 @@ oaf
 ookla-speedtest
 ooniprobe
 open-app-filter
+opencode
 openlist2
 openvpn-dns-hotplug
 openwrt-Toolkit
