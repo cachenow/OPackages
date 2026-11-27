@@ -242,6 +242,7 @@ luci-app-cupsd
 luci-app-dae
 luci-app-daed
 luci-app-daede
+luci-app-daeuniverse
 luci-app-ddns
 luci-app-ddnsto
 luci-app-demon
@@ -323,7 +324,6 @@ luci-app-homebridge
 luci-app-homeproxy
 luci-app-homeproxy-pro
 luci-app-homeredirect
-luci-app-honk
 luci-app-hotplug
 luci-app-htreader
 luci-app-hypermodem
