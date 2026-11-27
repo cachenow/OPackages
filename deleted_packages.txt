@@ -667,6 +667,7 @@ mentohust
 meow
 mergerfs
 mhz
+microdns
 microsocks
 mihomo
 mihomo-alpha
